@@ -1,0 +1,71 @@
+about:
+  description: General purpose TLS and crypto library
+  license: Apache-2.0
+  homepage: https://openssl-library.org/
+  head: 6ded779
+  archived: false
+  latestVersion: openssl-3.0.22
+  collectedAt: 2026-09-02T04:45:11Z
+timeline:
+  created: 2013-01-15
+  lastCommit: 2026-09-01
+  lastRelease: 2026-08-25
+popularity:
+  star: 30743
+  watcher: 1015
+  fork: 11431
+  release: 315
+  contributor: 1235
+  pullRequest: 18870
+  issue: 11689
+language:
+  C: 31000957
+  Perl: 9729639
+  C++: 442941
+  Assembly: 276512
+  Go Template: 205916
+  Raku: 204090
+  Shell: 161782
+  Python: 89316
+  M4: 46625
+  Pawn: 12357
+  CMake: 12010
+  eC: 6481
+  DIGITAL Command Language: 5687
+  Dockerfile: 1668
+  Ruby: 1408
+  sed: 459
+totalLine: 42197848
+recent:
+  last30d:
+    since: 2026-08-03
+    release: 5
+    mergedPR: 0
+    openPR: 171
+    closedIssue: 43
+    openIssue: 77
+    commit: 100
+  last90d:
+    since: 2026-06-04
+    release: 10
+    mergedPR: 0
+    openPR: 288
+    closedIssue: 118
+    openIssue: 149
+    commit: 612
+  last180d:
+    since: 2026-03-06
+    release: 18
+    mergedPR: 3
+    openPR: 385
+    closedIssue: 269
+    openIssue: 251
+    commit: 1271
+  last360d:
+    since: 2025-09-07
+    release: 31
+    mergedPR: 3
+    openPR: 469
+    closedIssue: 519
+    openIssue: 382
+    commit: 2441
