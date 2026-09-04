@@ -7,7 +7,7 @@ about:
   head: 82733d9
   archived: false
   latestVersion: openssl-3.0.22
-  collectedAt: 2026-09-04T19:42:12Z
+  collectedAt: 2026-09-04T20:57:50Z
 timeline:
   created: 2013-01-15
   lastCommit: 2026-09-04
@@ -18,7 +18,7 @@ popularity:
   fork: 11442
   release: 315
   contributor: 1230
-  pullRequest: 19062
+  pullRequest: 19063
   issue: 11698
 language:
   C: 31023144
@@ -43,7 +43,7 @@ recent:
     since: 2026-08-05
     release: 5
     mergedPR: 0
-    openPR: 189
+    openPR: 190
     closedIssue: 43
     openIssue: 79
     commit: 125
@@ -51,7 +51,7 @@ recent:
     since: 2026-07-06
     release: 5
     mergedPR: 0
-    openPR: 252
+    openPR: 253
     closedIssue: 65
     openIssue: 102
     commit: 344
@@ -59,7 +59,7 @@ recent:
     since: 2026-06-06
     release: 10
     mergedPR: 0
-    openPR: 304
+    openPR: 305
     closedIssue: 121
     openIssue: 154
     commit: 646
@@ -67,7 +67,7 @@ recent:
     since: 2026-03-08
     release: 18
     mergedPR: 3
-    openPR: 405
+    openPR: 406
     closedIssue: 268
     openIssue: 254
     commit: 1305
@@ -75,7 +75,7 @@ recent:
     since: 2025-09-09
     release: 31
     mergedPR: 3
-    openPR: 487
+    openPR: 488
     closedIssue: 519
     openIssue: 386
     commit: 2475
@@ -83,18 +83,131 @@ recent:
     since: 2024-09-14
     release: 64
     mergedPR: 12
-    openPR: 527
+    openPR: 528
     closedIssue: 1245
     openIssue: 547
     commit: 5153
 total:
   release: 315
   mergedPR: 148
-  openPR: 561
+  openPR: 562
   closedIssue: 10701
   openIssue: 997
   commit: 40983
 ---
+path: /home/runner/.x-repo/github.com/openssl/openssl
+collectedAt: 2026-09-04T20:58:15Z
+loc:
+  C:
+    code: 638227
+    comments: 99845
+    blanks: 97209
+    files: 1683
+  Perl:
+    code: 237784
+    comments: 27128
+    blanks: 31958
+    files: 348
+  CHeader:
+    code: 57721
+    comments: 21983
+    blanks: 8884
+    files: 482
+  Autoconf:
+    code: 34179
+    comments: 4497
+    blanks: 8666
+    files: 251
+  Bitbake:
+    code: 9955
+    comments: 812
+    blanks: 533
+    files: 42
+  AssemblyGAS:
+    code: 7379
+    comments: 1274
+    blanks: 806
+    files: 10
+  Sh:
+    code: 3265
+    comments: 778
+    blanks: 686
+    files: 38
+  Python:
+    code: 1802
+    comments: 188
+    blanks: 361
+    files: 9
+  M4:
+    code: 1409
+    comments: 52
+    blanks: 505
+    files: 1
+  Svg:
+    code: 670
+    comments: 0
+    blanks: 1
+    files: 3
+  Prolog:
+    code: 625
+    comments: 0
+    blanks: 0
+    files: 1
+  Makefile:
+    code: 458
+    comments: 116
+    blanks: 142
+    files: 21
+  Assembly:
+    code: 311
+    comments: 52
+    blanks: 18
+    files: 1
+  Json:
+    code: 235
+    comments: 0
+    blanks: 1
+    files: 3
+  Asn1:
+    code: 158
+    comments: 150
+    blanks: 81
+    files: 11
+  Yaml:
+    code: 46
+    comments: 0
+    blanks: 0
+    files: 1
+  Elisp:
+    code: 35
+    comments: 39
+    blanks: 4
+    files: 2
+  Dockerfile:
+    code: 29
+    comments: 7
+    blanks: 7
+    files: 1
+  Ruby:
+    code: 17
+    comments: 8
+    blanks: 5
+    files: 1
+  Markdown:
+    code: 0
+    comments: 37596
+    blanks: 14048
+    files: 108
+  Text:
+    code: 0
+    comments: 214633
+    blanks: 26845
+    files: 217
+total:
+  code: 995952
+  comments: 410322
+  blanks: 191143
+  files: 3234
 ---
 date: "2026-08-24"
 repo:
