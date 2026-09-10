@@ -2,12 +2,12 @@ about:
   description: "General purpose TLS and crypto library"
   license: Apache-2.0
   homepage: https://openssl-library.org/
-  head: 0a7d45b
+  head: b5f0da4
   archived: false
   latestVersion: "openssl-4.1.0-alpha1"
   latestRelease: "openssl-3.0.22"
   latestPrerelease: "openssl-4.1.0-alpha1"
-  collectedAt: 2026-09-10T21:38:16Z
+  collectedAt: 2026-09-10T22:16:47Z
 timeline:
   created: 2013-01-15
   lastCommit: 2026-09-10
@@ -24,7 +24,7 @@ popularity:
   issue: 11716
 language:
   C: 31105065
-  Perl: 9761483
+  Perl: 9764683
   C++: 435948
   Assembly: 276512
   Go Template: 206580
@@ -39,7 +39,7 @@ language:
   Dockerfile: 1668
   Ruby: 1408
   sed: 459
-totalBytes: 42328655
+totalBytes: 42331855
 recent:
   last30d:
     since: 2026-08-11
@@ -53,52 +53,52 @@ recent:
     since: 2026-07-12
     release: 6
     mergedPR: 1
-    openPR: 281
+    openPR: 280
     closedIssue: 69
     openIssue: 112
-    commit: 340
+    commit: 341
   last90d:
     since: 2026-06-12
     release: 6
     mergedPR: 1
-    openPR: 324
+    openPR: 323
     closedIssue: 124
     openIssue: 155
-    commit: 659
+    commit: 660
   last180d:
     since: 2026-03-14
     release: 18
     mergedPR: 4
-    openPR: 425
+    openPR: 424
     closedIssue: 261
     openIssue: 252
-    commit: 1289
+    commit: 1290
   last360d:
     since: 2025-09-15
     release: 32
     mergedPR: 4
-    openPR: 508
+    openPR: 507
     closedIssue: 525
     openIssue: 392
-    commit: 2484
+    commit: 2485
   last720d:
     since: 2024-09-20
     release: 64
     mergedPR: 13
-    openPR: 548
+    openPR: 547
     closedIssue: 1243
     openIssue: 552
-    commit: 5203
+    commit: 5204
 total:
   release: 316
   mergedPR: 149
-  openPR: 580
+  openPR: 579
   closedIssue: 10718
   openIssue: 998
-  commit: 41056
+  commit: 41057
 ---
 path: /home/runner/.x-repo/github.com/openssl/openssl
-collectedAt: 2026-09-10T21:39:09Z
+collectedAt: 2026-09-10T22:17:45Z
 loc:
   C:
     code: 640081
@@ -106,9 +106,9 @@ loc:
     blanks: 97537
     files: 1683
   Perl:
-    code: 237844
-    comments: 27133
-    blanks: 31973
+    code: 237905
+    comments: 27149
+    blanks: 31978
     files: 348
   CHeader:
     code: 57759
@@ -206,9 +206,9 @@ loc:
     blanks: 26845
     files: 216
 total:
-  code: 997952
-  comments: 410821
-  blanks: 191550
+  code: 998013
+  comments: 410837
+  blanks: 191555
   files: 3234
 ---
 date: "2026-09-07"
