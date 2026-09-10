@@ -14,12 +14,12 @@ x install openssl
 
 ## Code insight
 
-Total: **996,281** lines of code across **2806** files in the top 5 languages.
+Total: **996,342** lines of code across **2806** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
 | C | 640,081 | 100,122 | 97,537 | 1683 |
-| Perl | 237,844 | 27,133 | 31,973 | 348 |
+| Perl | 237,905 | 27,149 | 31,978 | 348 |
 | CHeader | 57,759 | 21,992 | 8,889 | 482 |
 | Autoconf | 34,187 | 4,497 | 8,667 | 251 |
 | Bitbake | 9,955 | 812 | 533 | 42 |
@@ -52,18 +52,18 @@ Lowest-scoring checks:
 
 ## Totals (cumulative)
 
-- **Releases**: 316 · **Merged PRs**: 149 · **Open PRs**: 580 · **Closed issues**: 10718 · **Open issues**: 998 · **Commits**: 41056
+- **Releases**: 316 · **Merged PRs**: 149 · **Open PRs**: 579 · **Closed issues**: 10718 · **Open issues**: 998 · **Commits**: 41057
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
 | 30d | 2026-08-11 | 6 | 1 | 216 | 23 | 68 | 137 |
-| last60d | 2026-07-12 | 6 | 1 | 281 | 69 | 112 | 340 |
-| 90d | 2026-06-12 | 6 | 1 | 324 | 124 | 155 | 659 |
-| last180d | 2026-03-14 | 18 | 4 | 425 | 261 | 252 | 1289 |
-| 360d | 2025-09-15 | 32 | 4 | 508 | 525 | 392 | 2484 |
-| last720d | 2024-09-20 | 64 | 13 | 548 | 1243 | 552 | 5203 |
+| last60d | 2026-07-12 | 6 | 1 | 280 | 69 | 112 | 341 |
+| 90d | 2026-06-12 | 6 | 1 | 323 | 124 | 155 | 660 |
+| last180d | 2026-03-14 | 18 | 4 | 424 | 261 | 252 | 1290 |
+| 360d | 2025-09-15 | 32 | 4 | 507 | 525 | 392 | 2485 |
+| last720d | 2024-09-20 | 64 | 13 | 547 | 1243 | 552 | 5204 |
 
 ## Release assets
 
@@ -102,4 +102,4 @@ Install metadata for openssl lives in the [x-cmd/install](https://github.com/x-c
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260910.yml` · 2026-09-10T21:39:20Z._
+_Snapshot: `data/card/260910.yml` · 2026-09-10T22:17:58Z._
