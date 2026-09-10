@@ -2,12 +2,12 @@ about:
   description: "General purpose TLS and crypto library"
   license: Apache-2.0
   homepage: https://openssl-library.org/
-  head: 92b20ad
+  head: bf89ed9
   archived: false
   latestVersion: "openssl-4.1.0-alpha1"
   latestRelease: "openssl-3.0.22"
   latestPrerelease: "openssl-4.1.0-alpha1"
-  collectedAt: 2026-09-10T05:07:39Z
+  collectedAt: 2026-09-10T17:10:32Z
 timeline:
   created: 2013-01-15
   lastCommit: 2026-09-10
@@ -15,21 +15,21 @@ timeline:
   lastRelease: 2026-08-25
   lastPrerelease: 2026-09-09
 popularity:
-  star: 30768
+  star: 30771
   watcher: 1017
   fork: 11454
   release: 316
   contributor: 1231
-  pullRequest: 19136
-  issue: 11713
+  pullRequest: 19141
+  issue: 11715
 language:
-  C: 31094546
-  Perl: 9760687
+  C: 31096539
+  Perl: 9761483
   C++: 435948
   Assembly: 276512
   Go Template: 206580
   Raku: 204090
-  Shell: 162456
+  Shell: 162966
   Python: 89316
   M4: 46625
   Pawn: 12357
@@ -39,71 +39,71 @@ language:
   Dockerfile: 1668
   Ruby: 1408
   sed: 459
-totalBytes: 42316830
+totalBytes: 42320129
 recent:
   last30d:
     since: 2026-08-11
     release: 6
     mergedPR: 1
-    openPR: 207
-    closedIssue: 22
-    openIssue: 66
-    commit: 134
+    openPR: 211
+    closedIssue: 23
+    openIssue: 67
+    commit: 136
   last60d:
     since: 2026-07-12
     release: 6
     mergedPR: 1
-    openPR: 273
-    closedIssue: 68
-    openIssue: 110
-    commit: 336
+    openPR: 276
+    closedIssue: 69
+    openIssue: 111
+    commit: 338
   last90d:
     since: 2026-06-12
     release: 6
     mergedPR: 1
-    openPR: 319
-    closedIssue: 123
-    openIssue: 153
-    commit: 650
+    openPR: 321
+    closedIssue: 124
+    openIssue: 154
+    commit: 654
   last180d:
     since: 2026-03-14
     release: 18
     mergedPR: 4
-    openPR: 422
-    closedIssue: 260
-    openIssue: 250
-    commit: 1279
+    openPR: 424
+    closedIssue: 261
+    openIssue: 251
+    commit: 1283
   last360d:
     since: 2025-09-15
     release: 32
     mergedPR: 4
-    openPR: 505
-    closedIssue: 524
-    openIssue: 390
-    commit: 2473
+    openPR: 507
+    closedIssue: 525
+    openIssue: 391
+    commit: 2477
   last720d:
     since: 2024-09-20
     release: 64
     mergedPR: 13
-    openPR: 546
-    closedIssue: 1242
-    openIssue: 550
-    commit: 5184
+    openPR: 547
+    closedIssue: 1243
+    openIssue: 551
+    commit: 5196
 total:
   release: 316
   mergedPR: 149
-  openPR: 578
-  closedIssue: 10714
+  openPR: 579
+  closedIssue: 10716
   openIssue: 999
-  commit: 41037
+  commit: 41049
 ---
 path: /home/runner/.x-repo/github.com/openssl/openssl
-collectedAt: 2026-09-10T05:08:41Z
+collectedAt: 2026-09-10T17:11:32Z
 loc:
   C:
-    code: 639871
-    comments: 100071
-    blanks: 97495
+    code: 639866
+    comments: 100084
+    blanks: 97503
     files: 1683
   Perl:
     code: 237844
@@ -111,8 +111,8 @@ loc:
     blanks: 31973
     files: 348
   CHeader:
-    code: 57752
-    comments: 21991
+    code: 57759
+    comments: 21992
     blanks: 8889
     files: 482
   Autoconf:
@@ -131,9 +131,9 @@ loc:
     blanks: 806
     files: 10
   Sh:
-    code: 3276
-    comments: 782
-    blanks: 689
+    code: 3281
+    comments: 784
+    blanks: 690
     files: 38
   Python:
     code: 1802
@@ -202,14 +202,14 @@ loc:
     files: 109
   Text:
     code: 0
-    comments: 214633
+    comments: 214629
     blanks: 26845
-    files: 217
+    files: 216
 total:
-  code: 997729
-  comments: 410767
-  blanks: 191505
-  files: 3235
+  code: 997736
+  comments: 410779
+  blanks: 191514
+  files: 3234
 ---
 date: "2026-09-07"
 repo:
