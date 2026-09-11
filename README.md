@@ -48,22 +48,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 30,771 · **Forks**: 11,454 · **Open issues**: 11,716 · **Contributors**: 1,232
+- **Stars**: 30,771 · **Forks**: 11,454 · **Open issues**: 11,717 · **Contributors**: 1,232
 
 ## Totals (cumulative)
 
-- **Releases**: 316 · **Merged PRs**: 149 · **Open PRs**: 579 · **Closed issues**: 10718 · **Open issues**: 998 · **Commits**: 41057
+- **Releases**: 316 · **Merged PRs**: 149 · **Open PRs**: 581 · **Closed issues**: 10718 · **Open issues**: 999 · **Commits**: 41057
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-11 | 6 | 1 | 216 | 23 | 68 | 137 |
-| last60d | 2026-07-12 | 6 | 1 | 280 | 69 | 112 | 341 |
-| 90d | 2026-06-12 | 6 | 1 | 323 | 124 | 155 | 660 |
-| last180d | 2026-03-14 | 18 | 4 | 424 | 261 | 252 | 1290 |
-| 360d | 2025-09-15 | 32 | 4 | 507 | 525 | 392 | 2485 |
-| last720d | 2024-09-20 | 64 | 13 | 547 | 1243 | 552 | 5204 |
+| 30d | 2026-08-12 | 6 | 1 | 206 | 22 | 68 | 137 |
+| last60d | 2026-07-13 | 6 | 1 | 281 | 68 | 112 | 341 |
+| 90d | 2026-06-13 | 6 | 1 | 324 | 124 | 155 | 660 |
+| last180d | 2026-03-15 | 18 | 4 | 426 | 259 | 253 | 1290 |
+| 360d | 2025-09-16 | 32 | 4 | 508 | 522 | 393 | 2485 |
+| last720d | 2024-09-21 | 64 | 13 | 549 | 1242 | 553 | 5204 |
 
 ## Release assets
 
@@ -86,7 +86,7 @@ Reported by **987** distros on [repology.org](https://repology.org/project/opens
 | Ubuntu 26.04 LTS | `3.5.5` | ⚠️ outdated |
 | Ubuntu 24.04 LTS | `3.0.13` | ⚠️ outdated |
 | Arch | `3.6.4` | ⚠️ outdated |
-| Homebrew | `3.6.4` | 🪦 legacy |
+| Homebrew | `3.0.22` | 🪦 legacy |
 | Fedora rawhide | `4.0.2` | ✅ latest |
 | Nix unstable | `3.6.3` | ⚠️ outdated |
 | Void | `3.6.4` | ⚠️ outdated |
@@ -102,4 +102,4 @@ Install metadata for openssl lives in the [x-cmd/install](https://github.com/x-c
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260910.yml` · 2026-09-10T22:17:58Z._
+_Snapshot: `data/card/260911.yml` · 2026-09-11T05:21:08Z._
