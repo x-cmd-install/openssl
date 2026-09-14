@@ -48,22 +48,22 @@ x install openssl
 
 ## 流行度
 
-- **Star**: 30,775 · **Fork**: 11,459 · **开放 issue**: 11,720 · **贡献者**: 1,232
+- **Star**: 30,776 · **Fork**: 11,458 · **开放 issue**: 11,722 · **贡献者**: 1,232
 
 ## 累计统计
 
-- **发布数**: 316 · **已合并 PR**: 149 · **开放 PR**: 582 · **已关闭 issue**: 10720 · **开放 issue**: 1000 · **提交数**: 41069
+- **发布数**: 316 · **已合并 PR**: 149 · **开放 PR**: 578 · **已关闭 issue**: 10720 · **开放 issue**: 1002 · **提交数**: 41069
 
 ## 最近活动
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-14 | 6 | 1 | 199 | 20 | 51 | 120 |
-| last60d | 2026-07-15 | 6 | 1 | 282 | 68 | 113 | 296 |
-| 90d | 2026-06-15 | 6 | 1 | 323 | 117 | 154 | 591 |
-| last180d | 2026-03-17 | 18 | 1 | 425 | 252 | 250 | 1252 |
-| 360d | 2025-09-18 | 30 | 4 | 508 | 517 | 391 | 2442 |
-| last720d | 2024-09-23 | 49 | 13 | 550 | 1239 | 553 | 5216 |
+| 30d | 2026-08-15 | 6 | 1 | 200 | 19 | 53 | 120 |
+| last60d | 2026-07-16 | 6 | 1 | 281 | 68 | 114 | 296 |
+| 90d | 2026-06-16 | 6 | 1 | 320 | 115 | 155 | 591 |
+| last180d | 2026-03-18 | 18 | 1 | 423 | 249 | 250 | 1252 |
+| 360d | 2025-09-19 | 30 | 4 | 508 | 517 | 392 | 2442 |
+| last720d | 2024-09-24 | 49 | 13 | 546 | 1236 | 555 | 5208 |
 
 ## Release 资产
 
@@ -74,25 +74,6 @@ x install openssl
 | [openssl-4.0.2.tar.gz.sha1](https://github.com/openssl/openssl/releases/download/openssl-4.0.2/openssl-4.0.2.tar.gz.sha1) | 63 B | `other` |
 | [openssl-4.0.2.tar.gz.sha256](https://github.com/openssl/openssl/releases/download/openssl-4.0.2/openssl-4.0.2.tar.gz.sha256) | 87 B | `other` |
 
-## 发行版状态
-
-在 [repology.org](https://repology.org/project/openssl) 上共有 **989** 个发行版报告此项目。**18** 个 ✅ 已是最新上游版本，**655** 个 ⚠️ 使用旧版本。
-
-| 发行版 | 版本 | 状态 |
-|--------|------|------|
-| Debian unstable | `3.6.4` | ⚠️ outdated |
-| Debian 14 | `3.5.6` | ⚠️ outdated |
-| Debian 13 | `3.5.6` | 🪦 legacy |
-| Ubuntu 26.04 LTS | `3.5.5` | ⚠️ outdated |
-| Ubuntu 24.04 LTS | `3.0.13` | ⚠️ outdated |
-| Arch | `3.6.4` | ⚠️ outdated |
-| Homebrew | `3.5.8` | 🪦 legacy |
-| Fedora rawhide | `4.0.2` | ✅ latest |
-| Nix unstable | `3.0.22` | 🪦 legacy |
-| Void | `3.6.4` | ⚠️ outdated |
-| Alpine edge | `3.5.8` | ⚠️ outdated |
-| openSUSE Tumbleweed | `3.5.3` | ⚠️ outdated |
-
 ## 改进这些数据
 
 openssl 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 索引维护——这是一份由 x-cmd 在安装时读取的精选 YAML 包列表。如果 `openssl` 缺失、过期，或安装行为有问题，欢迎在该 repo 提 issue 或 PR：
@@ -102,4 +83,4 @@ openssl 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/260913.yml` · 2026-09-13T05:19:20Z._
+_数据快照: `data/card/260914.yml` · 2026-09-14T05:33:00Z._

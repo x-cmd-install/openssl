@@ -48,22 +48,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 30,775 · **Forks**: 11,459 · **Open issues**: 11,720 · **Contributors**: 1,232
+- **Stars**: 30,776 · **Forks**: 11,458 · **Open issues**: 11,722 · **Contributors**: 1,232
 
 ## Totals (cumulative)
 
-- **Releases**: 316 · **Merged PRs**: 149 · **Open PRs**: 582 · **Closed issues**: 10720 · **Open issues**: 1000 · **Commits**: 41069
+- **Releases**: 316 · **Merged PRs**: 149 · **Open PRs**: 578 · **Closed issues**: 10720 · **Open issues**: 1002 · **Commits**: 41069
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-14 | 6 | 1 | 199 | 20 | 51 | 120 |
-| last60d | 2026-07-15 | 6 | 1 | 282 | 68 | 113 | 296 |
-| 90d | 2026-06-15 | 6 | 1 | 323 | 117 | 154 | 591 |
-| last180d | 2026-03-17 | 18 | 1 | 425 | 252 | 250 | 1252 |
-| 360d | 2025-09-18 | 30 | 4 | 508 | 517 | 391 | 2442 |
-| last720d | 2024-09-23 | 49 | 13 | 550 | 1239 | 553 | 5216 |
+| 30d | 2026-08-15 | 6 | 1 | 200 | 19 | 53 | 120 |
+| last60d | 2026-07-16 | 6 | 1 | 281 | 68 | 114 | 296 |
+| 90d | 2026-06-16 | 6 | 1 | 320 | 115 | 155 | 591 |
+| last180d | 2026-03-18 | 18 | 1 | 423 | 249 | 250 | 1252 |
+| 360d | 2025-09-19 | 30 | 4 | 508 | 517 | 392 | 2442 |
+| last720d | 2024-09-24 | 49 | 13 | 546 | 1236 | 555 | 5208 |
 
 ## Release assets
 
@@ -74,25 +74,6 @@ Lowest-scoring checks:
 | [openssl-4.0.2.tar.gz.sha1](https://github.com/openssl/openssl/releases/download/openssl-4.0.2/openssl-4.0.2.tar.gz.sha1) | 63 B | `other` |
 | [openssl-4.0.2.tar.gz.sha256](https://github.com/openssl/openssl/releases/download/openssl-4.0.2/openssl-4.0.2.tar.gz.sha256) | 87 B | `other` |
 
-## Distribution status
-
-Reported by **989** distros on [repology.org](https://repology.org/project/openssl). **18** are ✅ on the latest upstream release, **655** are ⚠️ on an older version.
-
-| Distro | Version | Status |
-|--------|---------|--------|
-| Debian unstable | `3.6.4` | ⚠️ outdated |
-| Debian 14 | `3.5.6` | ⚠️ outdated |
-| Debian 13 | `3.5.6` | 🪦 legacy |
-| Ubuntu 26.04 LTS | `3.5.5` | ⚠️ outdated |
-| Ubuntu 24.04 LTS | `3.0.13` | ⚠️ outdated |
-| Arch | `3.6.4` | ⚠️ outdated |
-| Homebrew | `3.5.8` | 🪦 legacy |
-| Fedora rawhide | `4.0.2` | ✅ latest |
-| Nix unstable | `3.0.22` | 🪦 legacy |
-| Void | `3.6.4` | ⚠️ outdated |
-| Alpine edge | `3.5.8` | ⚠️ outdated |
-| openSUSE Tumbleweed | `3.5.3` | ⚠️ outdated |
-
 ## Improve this data
 
 Install metadata for openssl lives in the [x-cmd/install](https://github.com/x-cmd/install) index — a curated YAML package list that x-cmd consumes at install time. If `openssl` is missing, out of date, or installs incorrectly, please open an issue or PR there:
@@ -102,4 +83,4 @@ Install metadata for openssl lives in the [x-cmd/install](https://github.com/x-c
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260913.yml` · 2026-09-13T05:19:19Z._
+_Snapshot: `data/card/260914.yml` · 2026-09-14T05:33:00Z._
