@@ -14,11 +14,11 @@ x install openssl
 
 ## Code insight
 
-Total: **997,029** lines of code across **2806** files in the top 5 languages.
+Total: **997,335** lines of code across **2807** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| C | 640,762 | 100,245 | 97,654 | 1683 |
+| C | 641,068 | 100,333 | 97,688 | 1684 |
 | Perl | 237,905 | 27,149 | 31,978 | 348 |
 | CHeader | 57,761 | 21,992 | 8,889 | 482 |
 | Autoconf | 34,191 | 4,497 | 8,667 | 251 |
@@ -48,22 +48,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 30,784 · **Forks**: 11,458 · **Open issues**: 11,678 · **Contributors**: 1,232
+- **Stars**: 30,787 · **Forks**: 11,460 · **Open issues**: 11,679 · **Contributors**: 1,233
 
 ## Totals (cumulative)
 
-- **Releases**: 316 · **Merged PRs**: 149 · **Open PRs**: 587 · **Closed issues**: 10701 · **Open issues**: 977 · **Commits**: 41075
+- **Releases**: 316 · **Merged PRs**: 149 · **Open PRs**: 573 · **Closed issues**: 10701 · **Open issues**: 978 · **Commits**: 41111
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-16 | 6 | 1 | 209 | 22 | 49 | 124 |
-| last60d | 2026-07-17 | 6 | 1 | 289 | 54 | 92 | 301 |
-| 90d | 2026-06-17 | 6 | 1 | 328 | 96 | 128 | 596 |
-| last180d | 2026-03-19 | 18 | 1 | 430 | 229 | 226 | 1257 |
-| 360d | 2025-09-20 | 30 | 4 | 517 | 496 | 368 | 2447 |
-| last720d | 2024-09-25 | 49 | 13 | 555 | 1215 | 529 | 5211 |
+| 30d | 2026-08-17 | 6 | 1 | 194 | 22 | 49 | 147 |
+| last60d | 2026-07-18 | 6 | 1 | 275 | 53 | 93 | 335 |
+| 90d | 2026-06-18 | 6 | 1 | 309 | 94 | 127 | 632 |
+| last180d | 2026-03-20 | 18 | 1 | 415 | 229 | 226 | 1293 |
+| 360d | 2025-09-21 | 30 | 4 | 503 | 496 | 369 | 2483 |
+| last720d | 2024-09-26 | 49 | 13 | 541 | 1212 | 530 | 5247 |
 
 ## Release assets
 
@@ -83,4 +83,4 @@ Install metadata for openssl lives in the [x-cmd/install](https://github.com/x-c
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260915.yml` · 2026-09-15T05:28:02Z._
+_Snapshot: `data/card/260916.yml` · 2026-09-16T05:27:29Z._
