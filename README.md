@@ -43,27 +43,27 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `openssl-4.1.0-beta1` (2026-08-25)
-- **Last commit**: 2026-09-26
+- **Last commit**: 2026-09-27
 - **Assets in release**: 4
 
 ## Popularity
 
-- **Stars**: 30,843 · **Forks**: 11,495 · **Open issues**: 11,756 · **Contributors**: 1,234
+- **Stars**: 30,846 · **Forks**: 11,497 · **Open issues**: 11,758 · **Contributors**: 1,234
 
 ## Totals (cumulative)
 
-- **Releases**: 317 · **Merged PRs**: 150 · **Open PRs**: 552 · **Closed issues**: 10751 · **Open issues**: 1005 · **Commits**: 41240
+- **Releases**: 317 · **Merged PRs**: 150 · **Open PRs**: 552 · **Closed issues**: 10751 · **Open issues**: 1007 · **Commits**: 41241
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-28 | 2 | 2 | 156 | 20 | 57 | 117 |
-| last60d | 2026-07-29 | 7 | 2 | 246 | 73 | 123 | 340 |
-| 90d | 2026-06-29 | 7 | 2 | 283 | 101 | 146 | 576 |
-| last180d | 2026-03-31 | 18 | 2 | 391 | 256 | 257 | 1301 |
-| 360d | 2025-10-02 | 25 | 5 | 480 | 516 | 396 | 2532 |
-| last720d | 2024-10-07 | 50 | 13 | 522 | 1243 | 559 | 5339 |
+| 30d | 2026-08-29 | 2 | 2 | 155 | 18 | 59 | 118 |
+| last60d | 2026-07-30 | 7 | 2 | 244 | 72 | 124 | 341 |
+| 90d | 2026-06-30 | 7 | 2 | 280 | 98 | 143 | 577 |
+| last180d | 2026-04-01 | 18 | 2 | 390 | 255 | 257 | 1302 |
+| 360d | 2025-10-03 | 25 | 5 | 480 | 516 | 397 | 2533 |
+| last720d | 2024-10-08 | 49 | 13 | 522 | 1242 | 561 | 5329 |
 
 ## Release assets
 
@@ -83,4 +83,4 @@ Install metadata for openssl lives in the [x-cmd/install](https://github.com/x-c
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260927.yml` · 2026-09-27T05:39:47Z._
+_Snapshot: `data/card/260928.yml` · 2026-09-28T05:54:10Z._
