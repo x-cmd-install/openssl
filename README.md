@@ -14,13 +14,13 @@ x install openssl
 
 ## Code insight
 
-Total: **1,006,365** lines of code across **2818** files in the top 5 languages.
+Total: **1,009,876** lines of code across **2822** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| C | 648,808 | 101,615 | 98,916 | 1688 |
+| C | 652,234 | 103,140 | 99,617 | 1691 |
 | Perl | 238,884 | 27,222 | 32,165 | 348 |
-| CHeader | 56,305 | 21,925 | 8,724 | 484 |
+| CHeader | 56,390 | 22,008 | 8,740 | 485 |
 | Autoconf | 35,643 | 5,018 | 8,900 | 256 |
 | Bitbake | 9,964 | 812 | 533 | 42 |
 
@@ -42,37 +42,37 @@ Lowest-scoring checks:
 
 ## Release
 
-- **Latest**: `openssl-4.1.0-beta1` (2026-08-25)
-- **Last commit**: 2026-09-27
+- **Latest**: `openssl-3.4.8` (2026-09-29)
+- **Last commit**: 2026-09-29
 - **Assets in release**: 4
 
 ## Popularity
 
-- **Stars**: 30,849 · **Forks**: 11,497 · **Open issues**: 11,762 · **Contributors**: 1,234
+- **Stars**: 30,857 · **Forks**: 11,501 · **Open issues**: 11,763 · **Contributors**: 1,234
 
 ## Totals (cumulative)
 
-- **Releases**: 317 · **Merged PRs**: 150 · **Open PRs**: 554 · **Closed issues**: 10753 · **Open issues**: 1009 · **Commits**: 41241
+- **Releases**: 321 · **Merged PRs**: 150 · **Open PRs**: 554 · **Closed issues**: 10760 · **Open issues**: 1003 · **Commits**: 41281
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-30 | 2 | 2 | 155 | 20 | 60 | 118 |
-| last60d | 2026-07-31 | 7 | 2 | 245 | 73 | 125 | 341 |
-| 90d | 2026-07-01 | 7 | 2 | 282 | 100 | 143 | 577 |
-| last180d | 2026-04-02 | 18 | 2 | 392 | 256 | 259 | 1302 |
-| 360d | 2025-10-04 | 25 | 5 | 482 | 517 | 397 | 2533 |
-| last720d | 2024-10-09 | 49 | 13 | 524 | 1243 | 562 | 5325 |
+| 30d | 2026-08-31 | 6 | 2 | 156 | 24 | 51 | 126 |
+| last60d | 2026-08-01 | 11 | 2 | 247 | 80 | 119 | 356 |
+| 90d | 2026-07-02 | 11 | 2 | 282 | 105 | 133 | 596 |
+| last180d | 2026-04-03 | 22 | 2 | 390 | 263 | 253 | 1321 |
+| 360d | 2025-10-05 | 29 | 5 | 480 | 522 | 391 | 2552 |
+| last720d | 2024-10-10 | 53 | 13 | 524 | 1248 | 556 | 5351 |
 
 ## Release assets
 
 | Asset | Size | Target |
 |-------|-----:|--------|
-| [openssl-4.0.2.tar.gz](https://github.com/openssl/openssl/releases/download/openssl-4.0.2/openssl-4.0.2.tar.gz) | 52.6 MiB | `native/unknown` |
-| [openssl-4.0.2.tar.gz.asc](https://github.com/openssl/openssl/releases/download/openssl-4.0.2/openssl-4.0.2.tar.gz.asc) | 931 B | `other` |
-| [openssl-4.0.2.tar.gz.sha1](https://github.com/openssl/openssl/releases/download/openssl-4.0.2/openssl-4.0.2.tar.gz.sha1) | 63 B | `other` |
-| [openssl-4.0.2.tar.gz.sha256](https://github.com/openssl/openssl/releases/download/openssl-4.0.2/openssl-4.0.2.tar.gz.sha256) | 87 B | `other` |
+| [openssl-4.0.3.tar.gz](https://github.com/openssl/openssl/releases/download/openssl-4.0.3/openssl-4.0.3.tar.gz) | 52.7 MiB | `native/unknown` |
+| [openssl-4.0.3.tar.gz.asc](https://github.com/openssl/openssl/releases/download/openssl-4.0.3/openssl-4.0.3.tar.gz.asc) | 931 B | `other` |
+| [openssl-4.0.3.tar.gz.sha1](https://github.com/openssl/openssl/releases/download/openssl-4.0.3/openssl-4.0.3.tar.gz.sha1) | 63 B | `other` |
+| [openssl-4.0.3.tar.gz.sha256](https://github.com/openssl/openssl/releases/download/openssl-4.0.3/openssl-4.0.3.tar.gz.sha256) | 87 B | `other` |
 
 ## Improve this data
 
@@ -83,4 +83,4 @@ Install metadata for openssl lives in the [x-cmd/install](https://github.com/x-c
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260929.yml` · 2026-09-29T06:08:06Z._
+_Snapshot: `data/card/260930.yml` · 2026-09-30T06:03:21Z._
