@@ -48,22 +48,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 30,880 · **Forks**: 11,503 · **Open issues**: 11,769 · **Contributors**: 1,239
+- **Stars**: 30,884 · **Forks**: 11,505 · **Open issues**: 11,769 · **Contributors**: 1,239
 
 ## Totals (cumulative)
 
-- **Releases**: 321 · **Merged PRs**: 150 · **Open PRs**: 533 · **Closed issues**: 10772 · **Open issues**: 997 · **Commits**: 41346
+- **Releases**: 321 · **Merged PRs**: 150 · **Open PRs**: 534 · **Closed issues**: 10772 · **Open issues**: 997 · **Commits**: 41346
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-03 | 6 | 2 | 138 | 33 | 45 | 162 |
-| last60d | 2026-08-04 | 11 | 2 | 226 | 87 | 113 | 396 |
-| 90d | 2026-07-05 | 11 | 2 | 267 | 112 | 129 | 641 |
-| last180d | 2026-04-06 | 22 | 2 | 368 | 272 | 250 | 1380 |
-| 360d | 2025-10-08 | 29 | 5 | 456 | 522 | 382 | 2613 |
-| last720d | 2024-10-13 | 53 | 13 | 503 | 1252 | 551 | 5409 |
+| 30d | 2026-09-04 | 6 | 2 | 136 | 30 | 44 | 82 |
+| last60d | 2026-08-05 | 11 | 2 | 226 | 86 | 110 | 348 |
+| 90d | 2026-07-06 | 11 | 2 | 266 | 112 | 129 | 590 |
+| last180d | 2026-04-07 | 22 | 2 | 369 | 269 | 250 | 1336 |
+| 360d | 2025-10-09 | 29 | 5 | 456 | 520 | 381 | 2533 |
+| last720d | 2024-10-14 | 53 | 13 | 504 | 1251 | 551 | 5409 |
 
 ## Release assets
 
@@ -83,4 +83,4 @@ Install metadata for openssl lives in the [x-cmd/install](https://github.com/x-c
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261003.yml` · 2026-10-03T05:48:38Z._
+_Snapshot: `data/card/261004.yml` · 2026-10-04T06:11:20Z._
