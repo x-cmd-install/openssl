@@ -67,7 +67,7 @@
       "state": "uploaded",
       "size": 55235667,
       "digest": "sha256:325b5c806167c13b40b1ffeadfe0248197c00eccc4cf123ec1e28d2d2fd216d9",
-      "download_count": 45374,
+      "download_count": 62788,
       "created_at": "2026-09-29T13:49:40Z",
       "updated_at": "2026-09-29T13:49:43Z",
       "browser_download_url": "https://github.com/openssl/openssl/releases/download/openssl-4.0.3/openssl-4.0.3.tar.gz"
@@ -103,7 +103,7 @@
       "state": "uploaded",
       "size": 931,
       "digest": "sha256:72c5a02be0ea5265093710f078c3eb30103d55ff2ce97004fb4f3b534a9fa3db",
-      "download_count": 548,
+      "download_count": 619,
       "created_at": "2026-09-29T13:49:40Z",
       "updated_at": "2026-09-29T13:49:40Z",
       "browser_download_url": "https://github.com/openssl/openssl/releases/download/openssl-4.0.3/openssl-4.0.3.tar.gz.asc"
@@ -139,7 +139,7 @@
       "state": "uploaded",
       "size": 63,
       "digest": "sha256:b994e9f3378db691d9f8cf3cee999c0139799dae1eea5c5b7c3569517bc54021",
-      "download_count": 827,
+      "download_count": 851,
       "created_at": "2026-09-29T13:49:40Z",
       "updated_at": "2026-09-29T13:49:40Z",
       "browser_download_url": "https://github.com/openssl/openssl/releases/download/openssl-4.0.3/openssl-4.0.3.tar.gz.sha1"
@@ -175,7 +175,7 @@
       "state": "uploaded",
       "size": 87,
       "digest": "sha256:ffded23b33b94d84ba776ba925b1879d7d4dfbf944a9fa74c1f72b474796a8a6",
-      "download_count": 1241,
+      "download_count": 1371,
       "created_at": "2026-09-29T13:49:40Z",
       "updated_at": "2026-09-29T13:49:40Z",
       "browser_download_url": "https://github.com/openssl/openssl/releases/download/openssl-4.0.3/openssl-4.0.3.tar.gz.sha256"
@@ -187,11 +187,11 @@
   "discussion_url": "https://github.com/openssl/openssl/discussions/33031",
   "reactions": {
     "url": "https://api.github.com/repos/openssl/openssl/releases/399195089/reactions",
-    "total_count": 6,
+    "total_count": 7,
     "+1": 0,
     "-1": 0,
     "laugh": 0,
-    "hooray": 6,
+    "hooray": 7,
     "confused": 0,
     "heart": 0,
     "rocket": 0,
