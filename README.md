@@ -14,13 +14,13 @@ x install openssl
 
 ## Code insight
 
-Total: **1,015,271** lines of code across **2832** files in the top 5 languages.
+Total: **1,015,756** lines of code across **2832** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| C | 657,380 | 104,326 | 100,433 | 1696 |
+| C | 657,860 | 104,446 | 100,507 | 1696 |
 | Perl | 238,828 | 27,247 | 32,133 | 348 |
-| CHeader | 56,602 | 22,108 | 8,767 | 488 |
+| CHeader | 56,607 | 22,132 | 8,772 | 488 |
 | Autoconf | 35,736 | 5,025 | 8,914 | 258 |
 | Bitbake | 9,964 | 812 | 533 | 42 |
 
@@ -30,9 +30,9 @@ Overall score: **6.3 / 10**
 
 Lowest-scoring checks:
 
-- **Packaging** (-1/10) — packaging workflow not detected
-- **Code-Review** (0/10) — Found 0/30 approved changesets -- score normalized to 0
 - **Dangerous-Workflow** (-1/10) — no workflows found
+- **Token-Permissions** (-1/10) — No tokens found
+- **Code-Review** (0/10) — Found 0/30 approved changesets -- score normalized to 0
 
 ## Source
 
@@ -43,27 +43,27 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `openssl-4.1.0-beta2` (2026-09-29)
-- **Last commit**: 2026-10-13
+- **Last commit**: 2026-10-14
 - **Assets in release**: 4
 
 ## Popularity
 
-- **Stars**: 30,940 · **Forks**: 11,526 · **Open issues**: 11,795 · **Contributors**: 1,243
+- **Stars**: 30,949 · **Forks**: 11,528 · **Open issues**: 11,797 · **Contributors**: 1,243
 
 ## Totals (cumulative)
 
-- **Releases**: 322 · **Merged PRs**: 151 · **Open PRs**: 547 · **Closed issues**: 10789 · **Open issues**: 1006 · **Commits**: 41405
+- **Releases**: 322 · **Merged PRs**: 151 · **Open PRs**: 549 · **Closed issues**: 10791 · **Open issues**: 1006 · **Commits**: 41409
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-14 | 6 | 2 | 130 | 30 | 46 | 70 |
-| last60d | 2026-08-15 | 12 | 3 | 227 | 64 | 84 | 361 |
-| 90d | 2026-07-16 | 12 | 3 | 281 | 117 | 141 | 571 |
-| last180d | 2026-04-17 | 17 | 3 | 372 | 264 | 249 | 1338 |
-| 360d | 2025-10-19 | 30 | 6 | 470 | 516 | 381 | 2538 |
-| last720d | 2024-10-24 | 53 | 13 | 514 | 1237 | 556 | 5428 |
+| 30d | 2026-09-15 | 6 | 2 | 132 | 31 | 46 | 73 |
+| last60d | 2026-08-16 | 12 | 3 | 228 | 65 | 84 | 365 |
+| 90d | 2026-07-17 | 12 | 3 | 283 | 118 | 141 | 575 |
+| last180d | 2026-04-18 | 17 | 3 | 374 | 264 | 247 | 1342 |
+| 360d | 2025-10-20 | 30 | 6 | 472 | 518 | 381 | 2542 |
+| last720d | 2024-10-25 | 53 | 13 | 516 | 1235 | 556 | 5428 |
 
 ## Release assets
 
@@ -83,4 +83,4 @@ Install metadata for openssl lives in the [x-cmd/install](https://github.com/x-c
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261014.yml` · 2026-10-14T05:19:51Z._
+_Snapshot: `data/card/261015.yml` · 2026-10-15T04:55:36Z._
