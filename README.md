@@ -14,13 +14,13 @@ x install openssl
 
 ## Code insight
 
-Total: **1,015,672** lines of code across **2832** files in the top 5 languages.
+Total: **1,016,516** lines of code across **2832** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| C | 658,508 | 104,691 | 100,350 | 1696 |
+| C | 659,348 | 104,863 | 100,479 | 1696 |
 | Perl | 238,100 | 27,109 | 31,932 | 348 |
-| CHeader | 56,603 | 22,172 | 8,779 | 488 |
+| CHeader | 56,607 | 22,182 | 8,781 | 488 |
 | Autoconf | 35,736 | 5,025 | 8,914 | 258 |
 | Bitbake | 9,964 | 812 | 533 | 42 |
 
@@ -43,27 +43,27 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `openssl-4.1.0-beta2` (2026-09-29)
-- **Last commit**: 2026-10-21
+- **Last commit**: 2026-10-22
 - **Assets in release**: 4
 
 ## Popularity
 
-- **Stars**: 31,010 · **Forks**: 11,535 · **Open issues**: 11,818 · **Contributors**: 1,249
+- **Stars**: 31,016 · **Forks**: 11,539 · **Open issues**: 11,829 · **Contributors**: 1,249
 
 ## Totals (cumulative)
 
-- **Releases**: 322 · **Merged PRs**: 151 · **Open PRs**: 570 · **Closed issues**: 10804 · **Open issues**: 1014 · **Commits**: 41457
+- **Releases**: 322 · **Merged PRs**: 151 · **Open PRs**: 585 · **Closed issues**: 10807 · **Open issues**: 1022 · **Commits**: 41464
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-22 | 6 | 2 | 141 | 32 | 51 | 64 |
-| last60d | 2026-08-23 | 12 | 3 | 246 | 69 | 95 | 352 |
-| 90d | 2026-07-24 | 12 | 3 | 298 | 123 | 146 | 547 |
-| last180d | 2026-04-25 | 17 | 3 | 389 | 264 | 250 | 1298 |
-| 360d | 2025-10-27 | 30 | 6 | 493 | 522 | 386 | 2524 |
-| last720d | 2024-11-01 | 53 | 13 | 537 | 1236 | 564 | 5463 |
+| 30d | 2026-09-23 | 6 | 1 | 149 | 29 | 58 | 70 |
+| last60d | 2026-08-24 | 12 | 3 | 261 | 72 | 99 | 358 |
+| 90d | 2026-07-25 | 12 | 3 | 314 | 125 | 154 | 553 |
+| last180d | 2026-04-26 | 17 | 3 | 405 | 266 | 258 | 1304 |
+| 360d | 2025-10-28 | 30 | 6 | 509 | 522 | 393 | 2530 |
+| last720d | 2024-11-02 | 53 | 13 | 552 | 1236 | 572 | 5469 |
 
 ## Release assets
 
@@ -74,6 +74,25 @@ Lowest-scoring checks:
 | [openssl-4.0.3.tar.gz.sha1](https://github.com/openssl/openssl/releases/download/openssl-4.0.3/openssl-4.0.3.tar.gz.sha1) | 63 B | `other` |
 | [openssl-4.0.3.tar.gz.sha256](https://github.com/openssl/openssl/releases/download/openssl-4.0.3/openssl-4.0.3.tar.gz.sha256) | 87 B | `other` |
 
+## Distribution status
+
+Reported by **1007** distros on [repology.org](https://repology.org/project/openssl). **22** are ✅ on the latest upstream release, **645** are ⚠️ on an older version.
+
+| Distro | Version | Status |
+|--------|---------|--------|
+| Debian unstable | `3.6.5` | ⚠️ outdated |
+| Debian 14 | `3.6.5` | ⚠️ outdated |
+| Debian 13 | `3.5.7` | ⚠️ outdated |
+| Ubuntu 26.04 LTS | `3.5.5` | ⚠️ outdated |
+| Ubuntu 24.04 LTS | `3.0.13` | ⚠️ outdated |
+| Arch | `3.6.5` | ⚠️ outdated |
+| Homebrew | `3.5.9` | 🪦 legacy |
+| Fedora rawhide | `4.0.3` | ✅ latest |
+| Nix unstable | `3.5.9` | 🪦 legacy |
+| Void | `3.6.5` | ⚠️ outdated |
+| Alpine edge | `3.5.9` | ⚠️ outdated |
+| openSUSE Tumbleweed | `3.5.3` | ⚠️ outdated |
+
 ## Improve this data
 
 Install metadata for openssl lives in the [x-cmd/install](https://github.com/x-cmd/install) index — a curated YAML package list that x-cmd consumes at install time. If `openssl` is missing, out of date, or installs incorrectly, please open an issue or PR there:
@@ -83,4 +102,4 @@ Install metadata for openssl lives in the [x-cmd/install](https://github.com/x-c
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261022.yml` · 2026-10-22T05:07:10Z._
+_Snapshot: `data/card/261023.yml` · 2026-10-23T05:09:04Z._

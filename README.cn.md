@@ -14,13 +14,13 @@ x install openssl
 
 ## 代码洞察
 
-合计: **1,015,672** 行代码（覆盖前 5 种语言、共 **2832** 个文件）。
+合计: **1,016,516** 行代码（覆盖前 5 种语言、共 **2832** 个文件）。
 
 | 语言 | 代码 | 注释 | 空行 | 文件数 |
 |------|-----:|-----:|-----:|------:|
-| C | 658,508 | 104,691 | 100,350 | 1696 |
+| C | 659,348 | 104,863 | 100,479 | 1696 |
 | Perl | 238,100 | 27,109 | 31,932 | 348 |
-| CHeader | 56,603 | 22,172 | 8,779 | 488 |
+| CHeader | 56,607 | 22,182 | 8,781 | 488 |
 | Autoconf | 35,736 | 5,025 | 8,914 | 258 |
 | Bitbake | 9,964 | 812 | 533 | 42 |
 
@@ -43,27 +43,27 @@ x install openssl
 ## 发布
 
 - **最新版本**: `openssl-4.1.0-beta2` (2026-09-29)
-- **最近提交**: 2026-10-21
+- **最近提交**: 2026-10-22
 - **Release 含资产**: 4 个
 
 ## 流行度
 
-- **Star**: 31,010 · **Fork**: 11,535 · **开放 issue**: 11,818 · **贡献者**: 1,249
+- **Star**: 31,016 · **Fork**: 11,539 · **开放 issue**: 11,829 · **贡献者**: 1,249
 
 ## 累计统计
 
-- **发布数**: 322 · **已合并 PR**: 151 · **开放 PR**: 570 · **已关闭 issue**: 10804 · **开放 issue**: 1014 · **提交数**: 41457
+- **发布数**: 322 · **已合并 PR**: 151 · **开放 PR**: 585 · **已关闭 issue**: 10807 · **开放 issue**: 1022 · **提交数**: 41464
 
 ## 最近活动
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-22 | 6 | 2 | 141 | 32 | 51 | 64 |
-| last60d | 2026-08-23 | 12 | 3 | 246 | 69 | 95 | 352 |
-| 90d | 2026-07-24 | 12 | 3 | 298 | 123 | 146 | 547 |
-| last180d | 2026-04-25 | 17 | 3 | 389 | 264 | 250 | 1298 |
-| 360d | 2025-10-27 | 30 | 6 | 493 | 522 | 386 | 2524 |
-| last720d | 2024-11-01 | 53 | 13 | 537 | 1236 | 564 | 5463 |
+| 30d | 2026-09-23 | 6 | 1 | 149 | 29 | 58 | 70 |
+| last60d | 2026-08-24 | 12 | 3 | 261 | 72 | 99 | 358 |
+| 90d | 2026-07-25 | 12 | 3 | 314 | 125 | 154 | 553 |
+| last180d | 2026-04-26 | 17 | 3 | 405 | 266 | 258 | 1304 |
+| 360d | 2025-10-28 | 30 | 6 | 509 | 522 | 393 | 2530 |
+| last720d | 2024-11-02 | 53 | 13 | 552 | 1236 | 572 | 5469 |
 
 ## Release 资产
 
@@ -74,6 +74,25 @@ x install openssl
 | [openssl-4.0.3.tar.gz.sha1](https://github.com/openssl/openssl/releases/download/openssl-4.0.3/openssl-4.0.3.tar.gz.sha1) | 63 B | `other` |
 | [openssl-4.0.3.tar.gz.sha256](https://github.com/openssl/openssl/releases/download/openssl-4.0.3/openssl-4.0.3.tar.gz.sha256) | 87 B | `other` |
 
+## 发行版状态
+
+在 [repology.org](https://repology.org/project/openssl) 上共有 **1007** 个发行版报告此项目。**22** 个 ✅ 已是最新上游版本，**645** 个 ⚠️ 使用旧版本。
+
+| 发行版 | 版本 | 状态 |
+|--------|------|------|
+| Debian unstable | `3.6.5` | ⚠️ outdated |
+| Debian 14 | `3.6.5` | ⚠️ outdated |
+| Debian 13 | `3.5.7` | ⚠️ outdated |
+| Ubuntu 26.04 LTS | `3.5.5` | ⚠️ outdated |
+| Ubuntu 24.04 LTS | `3.0.13` | ⚠️ outdated |
+| Arch | `3.6.5` | ⚠️ outdated |
+| Homebrew | `3.5.9` | 🪦 legacy |
+| Fedora rawhide | `4.0.3` | ✅ latest |
+| Nix unstable | `3.5.9` | 🪦 legacy |
+| Void | `3.6.5` | ⚠️ outdated |
+| Alpine edge | `3.5.9` | ⚠️ outdated |
+| openSUSE Tumbleweed | `3.5.3` | ⚠️ outdated |
+
 ## 改进这些数据
 
 openssl 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 索引维护——这是一份由 x-cmd 在安装时读取的精选 YAML 包列表。如果 `openssl` 缺失、过期，或安装行为有问题，欢迎在该 repo 提 issue 或 PR：
@@ -83,4 +102,4 @@ openssl 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/261022.yml` · 2026-10-22T05:07:11Z._
+_数据快照: `data/card/261023.yml` · 2026-10-23T05:09:05Z._
