@@ -1,147 +1,31 @@
-- repo: conancenter
+- repo: hpux_11_31
+  subrepo: ia64_32
   srcname: openssl
-  visiblename: openssl
-  version: 4.1.0
-  origversion: null
-  status: newest
-- repo: conancenter
-  srcname: openssl
-  visiblename: openssl
-  version: 4.0.3
-  origversion: null
-  status: legacy
-- repo: conancenter
-  srcname: openssl
-  visiblename: openssl
-  version: 3.6.5
-  origversion: null
-  status: legacy
-- repo: conancenter
-  srcname: openssl
-  visiblename: openssl
-  version: 3.5.9
-  origversion: null
-  status: legacy
-- repo: conancenter
-  srcname: openssl
-  visiblename: openssl
-  version: 3.4.8
-  origversion: null
-  status: legacy
-- repo: aix_osp
-  srcname: openssl
-  visiblename: openssl
-  version: 1.0.0g
-  origversion: 1.0.0g-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: openssl
-  visiblename: openssl
-  version: 0.9.8t
-  origversion: 0.9.8t-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: openssl
-  visiblename: openssl
-  version: 1.0.1g
-  origversion: 1.0.1g-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: openssl
-  visiblename: openssl
-  version: 1.0.1i
-  origversion: 1.0.1i-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: openssl
-  visiblename: openssl
-  version: 1.0.1o
-  origversion: 1.0.1o-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: openssl
-  visiblename: openssl
-  version: 0.9.8u
-  origversion: 0.9.8u-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: openssl
-  visiblename: openssl
-  version: 1.0.2h
-  origversion: 1.0.2h-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: openssl
-  visiblename: openssl
-  version: 0.9.8v
-  origversion: 0.9.8v-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: openssl
-  visiblename: openssl
-  version: 1.0.2k
-  origversion: 1.0.2k-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: openssl
-  visiblename: openssl
-  version: 1.0.2m
-  origversion: 1.0.2m-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: openssl
-  visiblename: openssl
-  version: 1.0.2o
-  origversion: 1.0.2o-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: openssl
-  visiblename: openssl
-  version: 1.0.2p
-  origversion: 1.0.2p-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: openssl
-  visiblename: openssl
-  version: 1.0.2r
-  origversion: 1.0.2r-1
-  status: legacy
-  vulnerable: true
-- repo: slackware64_current
-  subrepo: slackware64
   binname: openssl
   visiblename: openssl
   version: 3.5.9
   origversion: null
   status: outdated
-  maintainers:
-    - volkerdi@slackware.com
-- repo: slackware64_current
-  subrepo: slackware64
-  binname: openssl-solibs
-  visiblename: openssl-solibs
-  version: 3.5.9
-  origversion: null
-  status: outdated
-  maintainers:
-    - volkerdi@slackware.com
 - repo: aix_osp
   srcname: openssl
   visiblename: openssl
-  version: 0.9.8y
-  origversion: 0.9.8y-1
+  version: 1.0.0b
+  origversion: 1.0.0b-1
+  status: legacy
+  vulnerable: true
+- repo: hpux_11_31
+  subrepo: ia64_64
+  srcname: openssl
+  binname: openssl
+  visiblename: openssl
+  version: 3.5.9
+  origversion: null
+  status: outdated
+- repo: aix_osp
+  srcname: openssl
+  visiblename: openssl
+  version: 1.0.0e
+  origversion: 1.0.0e-1
   status: legacy
   vulnerable: true
 - repo: aerynos
@@ -154,6 +38,24 @@
   licenses:
     - OpenSSL
     - SSLeay
+- repo: slackware_current
+  subrepo: slackware
+  binname: openssl
+  visiblename: openssl
+  version: 3.5.9
+  origversion: null
+  status: outdated
+  maintainers:
+    - volkerdi@slackware.com
+- repo: slackware_current
+  subrepo: slackware
+  binname: openssl-solibs
+  visiblename: openssl-solibs
+  version: 3.5.9
+  origversion: null
+  status: outdated
+  maintainers:
+    - volkerdi@slackware.com
 - repo: alpine_3_20
   subrepo: main
   srcname: openssl
@@ -371,6 +273,266 @@
   origversion: 3.5.9-r0
   status: outdated
   summary: Crypto library from openssl
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - Apache-2.0
+- repo: alpine_3_22
+  subrepo: main
+  srcname: openssl
+  binname: libssl3
+  visiblename: libssl3
+  version: 3.5.9
+  origversion: 3.5.9-r0
+  status: outdated
+  summary: SSL shared libraries
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - Apache-2.0
+- repo: alpine_3_22
+  subrepo: main
+  srcname: openssl
+  binname: openssl
+  visiblename: openssl
+  version: 3.5.9
+  origversion: 3.5.9-r0
+  status: outdated
+  summary: Toolkit for Transport Layer Security (TLS)
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - Apache-2.0
+- repo: alpine_3_22
+  subrepo: main
+  srcname: openssl
+  binname: openssl-dbg
+  visiblename: openssl-dbg
+  version: 3.5.9
+  origversion: 3.5.9-r0
+  status: outdated
+  summary: Toolkit for Transport Layer Security (TLS) (debug symbols)
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - Apache-2.0
+- repo: alpine_3_22
+  subrepo: main
+  srcname: openssl
+  binname: openssl-dev
+  visiblename: openssl-dev
+  version: 3.5.9
+  origversion: 3.5.9-r0
+  status: outdated
+  summary: Toolkit for Transport Layer Security (TLS) (development files)
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - Apache-2.0
+- repo: alpine_3_22
+  subrepo: main
+  srcname: openssl
+  binname: openssl-doc
+  visiblename: openssl-doc
+  version: 3.5.9
+  origversion: 3.5.9-r0
+  status: outdated
+  summary: Toolkit for Transport Layer Security (TLS) (documentation)
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - Apache-2.0
+- repo: alpine_3_22
+  subrepo: main
+  srcname: openssl
+  binname: openssl-libs-static
+  visiblename: openssl-libs-static
+  version: 3.5.9
+  origversion: 3.5.9-r0
+  status: outdated
+  summary: Toolkit for Transport Layer Security (TLS) (static library)
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - Apache-2.0
+- repo: alpine_3_22
+  subrepo: main
+  srcname: openssl
+  binname: openssl-misc
+  visiblename: openssl-misc
+  version: 3.5.9
+  origversion: 3.5.9-r0
+  status: outdated
+  summary: Various perl scripts from openssl
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - Apache-2.0
+- repo: alpine_3_23
+  subrepo: main
+  srcname: openssl
+  binname: libcrypto3
+  visiblename: libcrypto3
+  version: 3.5.9
+  origversion: 3.5.9-r0
+  status: outdated
+  summary: Crypto library from openssl
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - Apache-2.0
+- repo: alpine_3_23
+  subrepo: main
+  srcname: openssl
+  binname: libssl3
+  visiblename: libssl3
+  version: 3.5.9
+  origversion: 3.5.9-r0
+  status: outdated
+  summary: SSL shared libraries
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - Apache-2.0
+- repo: alpine_edge
+  subrepo: main
+  srcname: openssl
+  binname: openssl-doc
+  visiblename: openssl-doc
+  version: 3.5.9
+  origversion: 3.5.9-r0
+  status: outdated
+  summary: Toolkit for Transport Layer Security (TLS) (documentation)
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - Apache-2.0
+- repo: alpine_3_23
+  subrepo: main
+  srcname: openssl
+  binname: openssl
+  visiblename: openssl
+  version: 3.5.9
+  origversion: 3.5.9-r0
+  status: outdated
+  summary: Toolkit for Transport Layer Security (TLS)
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - Apache-2.0
+- repo: alpine_3_23
+  subrepo: main
+  srcname: openssl
+  binname: openssl-dbg
+  visiblename: openssl-dbg
+  version: 3.5.9
+  origversion: 3.5.9-r0
+  status: outdated
+  summary: Toolkit for Transport Layer Security (TLS) (debug symbols)
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - Apache-2.0
+- repo: alpine_3_23
+  subrepo: main
+  srcname: openssl
+  binname: openssl-dev
+  visiblename: openssl-dev
+  version: 3.5.9
+  origversion: 3.5.9-r0
+  status: outdated
+  summary: Toolkit for Transport Layer Security (TLS) (development files)
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - Apache-2.0
+- repo: alpine_3_23
+  subrepo: main
+  srcname: openssl
+  binname: openssl-doc
+  visiblename: openssl-doc
+  version: 3.5.9
+  origversion: 3.5.9-r0
+  status: outdated
+  summary: Toolkit for Transport Layer Security (TLS) (documentation)
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - Apache-2.0
+- repo: alpine_3_23
+  subrepo: main
+  srcname: openssl
+  binname: openssl-fips
+  visiblename: openssl-fips
+  version: 3.5.9
+  origversion: 3.5.9-r0
+  status: outdated
+  summary: FIPS module from openssl
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - Apache-2.0
+- repo: alpine_3_23
+  subrepo: main
+  srcname: openssl
+  binname: openssl-libs-static
+  visiblename: openssl-libs-static
+  version: 3.5.9
+  origversion: 3.5.9-r0
+  status: outdated
+  summary: Toolkit for Transport Layer Security (TLS) (static library)
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - Apache-2.0
+- repo: alpine_3_23
+  subrepo: main
+  srcname: openssl
+  binname: openssl-misc
+  visiblename: openssl-misc
+  version: 3.5.9
+  origversion: 3.5.9-r0
+  status: outdated
+  summary: Various perl scripts from openssl
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - Apache-2.0
+- repo: alpine_3_24
+  subrepo: main
+  srcname: openssl
+  binname: libcrypto3
+  visiblename: libcrypto3
+  version: 3.5.9
+  origversion: 3.5.9-r0
+  status: outdated
+  summary: Crypto library from openssl
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - Apache-2.0
+- repo: alpine_3_24
+  subrepo: main
+  srcname: openssl
+  binname: libssl3
+  visiblename: libssl3
+  version: 3.5.9
+  origversion: 3.5.9-r0
+  status: outdated
+  summary: SSL shared libraries
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - Apache-2.0
+- repo: alpine_3_24
+  subrepo: main
+  srcname: openssl
+  binname: openssl
+  visiblename: openssl
+  version: 3.5.9
+  origversion: 3.5.9-r0
+  status: outdated
+  summary: Toolkit for Transport Layer Security (TLS)
   maintainers:
     - ncopa@alpinelinux.org
   licenses:
@@ -388,253 +550,6 @@
     - ncopa@alpinelinux.org
   licenses:
     - Apache-2.0
-- repo: alpine_3_22
-  subrepo: main
-  srcname: openssl
-  binname: libssl3
-  visiblename: libssl3
-  version: 3.5.9
-  origversion: 3.5.9-r0
-  status: outdated
-  summary: SSL shared libraries
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - Apache-2.0
-- repo: alpine_3_22
-  subrepo: main
-  srcname: openssl
-  binname: openssl
-  visiblename: openssl
-  version: 3.5.9
-  origversion: 3.5.9-r0
-  status: outdated
-  summary: Toolkit for Transport Layer Security (TLS)
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - Apache-2.0
-- repo: alpine_3_22
-  subrepo: main
-  srcname: openssl
-  binname: openssl-dbg
-  visiblename: openssl-dbg
-  version: 3.5.9
-  origversion: 3.5.9-r0
-  status: outdated
-  summary: Toolkit for Transport Layer Security (TLS) (debug symbols)
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - Apache-2.0
-- repo: alpine_3_22
-  subrepo: main
-  srcname: openssl
-  binname: openssl-dev
-  visiblename: openssl-dev
-  version: 3.5.9
-  origversion: 3.5.9-r0
-  status: outdated
-  summary: Toolkit for Transport Layer Security (TLS) (development files)
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - Apache-2.0
-- repo: alpine_3_22
-  subrepo: main
-  srcname: openssl
-  binname: openssl-doc
-  visiblename: openssl-doc
-  version: 3.5.9
-  origversion: 3.5.9-r0
-  status: outdated
-  summary: Toolkit for Transport Layer Security (TLS) (documentation)
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - Apache-2.0
-- repo: alpine_3_22
-  subrepo: main
-  srcname: openssl
-  binname: openssl-libs-static
-  visiblename: openssl-libs-static
-  version: 3.5.9
-  origversion: 3.5.9-r0
-  status: outdated
-  summary: Toolkit for Transport Layer Security (TLS) (static library)
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - Apache-2.0
-- repo: alpine_3_22
-  subrepo: main
-  srcname: openssl
-  binname: openssl-misc
-  visiblename: openssl-misc
-  version: 3.5.9
-  origversion: 3.5.9-r0
-  status: outdated
-  summary: Various perl scripts from openssl
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - Apache-2.0
-- repo: alpine_3_23
-  subrepo: main
-  srcname: openssl
-  binname: libcrypto3
-  visiblename: libcrypto3
-  version: 3.5.9
-  origversion: 3.5.9-r0
-  status: outdated
-  summary: Crypto library from openssl
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - Apache-2.0
-- repo: alpine_3_23
-  subrepo: main
-  srcname: openssl
-  binname: libssl3
-  visiblename: libssl3
-  version: 3.5.9
-  origversion: 3.5.9-r0
-  status: outdated
-  summary: SSL shared libraries
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - Apache-2.0
-- repo: alpine_3_23
-  subrepo: main
-  srcname: openssl
-  binname: openssl
-  visiblename: openssl
-  version: 3.5.9
-  origversion: 3.5.9-r0
-  status: outdated
-  summary: Toolkit for Transport Layer Security (TLS)
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - Apache-2.0
-- repo: alpine_3_23
-  subrepo: main
-  srcname: openssl
-  binname: openssl-dbg
-  visiblename: openssl-dbg
-  version: 3.5.9
-  origversion: 3.5.9-r0
-  status: outdated
-  summary: Toolkit for Transport Layer Security (TLS) (debug symbols)
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - Apache-2.0
-- repo: alpine_3_23
-  subrepo: main
-  srcname: openssl
-  binname: openssl-dev
-  visiblename: openssl-dev
-  version: 3.5.9
-  origversion: 3.5.9-r0
-  status: outdated
-  summary: Toolkit for Transport Layer Security (TLS) (development files)
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - Apache-2.0
-- repo: alpine_3_23
-  subrepo: main
-  srcname: openssl
-  binname: openssl-doc
-  visiblename: openssl-doc
-  version: 3.5.9
-  origversion: 3.5.9-r0
-  status: outdated
-  summary: Toolkit for Transport Layer Security (TLS) (documentation)
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - Apache-2.0
-- repo: alpine_3_23
-  subrepo: main
-  srcname: openssl
-  binname: openssl-fips
-  visiblename: openssl-fips
-  version: 3.5.9
-  origversion: 3.5.9-r0
-  status: outdated
-  summary: FIPS module from openssl
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - Apache-2.0
-- repo: alpine_3_23
-  subrepo: main
-  srcname: openssl
-  binname: openssl-libs-static
-  visiblename: openssl-libs-static
-  version: 3.5.9
-  origversion: 3.5.9-r0
-  status: outdated
-  summary: Toolkit for Transport Layer Security (TLS) (static library)
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - Apache-2.0
-- repo: alpine_3_23
-  subrepo: main
-  srcname: openssl
-  binname: openssl-misc
-  visiblename: openssl-misc
-  version: 3.5.9
-  origversion: 3.5.9-r0
-  status: outdated
-  summary: Various perl scripts from openssl
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - Apache-2.0
-- repo: alpine_3_24
-  subrepo: main
-  srcname: openssl
-  binname: libcrypto3
-  visiblename: libcrypto3
-  version: 3.5.9
-  origversion: 3.5.9-r0
-  status: outdated
-  summary: Crypto library from openssl
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - Apache-2.0
-- repo: alpine_3_24
-  subrepo: main
-  srcname: openssl
-  binname: libssl3
-  visiblename: libssl3
-  version: 3.5.9
-  origversion: 3.5.9-r0
-  status: outdated
-  summary: SSL shared libraries
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - Apache-2.0
-- repo: alpine_3_24
-  subrepo: main
-  srcname: openssl
-  binname: openssl
-  visiblename: openssl
-  version: 3.5.9
-  origversion: 3.5.9-r0
-  status: outdated
-  summary: Toolkit for Transport Layer Security (TLS)
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - Apache-2.0
 - repo: alpine_3_24
   subrepo: main
   srcname: openssl
@@ -774,19 +689,6 @@
   origversion: 3.5.9-r0
   status: outdated
   summary: Toolkit for Transport Layer Security (TLS) (development files)
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - Apache-2.0
-- repo: alpine_edge
-  subrepo: main
-  srcname: openssl
-  binname: openssl-doc
-  visiblename: openssl-doc
-  version: 3.5.9
-  origversion: 3.5.9-r0
-  status: outdated
-  summary: Toolkit for Transport Layer Security (TLS) (documentation)
   maintainers:
     - ncopa@alpinelinux.org
   licenses:
@@ -844,17 +746,6 @@
   categories:
     - System/Base
 - repo: arch
-  subrepo: multilib
-  srcname: lib32-openssl
-  binname: lib32-openssl
-  visiblename: lib32-openssl
-  version: 3.6.5
-  origversion: 1:3.6.5-1
-  status: outdated
-  summary: The Open Source toolkit for Secure Sockets Layer and Transport Layer Security (32-bit)
-  licenses:
-    - Apache
-- repo: arch
   subrepo: core
   srcname: openssl
   binname: openssl
@@ -865,6 +756,17 @@
   summary: The Open Source toolkit for cryptography and Transport Layer Security
   licenses:
     - Apache-2.0
+- repo: arch
+  subrepo: multilib
+  srcname: lib32-openssl
+  binname: lib32-openssl
+  visiblename: lib32-openssl
+  version: 3.6.5
+  origversion: 1:3.6.5-1
+  status: outdated
+  summary: The Open Source toolkit for Secure Sockets Layer and Transport Layer Security (32-bit)
+  licenses:
+    - Apache
 - repo: aur
   srcname: openssl-git
   binname: openssl-git
@@ -945,6 +847,12 @@
     - Apache-2.0
   categories:
     - Unspecified
+- repo: conancenter
+  srcname: openssl
+  visiblename: openssl
+  version: 4.1.0
+  origversion: null
+  status: newest
 - repo: centos_stream_10
   subrepo: BaseOS
   srcname: openssl
@@ -1060,6 +968,30 @@
   summary: The Open Source toolkit for Secure Sockets Layer and Transport Layer Security
   licenses:
     - Apache-2.0
+- repo: conancenter
+  srcname: openssl
+  visiblename: openssl
+  version: 4.0.3
+  origversion: null
+  status: legacy
+- repo: conancenter
+  srcname: openssl
+  visiblename: openssl
+  version: 3.6.5
+  origversion: null
+  status: legacy
+- repo: conancenter
+  srcname: openssl
+  visiblename: openssl
+  version: 3.5.9
+  origversion: null
+  status: legacy
+- repo: conancenter
+  srcname: openssl
+  visiblename: openssl
+  version: 3.4.8
+  origversion: null
+  status: legacy
 - repo: crux_38
   subrepo: core
   srcname: openssl
@@ -1122,6 +1054,22 @@
     - OpenSSL
   categories:
     - Devel
+- repo: ibmi
+  srcname: openssl
+  binnames:
+    - openssl
+    - libopenssl3
+    - openssl-devel
+    - openssl-devel-engine
+  visiblename: openssl
+  version: 3.5.9
+  origversion: 3.5.9-1
+  status: outdated
+  summary: Open Source SSL/TLS toolkit
+  licenses:
+    - Apache-2.0
+  categories:
+    - Unspecified
 - repo: cygwin
   srcname: mingw64-x86_64-openssl
   binname: mingw64-x86_64-openssl-debuginfo
@@ -1318,6 +1266,13 @@
     - sebastian@breakpoint.cc
   categories:
     - libs
+- repo: homebrew
+  srcname: openssl@4
+  visiblename: openssl@4
+  version: 4.1.0
+  origversion: null
+  status: newest
+  summary: Cryptography and SSL/TLS Toolkit
 - repo: exherbo
   subrepo: arbor
   srcname: dev-libs/openssl
@@ -1610,45 +1565,6 @@
   origversion: null
   status: legacy
   summary: Cryptography and SSL/TLS Toolkit
-- repo: homebrew
-  srcname: openssl@4
-  visiblename: openssl@4
-  version: 4.1.0
-  origversion: null
-  status: newest
-  summary: Cryptography and SSL/TLS Toolkit
-- repo: hpux_11_31
-  subrepo: ia64_32
-  srcname: openssl
-  binname: openssl
-  visiblename: openssl
-  version: 3.5.9
-  origversion: null
-  status: outdated
-- repo: hpux_11_31
-  subrepo: ia64_64
-  srcname: openssl
-  binname: openssl
-  visiblename: openssl
-  version: 3.5.9
-  origversion: null
-  status: outdated
-- repo: ibmi
-  srcname: openssl
-  binnames:
-    - openssl
-    - libopenssl3
-    - openssl-devel
-    - openssl-devel-engine
-  visiblename: openssl
-  version: 3.5.9
-  origversion: 3.5.9-1
-  status: outdated
-  summary: Open Source SSL/TLS toolkit
-  licenses:
-    - Apache-2.0
-  categories:
-    - Unspecified
 - repo: kali_rolling
   subrepo: main
   srcname: openssl
@@ -1694,15 +1610,6 @@
   status: outdated
   maintainers:
     - owen@owenrafferty.com
-- repo: hpux_11_31
-  subrepo: hppa_32
-  srcname: openssl
-  binname: openssl
-  visiblename: openssl
-  version: 1.0.2l
-  origversion: null
-  status: legacy
-  vulnerable: true
 - repo: liguros_stable
   srcname: dev-libs/openssl
   visiblename: dev-libs/openssl
@@ -1745,19 +1652,6 @@
   categories:
     - dev-libs
   vulnerable: true
-- repo: msys2_msys2
-  subrepo: x86_64
-  srcname: openssl
-  binname: openssl-devel
-  visiblename: openssl-devel
-  version: 3.6.5
-  origversion: 3.6.5-1
-  status: outdated
-  summary: Openssl headers and libraries
-  licenses:
-    - spdx:Apache-2.0
-  categories:
-    - development
 - repo: liguros_stable
   srcname: dev-libs/openssl
   visiblename: dev-libs/openssl
@@ -2013,17 +1907,6 @@
   licenses:
     - Apache
 - repo: manjaro_unstable
-  subrepo: multilib
-  srcname: lib32-openssl
-  binname: lib32-openssl
-  visiblename: lib32-openssl
-  version: 3.6.5
-  origversion: 1:3.6.5-1
-  status: outdated
-  summary: The Open Source toolkit for Secure Sockets Layer and Transport Layer Security (32-bit)
-  licenses:
-    - Apache
-- repo: manjaro_unstable
   subrepo: core
   srcname: openssl
   binname: openssl
@@ -2034,6 +1917,17 @@
   summary: The Open Source toolkit for cryptography and Transport Layer Security
   licenses:
     - Apache-2.0
+- repo: manjaro_unstable
+  subrepo: multilib
+  srcname: lib32-openssl
+  binname: lib32-openssl
+  visiblename: lib32-openssl
+  version: 3.6.5
+  origversion: 1:3.6.5-1
+  status: outdated
+  summary: The Open Source toolkit for Secure Sockets Layer and Transport Layer Security (32-bit)
+  licenses:
+    - Apache
 - repo: msys2_clang64
   srcname: mingw-w64-openssl
   binname: mingw-w64-clang-x86_64-openssl
@@ -2079,6 +1973,19 @@
 - repo: msys2_msys2
   subrepo: x86_64
   srcname: openssl
+  binname: openssl-devel
+  visiblename: openssl-devel
+  version: 3.6.5
+  origversion: 3.6.5-1
+  status: outdated
+  summary: Openssl headers and libraries
+  licenses:
+    - spdx:Apache-2.0
+  categories:
+    - development
+- repo: msys2_msys2
+  subrepo: x86_64
+  srcname: openssl
   binname: openssl-docs
   visiblename: openssl-docs
   version: 3.6.5
@@ -2110,23 +2017,6 @@
   summary: The Open Source toolkit for Secure Sockets Layer and Transport Layer Security (mingw-w64)
   licenses:
     - spdx:Apache-2.0
-- repo: nix_stable_26_05
-  srcname: azure-sdk-for-cpp.openssl
-  visiblename: openssl
-  version: 3.6.5
-  origversion: null
-  status: legacy
-  summary: Cryptographic library that implements the SSL and TLS protocols
-  maintainers:
-    - theil.markus@gmail.com
-    - balsoft75@gmail.com
-    - andreas@rammhold.de
-    - nix@leona.is
-    - pyrox@pyrox.dev
-  licenses:
-    - Apache-2.0
-  categories:
-    - azure-sdk-for-cpp
 - repo: nix_stable_26_05
   srcname: openssl
   visiblename: openssl
@@ -2187,6 +2077,37 @@
     - pyrox@pyrox.dev
   licenses:
     - Apache-2.0
+- repo: nix_unstable
+  srcname: openssl_legacy
+  visiblename: openssl
+  version: 3.5.9
+  origversion: null
+  status: legacy
+  summary: Cryptographic library that implements the SSL and TLS protocols
+  maintainers:
+    - theil.markus@gmail.com
+    - balsoft75@gmail.com
+    - andreas@rammhold.de
+    - pyrox@pyrox.dev
+  licenses:
+    - Apache-2.0
+- repo: nix_stable_26_05
+  srcname: azure-sdk-for-cpp.openssl
+  visiblename: openssl
+  version: 3.6.5
+  origversion: null
+  status: legacy
+  summary: Cryptographic library that implements the SSL and TLS protocols
+  maintainers:
+    - theil.markus@gmail.com
+    - balsoft75@gmail.com
+    - andreas@rammhold.de
+    - nix@leona.is
+    - pyrox@pyrox.dev
+  licenses:
+    - Apache-2.0
+  categories:
+    - azure-sdk-for-cpp
 - repo: nix_stable_26_05
   srcname: openssl_3_5
   visiblename: openssl
@@ -2233,6 +2154,22 @@
   licenses:
     - Apache-2.0
 - repo: nix_unstable
+  srcname: azure-sdk-for-cpp.openssl
+  visiblename: openssl
+  version: 3.5.9
+  origversion: null
+  status: legacy
+  summary: Cryptographic library that implements the SSL and TLS protocols
+  maintainers:
+    - theil.markus@gmail.com
+    - balsoft75@gmail.com
+    - andreas@rammhold.de
+    - pyrox@pyrox.dev
+  licenses:
+    - Apache-2.0
+  categories:
+    - azure-sdk-for-cpp
+- repo: nix_unstable
   srcname: openssl
   visiblename: openssl
   version: 3.5.9
@@ -2261,20 +2198,6 @@
   licenses:
     - Apache-2.0
 - repo: nix_unstable
-  srcname: openssl_legacy
-  visiblename: openssl
-  version: 3.5.9
-  origversion: null
-  status: legacy
-  summary: Cryptographic library that implements the SSL and TLS protocols
-  maintainers:
-    - theil.markus@gmail.com
-    - balsoft75@gmail.com
-    - andreas@rammhold.de
-    - pyrox@pyrox.dev
-  licenses:
-    - Apache-2.0
-- repo: nix_unstable
   srcname: openssl_oqs
   visiblename: openssl
   version: 3.5.9
@@ -2288,22 +2211,6 @@
     - pyrox@pyrox.dev
   licenses:
     - Apache-2.0
-- repo: nix_unstable
-  srcname: azure-sdk-for-cpp.openssl
-  visiblename: openssl
-  version: 3.5.9
-  origversion: null
-  status: legacy
-  summary: Cryptographic library that implements the SSL and TLS protocols
-  maintainers:
-    - theil.markus@gmail.com
-    - balsoft75@gmail.com
-    - andreas@rammhold.de
-    - pyrox@pyrox.dev
-  licenses:
-    - Apache-2.0
-  categories:
-    - azure-sdk-for-cpp
 - repo: nix_unstable
   srcname: openssl_4_1
   visiblename: openssl
@@ -2494,20 +2401,6 @@
   status: outdated
   licenses:
     - Apache-2.0
-- repo: solus
-  srcname: openssl
-  binname: openssl-devel
-  visiblename: openssl-devel
-  version: 3.6.5
-  origversion: null
-  status: outdated
-  summary: Development files for openssl
-  maintainers:
-    - david@davidjharder.ca
-  licenses:
-    - OpenSSL
-  categories:
-    - system.devel
 - repo: raspbian_testing
   subrepo: main
   srcname: openssl
@@ -2531,24 +2424,6 @@
     - sebastian@breakpoint.cc
   categories:
     - libs
-- repo: slackware_current
-  subrepo: slackware
-  binname: openssl
-  visiblename: openssl
-  version: 3.5.9
-  origversion: null
-  status: outdated
-  maintainers:
-    - volkerdi@slackware.com
-- repo: slackware_current
-  subrepo: slackware
-  binname: openssl-solibs
-  visiblename: openssl-solibs
-  version: 3.5.9
-  origversion: null
-  status: outdated
-  maintainers:
-    - volkerdi@slackware.com
 - repo: rosa_13
   subrepo: main/release
   srcname: openssl
@@ -2611,6 +2486,24 @@
     - uglyside@yandex.ru
   licenses:
     - Apache-2.0
+- repo: slackware64_current
+  subrepo: slackware64
+  binname: openssl
+  visiblename: openssl
+  version: 3.5.9
+  origversion: null
+  status: outdated
+  maintainers:
+    - volkerdi@slackware.com
+- repo: slackware64_current
+  subrepo: slackware64
+  binname: openssl-solibs
+  visiblename: openssl-solibs
+  version: 3.5.9
+  origversion: null
+  status: outdated
+  maintainers:
+    - volkerdi@slackware.com
 - repo: solus
   srcname: openssl
   binname: openssl
@@ -2681,6 +2574,20 @@
     - OpenSSL
   categories:
     - debug
+- repo: solus
+  srcname: openssl
+  binname: openssl-devel
+  visiblename: openssl-devel
+  version: 3.6.5
+  origversion: null
+  status: outdated
+  summary: Development files for openssl
+  maintainers:
+    - david@davidjharder.ca
+  licenses:
+    - OpenSSL
+  categories:
+    - system.devel
 - repo: stalix_dev
   srcname: lib/openssl/4
   binname: lib/openssl/4
@@ -2735,6 +2642,15 @@
   summary: Library implementing the SSL and TLS protocols as well as general purpose cryptography functions
   maintainers:
     - termux@github
+- repo: wikidata
+  srcname: Q1052790
+  visiblename: OpenSSL
+  version: 4.1.0
+  origversion: null
+  status: newest
+  summary: open-source implementation of the SSL and TLS protocols
+  licenses:
+    - Apache Software License 2.0
 - repo: ubuntu_26_10
   subrepo: stonking/main
   srcname: openssl
@@ -2852,15 +2768,6 @@
   summary: Management tools and libraries relating to cryptography
   maintainers:
     - wonkru-dev@proton.me
-- repo: wikidata
-  srcname: Q1052790
-  visiblename: OpenSSL
-  version: 4.1.0
-  origversion: null
-  status: newest
-  summary: open-source implementation of the SSL and TLS protocols
-  licenses:
-    - Apache Software License 2.0
 - repo: xrepo
   srcname: openssl
   visiblename: openssl
@@ -2897,18 +2804,103 @@
   summary: A robust, commercial-grade, and full-featured toolkit for TLS and SSL.
   licenses:
     - Apache-2.0
-- repo: conancenter
+- repo: aix_osp
   srcname: openssl
   visiblename: openssl
-  version: 3.1.2
-  origversion: null
-  status: outdated
+  version: 1.0.2i
+  origversion: 1.0.2i-1
+  status: legacy
   vulnerable: true
 - repo: aix_osp
   srcname: openssl
   visiblename: openssl
-  version: 1.0.1d
-  origversion: 1.0.1d-2
+  version: 1.0.2j
+  origversion: 1.0.2j-1
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: openssl
+  visiblename: openssl
+  version: 1.0.2j
+  origversion: 1.0.2j-2
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: openssl
+  visiblename: openssl
+  version: 1.0.2k
+  origversion: 1.0.2k-1
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: openssl
+  visiblename: openssl
+  version: 0.9.8za
+  origversion: 0.9.8za-1
+  status: legacy
+  vulnerable: true
+- repo: hpux_11_31
+  subrepo: hppa_32
+  srcname: openssl
+  binname: openssl
+  visiblename: openssl
+  version: 1.0.2u
+  origversion: null
+  status: outdated
+  vulnerable: true
+- repo: hpux_11_31
+  subrepo: ia64_32
+  srcname: openssl
+  binname: openssl
+  visiblename: openssl
+  version: 1.0.2l
+  origversion: null
+  status: legacy
+  vulnerable: true
+- repo: hpux_11_31
+  subrepo: ia64_32
+  srcname: openssl
+  binname: openssl
+  visiblename: openssl
+  version: 1.0.2u
+  origversion: null
+  status: outdated
+  vulnerable: true
+- repo: hpux_11_31
+  subrepo: ia64_32
+  srcname: openssl
+  binname: openssl
+  visiblename: openssl
+  version: 3.0.21
+  origversion: null
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: openssl
+  visiblename: openssl
+  version: 0.9.8zb
+  origversion: 0.9.8zb-1
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: openssl
+  visiblename: openssl
+  version: 0.9.8zc
+  origversion: 0.9.8zc-1
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: openssl
+  visiblename: openssl
+  version: 0.9.8zd
+  origversion: 0.9.8zd-1
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: openssl
+  visiblename: openssl
+  version: 0.9.8ze
+  origversion: 0.9.8ze-1
   status: legacy
   vulnerable: true
 - repo: aix_osp
@@ -2916,13 +2908,6 @@
   visiblename: openssl
   version: 0.9.8zf
   origversion: 0.9.8zf-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: openssl
-  visiblename: openssl
-  version: 1.0.0k
-  origversion: 1.0.0k-1
   status: legacy
   vulnerable: true
 - repo: aix_osp
@@ -2938,6 +2923,43 @@
   version: 0.9.8zh
   origversion: 0.9.8zh-1
   status: legacy
+  vulnerable: true
+- repo: hpux_11_31
+  subrepo: ia64_64
+  srcname: openssl
+  binname: openssl
+  visiblename: openssl
+  version: 1.0.2l
+  origversion: null
+  status: legacy
+  vulnerable: true
+- repo: hpux_11_31
+  subrepo: ia64_64
+  srcname: openssl
+  binname: openssl
+  visiblename: openssl
+  version: 1.0.2p
+  origversion: null
+  status: legacy
+  vulnerable: true
+- repo: pclinuxos
+  srcname: openssl
+  visiblename: openssl
+  version: 1.1.0k
+  origversion: 1.1.0k-3pclos2019
+  status: legacy
+  summary: Secure Sockets Layer communications libs & utils
+  categories:
+    - System/Libraries
+  vulnerable: true
+- repo: hpux_11_31
+  subrepo: ia64_64
+  srcname: openssl
+  binname: openssl
+  visiblename: openssl
+  version: 1.0.2u
+  origversion: null
+  status: outdated
   vulnerable: true
 - repo: aix_osp
   srcname: openssl
@@ -2956,22 +2978,24 @@
 - repo: aix_osp
   srcname: openssl
   visiblename: openssl
+  version: 1.0.0g
+  origversion: 1.0.0g-1
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: openssl
+  visiblename: openssl
   version: 1.0.0a
   origversion: 1.0.0a-1
   status: legacy
   vulnerable: true
-- repo: aix_osp
+- repo: hpux_11_31
+  subrepo: ia64_64
   srcname: openssl
+  binname: openssl
   visiblename: openssl
-  version: 1.0.0b
-  origversion: 1.0.0b-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: openssl
-  visiblename: openssl
-  version: 1.0.0d
-  origversion: 1.0.0d-1
+  version: 3.0.21
+  origversion: null
   status: legacy
   vulnerable: true
 - repo: aix_osp
@@ -2984,8 +3008,8 @@
 - repo: aix_osp
   srcname: openssl
   visiblename: openssl
-  version: 1.0.0e
-  origversion: 1.0.0e-1
+  version: 1.0.0d
+  origversion: 1.0.0d-1
   status: legacy
   vulnerable: true
 - repo: aix_osp
@@ -2998,13 +3022,6 @@
 - repo: aix_osp
   srcname: openssl
   visiblename: openssl
-  version: 1.0.0i
-  origversion: 1.0.0i-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: openssl
-  visiblename: openssl
   version: 1.0.0h
   origversion: 1.0.0h-1
   status: legacy
@@ -3012,8 +3029,22 @@
 - repo: aix_osp
   srcname: openssl
   visiblename: openssl
+  version: 1.0.0i
+  origversion: 1.0.0i-1
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: openssl
+  visiblename: openssl
   version: 1.0.0j
   origversion: 1.0.0j-1
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: openssl
+  visiblename: openssl
+  version: 1.0.0k
+  origversion: 1.0.0k-1
   status: legacy
   vulnerable: true
 - repo: aix_osp
@@ -3030,12 +3061,15 @@
   origversion: 1.0.0l-1
   status: legacy
   vulnerable: true
-- repo: aix_osp
+- repo: pclinuxos
   srcname: openssl
   visiblename: openssl
-  version: 1.0.0t
-  origversion: 1.0.0t-2
-  status: legacy
+  version: 3.1.8
+  origversion: 3.1.8-1pclos2025
+  status: outdated
+  summary: Secure Sockets Layer communications libs & utils
+  categories:
+    - System/Libraries
   vulnerable: true
 - repo: aix_osp
   srcname: openssl
@@ -3086,11 +3120,30 @@
   origversion: 1.0.0s-1
   status: legacy
   vulnerable: true
+- repo: ibmi
+  srcname: openssl
+  visiblename: openssl
+  version: 1.0.2t
+  origversion: 1.0.2t-1
+  status: outdated
+  summary: Open Source SSL/TLS toolkit
+  licenses:
+    - OpenSSL
+  categories:
+    - Unspecified
+  vulnerable: true
 - repo: aix_osp
   srcname: openssl
   visiblename: openssl
   version: 1.0.0t
   origversion: 1.0.0t-1
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: openssl
+  visiblename: openssl
+  version: 1.0.0t
+  origversion: 1.0.0t-2
   status: legacy
   vulnerable: true
 - repo: aix_osp
@@ -3124,9 +3177,28 @@
 - repo: aix_osp
   srcname: openssl
   visiblename: openssl
+  version: 1.0.1d
+  origversion: 1.0.1d-2
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: openssl
+  visiblename: openssl
   version: 1.0.1e
   origversion: 1.0.1e-1
   status: legacy
+  vulnerable: true
+- repo: ibmi
+  srcname: openssl
+  visiblename: openssl
+  version: 1.1.1w
+  origversion: 1.1.1w-1
+  status: outdated
+  summary: Open Source SSL/TLS toolkit
+  licenses:
+    - OpenSSL
+  categories:
+    - Unspecified
   vulnerable: true
 - repo: aix_osp
   srcname: openssl
@@ -3145,6 +3217,13 @@
 - repo: aix_osp
   srcname: openssl
   visiblename: openssl
+  version: 1.0.1g
+  origversion: 1.0.1g-1
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: openssl
+  visiblename: openssl
   version: 1.0.1h
   origversion: 1.0.1h-1
   status: legacy
@@ -3152,8 +3231,8 @@
 - repo: aix_osp
   srcname: openssl
   visiblename: openssl
-  version: 1.0.1t
-  origversion: 1.0.1t-1
+  version: 1.0.1i
+  origversion: 1.0.1i-1
   status: legacy
   vulnerable: true
 - repo: aix_osp
@@ -3187,6 +3266,13 @@
 - repo: aix_osp
   srcname: openssl
   visiblename: openssl
+  version: 1.0.1o
+  origversion: 1.0.1o-1
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: openssl
+  visiblename: openssl
   version: 1.0.1p
   origversion: 1.0.1p-1
   status: legacy
@@ -3212,11 +3298,30 @@
   origversion: 1.0.1r-2
   status: legacy
   vulnerable: true
+- repo: openpkg_current
+  srcname: openssl3
+  visiblename: openssl3
+  version: 3.6.0
+  origversion: null
+  status: outdated
+  summary: Cryptography and SSL/TLS Toolkit (V3.0)
+  licenses:
+    - BSD-style
+  categories:
+    - SSL
+  vulnerable: true
 - repo: aix_osp
   srcname: openssl
   visiblename: openssl
   version: 1.0.1s
   origversion: 1.0.1s-1
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: openssl
+  visiblename: openssl
+  version: 1.0.1t
+  origversion: 1.0.1t-1
   status: legacy
   vulnerable: true
 - repo: aix_osp
@@ -3236,22 +3341,8 @@
 - repo: aix_osp
   srcname: openssl
   visiblename: openssl
-  version: 1.0.2i
-  origversion: 1.0.2i-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: openssl
-  visiblename: openssl
-  version: 1.0.2j
-  origversion: 1.0.2j-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: openssl
-  visiblename: openssl
-  version: 1.0.2j
-  origversion: 1.0.2j-2
+  version: 1.0.2h
+  origversion: 1.0.2h-1
   status: legacy
   vulnerable: true
 - repo: aix_osp
@@ -3264,9 +3355,42 @@
 - repo: aix_osp
   srcname: openssl
   visiblename: openssl
+  version: 1.0.2m
+  origversion: 1.0.2m-1
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: openssl
+  visiblename: openssl
   version: 1.0.2n
   origversion: 1.0.2n-1
   status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: openssl
+  visiblename: openssl
+  version: 1.0.2o
+  origversion: 1.0.2o-1
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: openssl
+  visiblename: openssl
+  version: 1.0.2p
+  origversion: 1.0.2p-1
+  status: legacy
+  vulnerable: true
+- repo: openpkg_current
+  srcname: openssl10
+  visiblename: openssl10
+  version: 1.0.2u
+  origversion: null
+  status: outdated
+  summary: Cryptography and SSL/TLS Toolkit
+  licenses:
+    - BSD-style
+  categories:
+    - SSL
   vulnerable: true
 - repo: aix_osp
   srcname: openssl
@@ -3275,25 +3399,25 @@
   origversion: 1.0.2q-1
   status: legacy
   vulnerable: true
-- repo: slackwarearm_15_0
-  subrepo: patches
-  binname: openssl
+- repo: amazon_1
+  subrepo: updates
+  srcname: openssl
   visiblename: openssl
-  version: 1.1.1zh
-  origversion: null
+  version: 1.0.2k
+  origversion: 1:1.0.2k-16.153.amzn1
   status: outdated
-  maintainers:
-    - volkerdi@slackware.com
+  summary: Utilities from the general purpose cryptography library with TLS implementation
+  licenses:
+    - OpenSSL
+  categories:
+    - System Environment/Libraries
   vulnerable: true
-- repo: slackwarearm_15_0
-  subrepo: patches
-  binname: openssl-solibs
-  visiblename: openssl-solibs
-  version: 1.1.1zh
-  origversion: null
-  status: outdated
-  maintainers:
-    - volkerdi@slackware.com
+- repo: aix_osp
+  srcname: openssl
+  visiblename: openssl
+  version: 1.0.2r
+  origversion: 1.0.2r-1
+  status: legacy
   vulnerable: true
 - repo: aix_osp
   srcname: openssl
@@ -3316,35 +3440,25 @@
   origversion: 1.0.2u-1
   status: outdated
   vulnerable: true
-- repo: slackwarearm_15_0
-  subrepo: slackware
-  binname: openssl
+- repo: pclinuxos
+  srcname: openssl
   visiblename: openssl
-  version: 1.1.1m
-  origversion: null
+  version: 1.1.0j
+  origversion: 1.1.0j-2pclos2019
   status: legacy
-  maintainers:
-    - volkerdi@slackware.com
+  summary: Secure Sockets Layer communications libs & utils
+  categories:
+    - System/Libraries
   vulnerable: true
-- repo: slackware64_15_0
-  subrepo: patches
-  binname: openssl-solibs
-  visiblename: openssl-solibs
-  version: 1.1.1zh
-  origversion: null
+- repo: pclinuxos
+  srcname: openssl
+  visiblename: openssl
+  version: 1.1.1w
+  origversion: 1.1.1w-1pclos2023
   status: outdated
-  maintainers:
-    - volkerdi@slackware.com
-  vulnerable: true
-- repo: slackwarearm_15_0
-  subrepo: slackware
-  binname: openssl-solibs
-  visiblename: openssl-solibs
-  version: 1.1.1m
-  origversion: null
-  status: legacy
-  maintainers:
-    - volkerdi@slackware.com
+  summary: Secure Sockets Layer communications libs & utils
+  categories:
+    - System/Libraries
   vulnerable: true
 - repo: amazon_2
   srcname: openssl
@@ -3385,6 +3499,16 @@
   categories:
     - System Environment/Libraries
   vulnerable: true
+- repo: pclinuxos
+  srcname: openssl0.9.8
+  visiblename: openssl0.9.8
+  version: 0.9.8r
+  origversion: 0.9.8r-1pclos2020
+  status: outdated
+  summary: Secure Sockets Layer communications libs & utils
+  categories:
+    - System/Libraries
+  vulnerable: true
 - repo: amazon_2
   srcname: openssl
   visiblename: openssl
@@ -3397,39 +3521,25 @@
   categories:
     - System Environment/Libraries
   vulnerable: true
-- repo: amazon_2
-  srcname: openssl
-  visiblename: openssl
-  version: 1.0.2k
-  origversion: 1:1.0.2k-24.amzn2.0.2
+- repo: os4depot
+  binname: development/library/misc/libopenssl.lha
+  visiblename: libopenssl.lha
+  version: 3.5.7
+  origversion: null
   status: outdated
-  summary: Utilities from the general purpose cryptography library with TLS implementation
-  licenses:
-    - OpenSSL
+  summary: The open source toolkit for SSL/TLS
   categories:
-    - System Environment/Libraries
+    - development/library/misc
   vulnerable: true
-- repo: almalinux_8
-  subrepo: AppStream
-  srcname: compat-openssl10
-  visiblename: compat-openssl10
-  version: 1.0.2o
-  origversion: 1:1.0.2o-4.el8_10.2
+- repo: slackware_15_0
+  subrepo: patches
+  binname: openssl-solibs
+  visiblename: openssl-solibs
+  version: 1.1.1zh
+  origversion: null
   status: outdated
-  summary: Compatibility version of the OpenSSL library
   maintainers:
-    - packager@almalinux.org
-  licenses:
-    - OpenSSL
-  categories:
-    - System Environment/Libraries
-  vulnerable: true
-- repo: aix_osp
-  srcname: openssl
-  visiblename: openssl
-  version: 0.9.8q
-  origversion: 0.9.8q-1
-  status: legacy
+    - volkerdi@slackware.com
   vulnerable: true
 - repo: aix_osp
   srcname: openssl
@@ -3448,65 +3558,8 @@
 - repo: aix_osp
   srcname: openssl
   visiblename: openssl
-  version: 0.9.8za
-  origversion: 0.9.8za-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: openssl
-  visiblename: openssl
-  version: 0.9.8r
-  origversion: 0.9.8r-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: openssl
-  visiblename: openssl
-  version: 0.9.8zb
-  origversion: 0.9.8zb-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: openssl
-  visiblename: openssl
-  version: 0.9.8zc
-  origversion: 0.9.8zc-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: openssl
-  visiblename: openssl
-  version: 0.9.8zd
-  origversion: 0.9.8zd-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: openssl
-  visiblename: openssl
-  version: 0.9.8ze
-  origversion: 0.9.8ze-1
-  status: legacy
-  vulnerable: true
-- repo: almalinux_8
-  subrepo: BaseOS
-  srcname: openssl
-  visiblename: openssl
-  version: 1.1.1k
-  origversion: 1:1.1.1k-18.el8_6
-  status: outdated
-  summary: Utilities from the general purpose cryptography library with TLS implementation
-  maintainers:
-    - packager@almalinux.org
-  licenses:
-    - OpenSSL and ASL 2.0
-  categories:
-    - Unspecified
-  vulnerable: true
-- repo: aix_osp
-  srcname: openssl
-  visiblename: openssl
-  version: 0.9.8s
-  origversion: 0.9.8s-1
+  version: 0.9.8y
+  origversion: 0.9.8y-1
   status: legacy
   vulnerable: true
 - repo: adelie_current
@@ -3656,6 +3709,63 @@
   origversion: 0.9.8p-1
   status: legacy
   vulnerable: true
+- repo: aix_osp
+  srcname: openssl
+  visiblename: openssl
+  version: 0.9.8q
+  origversion: 0.9.8q-1
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: openssl
+  visiblename: openssl
+  version: 0.9.8r
+  origversion: 0.9.8r-1
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: openssl
+  visiblename: openssl
+  version: 0.9.8s
+  origversion: 0.9.8s-1
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: openssl
+  visiblename: openssl
+  version: 0.9.8t
+  origversion: 0.9.8t-1
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: openssl
+  visiblename: openssl
+  version: 0.9.8u
+  origversion: 0.9.8u-1
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: openssl
+  visiblename: openssl
+  version: 0.9.8v
+  origversion: 0.9.8v-1
+  status: legacy
+  vulnerable: true
+- repo: almalinux_8
+  subrepo: AppStream
+  srcname: compat-openssl10
+  visiblename: compat-openssl10
+  version: 1.0.2o
+  origversion: 1:1.0.2o-4.el8_10.2
+  status: outdated
+  summary: Compatibility version of the OpenSSL library
+  maintainers:
+    - packager@almalinux.org
+  licenses:
+    - OpenSSL
+  categories:
+    - System Environment/Libraries
+  vulnerable: true
 - repo: almalinux_8
   subrepo: AppStream
   srcname: compat-openssl10
@@ -3782,6 +3892,21 @@
   visiblename: openssl
   version: 1.1.1k
   origversion: 1:1.1.1k-17.el8_6
+  status: outdated
+  summary: Utilities from the general purpose cryptography library with TLS implementation
+  maintainers:
+    - packager@almalinux.org
+  licenses:
+    - OpenSSL and ASL 2.0
+  categories:
+    - Unspecified
+  vulnerable: true
+- repo: almalinux_8
+  subrepo: BaseOS
+  srcname: openssl
+  visiblename: openssl
+  version: 1.1.1k
+  origversion: 1:1.1.1k-18.el8_6
   status: outdated
   summary: Utilities from the general purpose cryptography library with TLS implementation
   maintainers:
@@ -3989,19 +4114,6 @@
   categories:
     - Unspecified
   vulnerable: true
-- repo: amazon_1
-  subrepo: updates
-  srcname: openssl
-  visiblename: openssl
-  version: 1.0.2k
-  origversion: 1:1.0.2k-16.155.amzn1
-  status: outdated
-  summary: Utilities from the general purpose cryptography library with TLS implementation
-  licenses:
-    - OpenSSL
-  categories:
-    - System Environment/Libraries
-  vulnerable: true
 - repo: almalinux_9
   subrepo: BaseOS
   srcname: openssl
@@ -4024,6 +4136,20 @@
     - Apache-2.0
   categories:
     - Unspecified
+  vulnerable: true
+- repo: alpine_3_18
+  subrepo: main
+  srcname: openssl
+  binname: openssl-doc
+  visiblename: openssl-doc
+  version: 3.1.8
+  origversion: 3.1.8-r0
+  status: outdated
+  summary: Toolkit for Transport Layer Security (TLS) (documentation)
+  maintainers:
+    - ariadne@dereferenced.org
+  licenses:
+    - Apache-2.0
   vulnerable: true
 - repo: almalinux_9
   subrepo: BaseOS
@@ -4169,6 +4295,19 @@
   licenses:
     - Apache-2.0
   vulnerable: true
+- repo: amazon_1
+  subrepo: updates
+  srcname: openssl
+  visiblename: openssl
+  version: 1.0.2k
+  origversion: 1:1.0.2k-16.154.amzn1
+  status: outdated
+  summary: Utilities from the general purpose cryptography library with TLS implementation
+  licenses:
+    - OpenSSL
+  categories:
+    - System Environment/Libraries
+  vulnerable: true
 - repo: alpine_3_17
   subrepo: main
   srcname: openssl
@@ -4248,6 +4387,103 @@
   origversion: 3.0.19-r0
   status: outdated
   summary: Toolkit for Transport Layer Security (TLS) (documentation)
+  maintainers:
+    - ariadne@dereferenced.org
+  licenses:
+    - Apache-2.0
+  vulnerable: true
+- repo: alpine_3_18
+  subrepo: main
+  srcname: openssl
+  binname: libcrypto3
+  visiblename: libcrypto3
+  version: 3.1.8
+  origversion: 3.1.8-r0
+  status: outdated
+  summary: Crypto library from openssl
+  maintainers:
+    - ariadne@dereferenced.org
+  licenses:
+    - Apache-2.0
+  vulnerable: true
+- repo: alpine_3_18
+  subrepo: main
+  srcname: openssl
+  binname: libssl3
+  visiblename: libssl3
+  version: 3.1.8
+  origversion: 3.1.8-r0
+  status: outdated
+  summary: SSL shared libraries
+  maintainers:
+    - ariadne@dereferenced.org
+  licenses:
+    - Apache-2.0
+  vulnerable: true
+- repo: alpine_3_18
+  subrepo: main
+  srcname: openssl
+  binname: openssl
+  visiblename: openssl
+  version: 3.1.8
+  origversion: 3.1.8-r0
+  status: outdated
+  summary: Toolkit for Transport Layer Security (TLS)
+  maintainers:
+    - ariadne@dereferenced.org
+  licenses:
+    - Apache-2.0
+  vulnerable: true
+- repo: alpine_3_18
+  subrepo: main
+  srcname: openssl
+  binname: openssl-dbg
+  visiblename: openssl-dbg
+  version: 3.1.8
+  origversion: 3.1.8-r0
+  status: outdated
+  summary: Toolkit for Transport Layer Security (TLS) (debug symbols)
+  maintainers:
+    - ariadne@dereferenced.org
+  licenses:
+    - Apache-2.0
+  vulnerable: true
+- repo: alpine_3_18
+  subrepo: main
+  srcname: openssl
+  binname: openssl-dev
+  visiblename: openssl-dev
+  version: 3.1.8
+  origversion: 3.1.8-r0
+  status: outdated
+  summary: Toolkit for Transport Layer Security (TLS) (development files)
+  maintainers:
+    - ariadne@dereferenced.org
+  licenses:
+    - Apache-2.0
+  vulnerable: true
+- repo: amazon_1
+  subrepo: updates
+  srcname: openssl
+  visiblename: openssl
+  version: 1.0.2k
+  origversion: 1:1.0.2k-16.155.amzn1
+  status: outdated
+  summary: Utilities from the general purpose cryptography library with TLS implementation
+  licenses:
+    - OpenSSL
+  categories:
+    - System Environment/Libraries
+  vulnerable: true
+- repo: alpine_3_18
+  subrepo: main
+  srcname: openssl
+  binname: openssl-libs-static
+  visiblename: openssl-libs-static
+  version: 3.1.8
+  origversion: 3.1.8-r0
+  status: outdated
+  summary: Toolkit for Transport Layer Security (TLS) (static library)
   maintainers:
     - ariadne@dereferenced.org
   licenses:
@@ -4337,6 +4573,61 @@
   licenses:
     - OpenSSL
   vulnerable: true
+- repo: alpine_3_19
+  subrepo: main
+  srcname: openssl
+  binname: openssl
+  visiblename: openssl
+  version: 3.1.8
+  origversion: 3.1.8-r1
+  status: outdated
+  summary: Toolkit for Transport Layer Security (TLS)
+  maintainers:
+    - ariadne@dereferenced.org
+  licenses:
+    - Apache-2.0
+  vulnerable: true
+- repo: alpine_3_19
+  subrepo: main
+  srcname: openssl
+  binname: openssl-dbg
+  visiblename: openssl-dbg
+  version: 3.1.8
+  origversion: 3.1.8-r1
+  status: outdated
+  summary: Toolkit for Transport Layer Security (TLS) (debug symbols)
+  maintainers:
+    - ariadne@dereferenced.org
+  licenses:
+    - Apache-2.0
+  vulnerable: true
+- repo: alpine_3_19
+  subrepo: main
+  srcname: openssl
+  binname: openssl-dev
+  visiblename: openssl-dev
+  version: 3.1.8
+  origversion: 3.1.8-r1
+  status: outdated
+  summary: Toolkit for Transport Layer Security (TLS) (development files)
+  maintainers:
+    - ariadne@dereferenced.org
+  licenses:
+    - Apache-2.0
+  vulnerable: true
+- repo: amazon_1
+  subrepo: updates
+  srcname: openssl
+  visiblename: openssl
+  version: 1.0.2k
+  origversion: 1:1.0.2k-16.156.amzn1
+  status: outdated
+  summary: Utilities from the general purpose cryptography library with TLS implementation
+  licenses:
+    - OpenSSL
+  categories:
+    - System Environment/Libraries
+  vulnerable: true
 - repo: amazon_1
   subrepo: updates
   srcname: openssl
@@ -4350,83 +4641,13 @@
   categories:
     - System Environment/Libraries
   vulnerable: true
-- repo: alpine_3_18
-  subrepo: main
-  srcname: openssl
-  binname: libcrypto3
-  visiblename: libcrypto3
-  version: 3.1.8
-  origversion: 3.1.8-r0
-  status: outdated
-  summary: Crypto library from openssl
-  maintainers:
-    - ariadne@dereferenced.org
-  licenses:
-    - Apache-2.0
-  vulnerable: true
-- repo: alpine_3_18
-  subrepo: main
-  srcname: openssl
-  binname: libssl3
-  visiblename: libssl3
-  version: 3.1.8
-  origversion: 3.1.8-r0
-  status: outdated
-  summary: SSL shared libraries
-  maintainers:
-    - ariadne@dereferenced.org
-  licenses:
-    - Apache-2.0
-  vulnerable: true
-- repo: alpine_3_18
-  subrepo: main
-  srcname: openssl
-  binname: openssl
-  visiblename: openssl
-  version: 3.1.8
-  origversion: 3.1.8-r0
-  status: outdated
-  summary: Toolkit for Transport Layer Security (TLS)
-  maintainers:
-    - ariadne@dereferenced.org
-  licenses:
-    - Apache-2.0
-  vulnerable: true
-- repo: alpine_3_18
-  subrepo: main
-  srcname: openssl
-  binname: openssl-dbg
-  visiblename: openssl-dbg
-  version: 3.1.8
-  origversion: 3.1.8-r0
-  status: outdated
-  summary: Toolkit for Transport Layer Security (TLS) (debug symbols)
-  maintainers:
-    - ariadne@dereferenced.org
-  licenses:
-    - Apache-2.0
-  vulnerable: true
-- repo: alpine_3_18
-  subrepo: main
-  srcname: openssl
-  binname: openssl-dev
-  visiblename: openssl-dev
-  version: 3.1.8
-  origversion: 3.1.8-r0
-  status: outdated
-  summary: Toolkit for Transport Layer Security (TLS) (development files)
-  maintainers:
-    - ariadne@dereferenced.org
-  licenses:
-    - Apache-2.0
-  vulnerable: true
-- repo: alpine_3_18
+- repo: alpine_3_19
   subrepo: main
   srcname: openssl
   binname: openssl-doc
   visiblename: openssl-doc
   version: 3.1.8
-  origversion: 3.1.8-r0
+  origversion: 3.1.8-r1
   status: outdated
   summary: Toolkit for Transport Layer Security (TLS) (documentation)
   maintainers:
@@ -4434,13 +4655,13 @@
   licenses:
     - Apache-2.0
   vulnerable: true
-- repo: alpine_3_18
+- repo: alpine_3_19
   subrepo: main
   srcname: openssl
   binname: openssl-libs-static
   visiblename: openssl-libs-static
   version: 3.1.8
-  origversion: 3.1.8-r0
+  origversion: 3.1.8-r1
   status: outdated
   summary: Toolkit for Transport Layer Security (TLS) (static library)
   maintainers:
@@ -4451,12 +4672,12 @@
 - repo: alpine_3_19
   subrepo: main
   srcname: openssl
-  binname: openssl
-  visiblename: openssl
+  binname: libcrypto3
+  visiblename: libcrypto3
   version: 3.1.8
   origversion: 3.1.8-r1
   status: outdated
-  summary: Toolkit for Transport Layer Security (TLS)
+  summary: Crypto library from openssl
   maintainers:
     - ariadne@dereferenced.org
   licenses:
@@ -4465,40 +4686,12 @@
 - repo: alpine_3_19
   subrepo: main
   srcname: openssl
-  binname: openssl-dbg
-  visiblename: openssl-dbg
+  binname: libssl3
+  visiblename: libssl3
   version: 3.1.8
   origversion: 3.1.8-r1
   status: outdated
-  summary: Toolkit for Transport Layer Security (TLS) (debug symbols)
-  maintainers:
-    - ariadne@dereferenced.org
-  licenses:
-    - Apache-2.0
-  vulnerable: true
-- repo: alpine_3_19
-  subrepo: main
-  srcname: openssl
-  binname: openssl-dev
-  visiblename: openssl-dev
-  version: 3.1.8
-  origversion: 3.1.8-r1
-  status: outdated
-  summary: Toolkit for Transport Layer Security (TLS) (development files)
-  maintainers:
-    - ariadne@dereferenced.org
-  licenses:
-    - Apache-2.0
-  vulnerable: true
-- repo: alpine_3_19
-  subrepo: main
-  srcname: openssl
-  binname: openssl-doc
-  visiblename: openssl-doc
-  version: 3.1.8
-  origversion: 3.1.8-r1
-  status: outdated
-  summary: Toolkit for Transport Layer Security (TLS) (documentation)
+  summary: SSL shared libraries
   maintainers:
     - ariadne@dereferenced.org
   licenses:
@@ -4516,48 +4709,6 @@
     - OpenSSL
   categories:
     - System Environment/Libraries
-  vulnerable: true
-- repo: alpine_3_19
-  subrepo: main
-  srcname: openssl
-  binname: openssl-libs-static
-  visiblename: openssl-libs-static
-  version: 3.1.8
-  origversion: 3.1.8-r1
-  status: outdated
-  summary: Toolkit for Transport Layer Security (TLS) (static library)
-  maintainers:
-    - ariadne@dereferenced.org
-  licenses:
-    - Apache-2.0
-  vulnerable: true
-- repo: alpine_3_19
-  subrepo: main
-  srcname: openssl
-  binname: libcrypto3
-  visiblename: libcrypto3
-  version: 3.1.8
-  origversion: 3.1.8-r1
-  status: outdated
-  summary: Crypto library from openssl
-  maintainers:
-    - ariadne@dereferenced.org
-  licenses:
-    - Apache-2.0
-  vulnerable: true
-- repo: alpine_3_19
-  subrepo: main
-  srcname: openssl
-  binname: libssl3
-  visiblename: libssl3
-  version: 3.1.8
-  origversion: 3.1.8-r1
-  status: outdated
-  summary: SSL shared libraries
-  maintainers:
-    - ariadne@dereferenced.org
-  licenses:
-    - Apache-2.0
   vulnerable: true
 - repo: amazon_1
   subrepo: updates
@@ -4585,44 +4736,25 @@
   categories:
     - System Environment/Libraries
   vulnerable: true
-- repo: amazon_1
-  subrepo: updates
-  srcname: openssl
+- repo: slackware64_15_0
+  subrepo: slackware64
+  binname: openssl
   visiblename: openssl
-  version: 1.0.2k
-  origversion: 1:1.0.2k-16.153.amzn1
-  status: outdated
-  summary: Utilities from the general purpose cryptography library with TLS implementation
-  licenses:
-    - OpenSSL
-  categories:
-    - System Environment/Libraries
+  version: 1.1.1m
+  origversion: null
+  status: legacy
+  maintainers:
+    - volkerdi@slackware.com
   vulnerable: true
-- repo: amazon_1
-  subrepo: updates
-  srcname: openssl
-  visiblename: openssl
-  version: 1.0.2k
-  origversion: 1:1.0.2k-16.154.amzn1
-  status: outdated
-  summary: Utilities from the general purpose cryptography library with TLS implementation
-  licenses:
-    - OpenSSL
-  categories:
-    - System Environment/Libraries
-  vulnerable: true
-- repo: amazon_1
-  subrepo: updates
-  srcname: openssl
-  visiblename: openssl
-  version: 1.0.2k
-  origversion: 1:1.0.2k-16.156.amzn1
-  status: outdated
-  summary: Utilities from the general purpose cryptography library with TLS implementation
-  licenses:
-    - OpenSSL
-  categories:
-    - System Environment/Libraries
+- repo: slackware64_15_0
+  subrepo: slackware64
+  binname: openssl-solibs
+  visiblename: openssl-solibs
+  version: 1.1.1m
+  origversion: null
+  status: legacy
+  maintainers:
+    - volkerdi@slackware.com
   vulnerable: true
 - repo: alt_p11
   srcname: openssl1.1
@@ -5062,6 +5194,16 @@
   categories:
     - System Environment/Libraries
   vulnerable: true
+- repo: slackware64_15_0
+  subrepo: patches
+  binname: openssl
+  visiblename: openssl
+  version: 1.1.1zh
+  origversion: null
+  status: outdated
+  maintainers:
+    - volkerdi@slackware.com
+  vulnerable: true
 - repo: amazon_2
   srcname: openssl
   visiblename: openssl
@@ -5115,6 +5257,18 @@
   visiblename: openssl
   version: 1.0.2k
   origversion: 1:1.0.2k-24.amzn2.0.15
+  status: outdated
+  summary: Utilities from the general purpose cryptography library with TLS implementation
+  licenses:
+    - OpenSSL
+  categories:
+    - System Environment/Libraries
+  vulnerable: true
+- repo: amazon_2
+  srcname: openssl
+  visiblename: openssl
+  version: 1.0.2k
+  origversion: 1:1.0.2k-24.amzn2.0.2
   status: outdated
   summary: Utilities from the general purpose cryptography library with TLS implementation
   licenses:
@@ -5871,110 +6025,15 @@
     - kurt@roeckx.be
     - sebastian@breakpoint.cc
   vulnerable: true
-- repo: aur
-  srcname: openssl-1.0
-  binname: openssl-1.0
-  visiblename: openssl-1.0
-  version: 1.0.2.u
-  origversion: 1.0.2.u-7
+- repo: slackwarearm_15_0
+  subrepo: slackware
+  binname: openssl-solibs
+  visiblename: openssl-solibs
+  version: 1.1.1m
+  origversion: null
   status: legacy
-  summary: The Open Source toolkit for Secure Sockets Layer and Transport Layer Security
   maintainers:
-    - nns@aur
-  licenses:
-    - openssl
-  vulnerable: true
-- repo: aur
-  srcname: mingw-w64-openssl-1.0
-  binname: mingw-w64-openssl-1.0
-  visiblename: mingw-w64-openssl-1.0
-  version: 1.0.2.u
-  origversion: 1.0.2.u-1
-  status: outdated
-  summary: The Open Source toolkit for Secure Sockets Layer and Transport Layer Security (mingw-w64)
-  maintainers:
-    - martchus@aur
-  licenses:
-    - custom:BSD
-  vulnerable: true
-- repo: aur
-  srcname: lib32-openssl-1.0
-  binname: lib32-openssl-1.0
-  visiblename: lib32-openssl-1.0
-  version: 1.0.2.u
-  origversion: 1.0.2.u-4
-  status: outdated
-  summary: The Open Source toolkit for Secure Sockets Layer and Transport Layer Security
-  maintainers:
-    - jorgicio@aur
-  licenses:
-    - custom:BSD
-  vulnerable: true
-- repo: aur
-  srcname: openssl-1.1
-  binname: openssl-1.1
-  visiblename: openssl-1.1
-  version: 1.1.1.w
-  origversion: 1.1.1.w-13
-  status: outdated
-  summary: The Open Source toolkit for Secure Sockets Layer and Transport Layer Security
-  maintainers:
-    - the-k@aur
-  licenses:
-    - custom:BSD
-  vulnerable: true
-- repo: aur
-  srcname: mingw-w64-openssl-1.1
-  binname: mingw-w64-openssl-1.1
-  visiblename: mingw-w64-openssl-1.1
-  version: 1.1.1.w
-  origversion: 1.1.1.w-1
-  status: outdated
-  summary: The Open Source toolkit for Secure Sockets Layer and Transport Layer Security (mingw-w64)
-  maintainers:
-    - martchus@aur
-  licenses:
-    - BSD
-  vulnerable: true
-- repo: aur
-  srcname: lib32-openssl-1.1
-  binname: lib32-openssl-1.1
-  visiblename: lib32-openssl-1.1
-  version: 1.1.1.w
-  origversion: 1.1.1.w-5
-  status: outdated
-  summary: The Open Source toolkit for Secure Sockets Layer and Transport Layer Security
-  maintainers:
-    - hurricanepootis@aur
-  licenses:
-    - openssl
-  vulnerable: true
-- repo: aur
-  srcname: mingw-w64-openssl
-  binname: mingw-w64-openssl
-  visiblename: mingw-w64-openssl
-  version: 3.6.3
-  origversion: 3.6.3-1
-  status: outdated
-  summary: The Open Source toolkit for cryptography and Transport Layer Security (mingw-w64)
-  maintainers:
-    - pingplug@aur
-    - martchus@aur
-  licenses:
-    - Apache-2.0
-  vulnerable: true
-- repo: aur
-  srcname: mingw-w64-openssl-3
-  binname: mingw-w64-openssl-3
-  visiblename: mingw-w64-openssl-3
-  version: 3.6.3
-  origversion: 3.6.3-1
-  status: outdated
-  summary: The Open Source toolkit for cryptography and Transport Layer Security (mingw-w64)
-  maintainers:
-    - martchus@aur
-  licenses:
-    - Apache-2.0
+    - volkerdi@slackware.com
   vulnerable: true
 - repo: aur
   srcname: android-aarch64-openssl
@@ -6029,6 +6088,33 @@
     - Apache-2.0
   vulnerable: true
 - repo: aur
+  srcname: mingw-w64-openssl
+  binname: mingw-w64-openssl
+  visiblename: mingw-w64-openssl
+  version: 3.6.3
+  origversion: 3.6.3-1
+  status: outdated
+  summary: The Open Source toolkit for cryptography and Transport Layer Security (mingw-w64)
+  maintainers:
+    - pingplug@aur
+    - martchus@aur
+  licenses:
+    - Apache-2.0
+  vulnerable: true
+- repo: aur
+  srcname: mingw-w64-openssl-3
+  binname: mingw-w64-openssl-3
+  visiblename: mingw-w64-openssl-3
+  version: 3.6.3
+  origversion: 3.6.3-1
+  status: outdated
+  summary: The Open Source toolkit for cryptography and Transport Layer Security (mingw-w64)
+  maintainers:
+    - martchus@aur
+  licenses:
+    - Apache-2.0
+  vulnerable: true
+- repo: aur
   srcname: android-riscv64-openssl
   binname: android-riscv64-openssl
   visiblename: android-riscv64-openssl
@@ -6040,6 +6126,84 @@
     - hipersayan_x@aur
   licenses:
     - Apache-2.0
+  vulnerable: true
+- repo: aur
+  srcname: lib32-openssl-1.0
+  binname: lib32-openssl-1.0
+  visiblename: lib32-openssl-1.0
+  version: 1.0.2.u
+  origversion: 1.0.2.u-4
+  status: outdated
+  summary: The Open Source toolkit for Secure Sockets Layer and Transport Layer Security
+  maintainers:
+    - jorgicio@aur
+  licenses:
+    - custom:BSD
+  vulnerable: true
+- repo: aur
+  srcname: openssl-1.0
+  binname: openssl-1.0
+  visiblename: openssl-1.0
+  version: 1.0.2.u
+  origversion: 1.0.2.u-7
+  status: legacy
+  summary: The Open Source toolkit for Secure Sockets Layer and Transport Layer Security
+  maintainers:
+    - nns@aur
+  licenses:
+    - openssl
+  vulnerable: true
+- repo: aur
+  srcname: mingw-w64-openssl-1.0
+  binname: mingw-w64-openssl-1.0
+  visiblename: mingw-w64-openssl-1.0
+  version: 1.0.2.u
+  origversion: 1.0.2.u-1
+  status: outdated
+  summary: The Open Source toolkit for Secure Sockets Layer and Transport Layer Security (mingw-w64)
+  maintainers:
+    - martchus@aur
+  licenses:
+    - custom:BSD
+  vulnerable: true
+- repo: aur
+  srcname: lib32-openssl-1.1
+  binname: lib32-openssl-1.1
+  visiblename: lib32-openssl-1.1
+  version: 1.1.1.w
+  origversion: 1.1.1.w-5
+  status: outdated
+  summary: The Open Source toolkit for Secure Sockets Layer and Transport Layer Security
+  maintainers:
+    - hurricanepootis@aur
+  licenses:
+    - openssl
+  vulnerable: true
+- repo: aur
+  srcname: openssl-1.1
+  binname: openssl-1.1
+  visiblename: openssl-1.1
+  version: 1.1.1.w
+  origversion: 1.1.1.w-13
+  status: outdated
+  summary: The Open Source toolkit for Secure Sockets Layer and Transport Layer Security
+  maintainers:
+    - the-k@aur
+  licenses:
+    - custom:BSD
+  vulnerable: true
+- repo: aur
+  srcname: mingw-w64-openssl-1.1
+  binname: mingw-w64-openssl-1.1
+  visiblename: mingw-w64-openssl-1.1
+  version: 1.1.1.w
+  origversion: 1.1.1.w-1
+  status: outdated
+  summary: The Open Source toolkit for Secure Sockets Layer and Transport Layer Security (mingw-w64)
+  maintainers:
+    - martchus@aur
+  licenses:
+    - BSD
   vulnerable: true
 - repo: artix
   subrepo: galaxy
@@ -6054,15 +6218,15 @@
     - custom:BSD
   vulnerable: true
 - repo: blackarch
-  srcname: openssl-1.1
-  binname: openssl-1.1
-  visiblename: openssl-1.1
-  version: 1.1.1.w
-  origversion: 1.1.1.w-4
+  srcname: lib32-openssl-1.0
+  binname: lib32-openssl-1.0
+  visiblename: lib32-openssl-1.0
+  version: 1.0.2.u
+  origversion: 1.0.2.u-3
   status: outdated
-  summary: OpenSSL 1.1 legacy branch (deprecated).
+  summary: The Open Source toolkit for Secure Sockets Layer and Transport Layer Security.
   licenses:
-    - custom:OpenSSL
+    - custom:BSD
   vulnerable: true
 - repo: blackarch
   srcname: openssl-1.0
@@ -6076,15 +6240,15 @@
     - custom:BSD
   vulnerable: true
 - repo: blackarch
-  srcname: lib32-openssl-1.0
-  binname: lib32-openssl-1.0
-  visiblename: lib32-openssl-1.0
-  version: 1.0.2.u
-  origversion: 1.0.2.u-3
+  srcname: openssl-1.1
+  binname: openssl-1.1
+  visiblename: openssl-1.1
+  version: 1.1.1.w
+  origversion: 1.1.1.w-4
   status: outdated
-  summary: The Open Source toolkit for Secure Sockets Layer and Transport Layer Security.
+  summary: OpenSSL 1.1 legacy branch (deprecated).
   licenses:
-    - custom:BSD
+    - custom:OpenSSL
   vulnerable: true
 - repo: centos_6
   subrepo: os
@@ -6150,6 +6314,16 @@
     - OpenSSL
   categories:
     - System Environment/Libraries
+  vulnerable: true
+- repo: chromebrew
+  srcname: openssl111
+  visiblename: openssl111
+  version: 1.1.1w
+  origversion: null
+  status: outdated
+  summary: The Open Source toolkit for Secure Sockets Layer and Transport Layer Security
+  licenses:
+    - openssl
   vulnerable: true
 - repo: centos_7
   subrepo: updates
@@ -6277,36 +6451,6 @@
     - Development/Libraries
   vulnerable: true
 - repo: centos_stream_8
-  subrepo: AppStream
-  srcname: compat-openssl10
-  visiblename: compat-openssl10
-  version: 1.0.2o
-  origversion: 1:1.0.2o-3.el8
-  status: outdated
-  summary: Compatibility version of the OpenSSL library
-  maintainers:
-    - bugs@centos.org
-  licenses:
-    - OpenSSL
-  categories:
-    - System Environment/Libraries
-  vulnerable: true
-- repo: centos_stream_8
-  subrepo: AppStream
-  srcname: compat-openssl10
-  visiblename: compat-openssl10
-  version: 1.0.2o
-  origversion: 1:1.0.2o-4.el8
-  status: outdated
-  summary: Compatibility version of the OpenSSL library
-  maintainers:
-    - bugs@centos.org
-  licenses:
-    - OpenSSL
-  categories:
-    - System Environment/Libraries
-  vulnerable: true
-- repo: centos_stream_8
   subrepo: BaseOS
   srcname: openssl
   visiblename: openssl
@@ -6331,23 +6475,6 @@
   summary: Utilities from the general purpose cryptography library with TLS implementation
   maintainers:
     - bugs@centos.org
-  licenses:
-    - OpenSSL and ASL 2.0
-  categories:
-    - Unspecified
-  vulnerable: true
-- repo: eurolinux_9
-  subrepo: appstream
-  srcname: compat-openssl11
-  binnames:
-    - compat-openssl11
-    - compat-openssl11-debuginfo
-    - compat-openssl11-debugsource
-  visiblename: compat-openssl11
-  version: 1.1.1k
-  origversion: 1:1.1.1k-4.el9_b
-  status: outdated
-  summary: Utilities from the general purpose cryptography library with TLS implementation
   licenses:
     - OpenSSL and ASL 2.0
   categories:
@@ -6473,16 +6600,60 @@
   categories:
     - Development/Libraries
   vulnerable: true
-- repo: crux_37
-  subrepo: core
-  srcname: openssl
-  visiblename: openssl
-  version: 3.5.0
+- repo: stalix
+  srcname: bin/openssl
+  binname: bin/openssl
+  visiblename: bin/openssl
+  version: 3.6.0
   origversion: null
   status: outdated
-  summary: Secure Sockets Layer and Transport Layer Security tools
   maintainers:
-    - core-ports@crux.nu
+    - anton@samokhvalov.xyz
+  categories:
+    - bin
+  vulnerable: true
+- repo: centos_stream_8
+  subrepo: AppStream
+  srcname: compat-openssl10
+  visiblename: compat-openssl10
+  version: 1.0.2o
+  origversion: 1:1.0.2o-3.el8
+  status: outdated
+  summary: Compatibility version of the OpenSSL library
+  maintainers:
+    - bugs@centos.org
+  licenses:
+    - OpenSSL
+  categories:
+    - System Environment/Libraries
+  vulnerable: true
+- repo: eurolinux_8
+  subrepo: baseos
+  srcname: openssl
+  visiblename: openssl
+  version: 1.1.1k
+  origversion: 1:1.1.1k-9.el8_7
+  status: outdated
+  summary: Utilities from the general purpose cryptography library with TLS implementation
+  licenses:
+    - OpenSSL and ASL 2.0
+  categories:
+    - Unspecified
+  vulnerable: true
+- repo: centos_stream_8
+  subrepo: AppStream
+  srcname: compat-openssl10
+  visiblename: compat-openssl10
+  version: 1.0.2o
+  origversion: 1:1.0.2o-4.el8
+  status: outdated
+  summary: Compatibility version of the OpenSSL library
+  maintainers:
+    - bugs@centos.org
+  licenses:
+    - OpenSSL
+  categories:
+    - System Environment/Libraries
   vulnerable: true
 - repo: centos_stream_9
   subrepo: AppStream
@@ -6540,6 +6711,13 @@
     - OpenSSL and ASL 2.0
   categories:
     - Unspecified
+  vulnerable: true
+- repo: conancenter
+  srcname: openssl
+  visiblename: openssl
+  version: 1.1.1w
+  origversion: null
+  status: outdated
   vulnerable: true
 - repo: centos_stream_9
   subrepo: AppStream
@@ -6648,13 +6826,6 @@
   categories:
     - Unspecified
   vulnerable: true
-- repo: conancenter
-  srcname: openssl
-  visiblename: openssl
-  version: 1.1.1w
-  origversion: null
-  status: outdated
-  vulnerable: true
 - repo: centos_stream_9
   subrepo: BaseOS
   srcname: openssl
@@ -6747,6 +6918,22 @@
   categories:
     - Unspecified
   vulnerable: true
+- repo: ibmi
+  srcname: openssl
+  binnames:
+    - openssl
+    - libopenssl3
+    - openssl-devel
+  visiblename: openssl
+  version: 3.0.21
+  origversion: 3.0.21-1
+  status: legacy
+  summary: Open Source SSL/TLS toolkit
+  licenses:
+    - Apache-2.0
+  categories:
+    - Unspecified
+  vulnerable: true
 - repo: centos_stream_10
   subrepo: BaseOS
   srcname: openssl
@@ -6788,15 +6975,23 @@
   licenses:
     - openssl
   vulnerable: true
-- repo: chromebrew
-  srcname: openssl111
-  visiblename: openssl111
-  version: 1.1.1w
+- repo: conancenter
+  srcname: openssl
+  visiblename: openssl
+  version: 3.1.2
   origversion: null
   status: outdated
-  summary: The Open Source toolkit for Secure Sockets Layer and Transport Layer Security
-  licenses:
-    - openssl
+  vulnerable: true
+- repo: crux_37
+  subrepo: core
+  srcname: openssl
+  visiblename: openssl
+  version: 3.5.0
+  origversion: null
+  status: outdated
+  summary: Secure Sockets Layer and Transport Layer Security tools
+  maintainers:
+    - core-ports@crux.nu
   vulnerable: true
 - repo: crux_37
   subrepo: compat-32
@@ -6997,28 +7192,6 @@
     - libs
   vulnerable: true
 - repo: debian_12
-  subrepo: bookworm/main
-  srcname: openssl
-  binnames:
-    - openssl
-    - libssl3
-    - libcrypto3-udeb
-    - libssl3-udeb
-    - libssl-dev
-    - libssl-doc
-  visiblename: openssl
-  version: 3.0.20
-  origversion: 3.0.20-1~deb12u2
-  status: legacy
-  maintainers:
-    - pkg-openssl-devel@alioth-lists.debian.net
-    - christoph.martin@uni-mainz.de
-    - kurt@roeckx.be
-    - sebastian@breakpoint.cc
-  categories:
-    - libs
-  vulnerable: true
-- repo: debian_12
   subrepo: bookworm-updates/main
   srcname: openssl
   binnames:
@@ -7062,6 +7235,28 @@
   categories:
     - libs
   vulnerable: true
+- repo: debian_12
+  subrepo: bookworm/main
+  srcname: openssl
+  binnames:
+    - openssl
+    - libssl3
+    - libcrypto3-udeb
+    - libssl3-udeb
+    - libssl-dev
+    - libssl-doc
+  visiblename: openssl
+  version: 3.0.20
+  origversion: 3.0.20-1~deb12u2
+  status: legacy
+  maintainers:
+    - pkg-openssl-devel@alioth-lists.debian.net
+    - christoph.martin@uni-mainz.de
+    - kurt@roeckx.be
+    - sebastian@breakpoint.cc
+  categories:
+    - libs
+  vulnerable: true
 - repo: debian_12_backports
   subrepo: bookworm-backports/main
   srcname: openssl
@@ -7083,85 +7278,6 @@
     - sebastian@breakpoint.cc
   categories:
     - misc
-  vulnerable: true
-- repo: debian_13
-  subrepo: trixie/main
-  srcname: openssl
-  binnames:
-    - openssl
-    - openssl-provider-legacy
-    - openssl-provider-fips
-    - libssl3t64
-    - libcrypto3-udeb
-    - libssl3-udeb
-    - libssl-dev
-    - libssl-doc
-  visiblename: openssl
-  version: 3.5.6
-  origversion: 3.5.6-1~deb13u2
-  status: legacy
-  maintainers:
-    - pkg-openssl-devel@alioth-lists.debian.net
-    - christoph.martin@uni-mainz.de
-    - kurt@roeckx.be
-    - sebastian@breakpoint.cc
-  categories:
-    - libs
-  vulnerable: true
-- repo: gnuguix
-  srcname: openssl
-  binname: openssl
-  visiblename: openssl
-  version: 1.1.1w
-  origversion: null
-  status: outdated
-  summary: SSL/TLS implementation
-  vulnerable: true
-- repo: debian_13
-  subrepo: trixie/main
-  srcname: openssl
-  binnames:
-    - openssl
-    - openssl-provider-legacy
-    - openssl-provider-fips
-    - libssl3t64
-    - libcrypto3-udeb
-    - libssl3-udeb
-    - libssl-dev
-    - libssl-doc
-  visiblename: openssl
-  version: 3.5.7
-  origversion: 3.5.7-1~deb13u2
-  status: outdated
-  maintainers:
-    - pkg-openssl-devel@alioth-lists.debian.net
-    - christoph.martin@uni-mainz.de
-    - kurt@roeckx.be
-    - sebastian@breakpoint.cc
-  categories:
-    - libs
-  vulnerable: true
-- repo: deepin_23
-  subrepo: main
-  srcname: openssl
-  binnames:
-    - openssl
-    - libssl3
-    - libcrypto3-udeb
-    - libssl3-udeb
-    - libssl-dev
-    - libssl-doc
-  visiblename: openssl
-  version: 3.2.4
-  origversion: 3.2.4-0deepin1
-  status: outdated
-  maintainers:
-    - pkg-openssl-devel@alioth-lists.debian.net
-    - christoph.martin@uni-mainz.de
-    - kurt@roeckx.be
-    - sebastian@breakpoint.cc
-  categories:
-    - utils
   vulnerable: true
 - repo: debian_13
   subrepo: trixie-security/main
@@ -7187,6 +7303,54 @@
   categories:
     - libs
   vulnerable: true
+- repo: debian_13
+  subrepo: trixie/main
+  srcname: openssl
+  binnames:
+    - openssl
+    - openssl-provider-legacy
+    - openssl-provider-fips
+    - libssl3t64
+    - libcrypto3-udeb
+    - libssl3-udeb
+    - libssl-dev
+    - libssl-doc
+  visiblename: openssl
+  version: 3.5.6
+  origversion: 3.5.6-1~deb13u2
+  status: legacy
+  maintainers:
+    - pkg-openssl-devel@alioth-lists.debian.net
+    - christoph.martin@uni-mainz.de
+    - kurt@roeckx.be
+    - sebastian@breakpoint.cc
+  categories:
+    - libs
+  vulnerable: true
+- repo: debian_13
+  subrepo: trixie/main
+  srcname: openssl
+  binnames:
+    - openssl
+    - openssl-provider-legacy
+    - openssl-provider-fips
+    - libssl3t64
+    - libcrypto3-udeb
+    - libssl3-udeb
+    - libssl-dev
+    - libssl-doc
+  visiblename: openssl
+  version: 3.5.7
+  origversion: 3.5.7-1~deb13u2
+  status: outdated
+  maintainers:
+    - pkg-openssl-devel@alioth-lists.debian.net
+    - christoph.martin@uni-mainz.de
+    - kurt@roeckx.be
+    - sebastian@breakpoint.cc
+  categories:
+    - libs
+  vulnerable: true
 - repo: debian_14
   subrepo: forky/main
   srcname: openssl
@@ -7235,66 +7399,70 @@
   categories:
     - libs
   vulnerable: true
-- repo: eurolinux_8
-  subrepo: baseos
+- repo: debian_unstable
+  subrepo: sid/main
   srcname: openssl
+  binnames:
+    - openssl
+    - openssl-provider-legacy
+    - openssl-provider-fips
+    - libssl3t64
+    - libcrypto3-udeb
+    - libssl3-udeb
+    - libssl-dev
+    - libssl-doc
   visiblename: openssl
+  version: 3.5.7
+  origversion: 3.5.7-1~deb13u2
+  status: outdated
+  maintainers:
+    - pkg-openssl-devel@alioth-lists.debian.net
+    - christoph.martin@uni-mainz.de
+    - kurt@roeckx.be
+    - sebastian@breakpoint.cc
+  categories:
+    - libs
+  vulnerable: true
+- repo: debian_unstable
+  subrepo: sid/main
+  srcname: openssl
+  binnames:
+    - openssl
+    - openssl-provider-legacy
+    - openssl-provider-fips
+    - libssl3t64
+    - libcrypto3-udeb
+    - libssl3-udeb
+    - libssl-dev
+    - libssl-doc
+  visiblename: openssl
+  version: 3.6.3
+  origversion: 3.6.3-1
+  status: legacy
+  maintainers:
+    - pkg-openssl-devel@alioth-lists.debian.net
+    - christoph.martin@uni-mainz.de
+    - kurt@roeckx.be
+    - sebastian@breakpoint.cc
+  categories:
+    - libs
+  vulnerable: true
+- repo: eurolinux_9
+  subrepo: appstream
+  srcname: compat-openssl11
+  binnames:
+    - compat-openssl11
+    - compat-openssl11-debuginfo
+    - compat-openssl11-debugsource
+  visiblename: compat-openssl11
   version: 1.1.1k
-  origversion: 1:1.1.1k-5.el8_5
+  origversion: 1:1.1.1k-3.el9
   status: outdated
   summary: Utilities from the general purpose cryptography library with TLS implementation
   licenses:
     - OpenSSL and ASL 2.0
   categories:
     - Unspecified
-  vulnerable: true
-- repo: debian_unstable
-  subrepo: sid/main
-  srcname: openssl
-  binnames:
-    - openssl
-    - openssl-provider-legacy
-    - openssl-provider-fips
-    - libssl3t64
-    - libcrypto3-udeb
-    - libssl3-udeb
-    - libssl-dev
-    - libssl-doc
-  visiblename: openssl
-  version: 3.5.7
-  origversion: 3.5.7-1~deb13u2
-  status: outdated
-  maintainers:
-    - pkg-openssl-devel@alioth-lists.debian.net
-    - christoph.martin@uni-mainz.de
-    - kurt@roeckx.be
-    - sebastian@breakpoint.cc
-  categories:
-    - libs
-  vulnerable: true
-- repo: debian_unstable
-  subrepo: sid/main
-  srcname: openssl
-  binnames:
-    - openssl
-    - openssl-provider-legacy
-    - openssl-provider-fips
-    - libssl3t64
-    - libcrypto3-udeb
-    - libssl3-udeb
-    - libssl-dev
-    - libssl-doc
-  visiblename: openssl
-  version: 3.6.3
-  origversion: 3.6.3-1
-  status: legacy
-  maintainers:
-    - pkg-openssl-devel@alioth-lists.debian.net
-    - christoph.martin@uni-mainz.de
-    - kurt@roeckx.be
-    - sebastian@breakpoint.cc
-  categories:
-    - libs
   vulnerable: true
 - repo: debian_experimental
   subrepo: experimental/main
@@ -7340,6 +7508,28 @@
     - kurt@roeckx.be
     - sebastian@breakpoint.cc
   vulnerable: true
+- repo: deepin_23
+  subrepo: main
+  srcname: openssl
+  binnames:
+    - openssl
+    - libssl3
+    - libcrypto3-udeb
+    - libssl3-udeb
+    - libssl-dev
+    - libssl-doc
+  visiblename: openssl
+  version: 3.2.4
+  origversion: 3.2.4-0deepin1
+  status: outdated
+  maintainers:
+    - pkg-openssl-devel@alioth-lists.debian.net
+    - christoph.martin@uni-mainz.de
+    - kurt@roeckx.be
+    - sebastian@breakpoint.cc
+  categories:
+    - utils
+  vulnerable: true
 - repo: deepin_25
   subrepo: main
   srcname: openssl
@@ -7359,6 +7549,18 @@
     - christoph.martin@uni-mainz.de
     - kurt@roeckx.be
     - sebastian@breakpoint.cc
+  vulnerable: true
+- repo: nix_stable_24_05
+  srcname: openssl_legacy
+  visiblename: openssl
+  version: 3.0.14
+  origversion: null
+  status: legacy
+  summary: A cryptographic library that implements the SSL and TLS protocols
+  maintainers:
+    - theil.markus@gmail.com
+  licenses:
+    - Apache-2.0
   vulnerable: true
 - repo: devuan_4_0
   subrepo: chimaera/main
@@ -7523,6 +7725,19 @@
   srcname: openssl
   visiblename: openssl
   version: 1.1.1k
+  origversion: 1:1.1.1k-5.el8_5
+  status: outdated
+  summary: Utilities from the general purpose cryptography library with TLS implementation
+  licenses:
+    - OpenSSL and ASL 2.0
+  categories:
+    - Unspecified
+  vulnerable: true
+- repo: eurolinux_8
+  subrepo: baseos
+  srcname: openssl
+  visiblename: openssl
+  version: 1.1.1k
   origversion: 1:1.1.1k-6.el8_5
   status: outdated
   summary: Utilities from the general purpose cryptography library with TLS implementation
@@ -7544,36 +7759,6 @@
   categories:
     - Unspecified
   vulnerable: true
-- repo: eurolinux_8
-  subrepo: baseos
-  srcname: openssl
-  visiblename: openssl
-  version: 1.1.1k
-  origversion: 1:1.1.1k-9.el8_7
-  status: outdated
-  summary: Utilities from the general purpose cryptography library with TLS implementation
-  licenses:
-    - OpenSSL and ASL 2.0
-  categories:
-    - Unspecified
-  vulnerable: true
-- repo: eurolinux_9
-  subrepo: appstream
-  srcname: compat-openssl11
-  binnames:
-    - compat-openssl11
-    - compat-openssl11-debuginfo
-    - compat-openssl11-debugsource
-  visiblename: compat-openssl11
-  version: 1.1.1k
-  origversion: 1:1.1.1k-3.el9
-  status: outdated
-  summary: Utilities from the general purpose cryptography library with TLS implementation
-  licenses:
-    - OpenSSL and ASL 2.0
-  categories:
-    - Unspecified
-  vulnerable: true
 - repo: eurolinux_9
   subrepo: appstream
   srcname: compat-openssl11
@@ -7584,6 +7769,23 @@
   visiblename: compat-openssl11
   version: 1.1.1k
   origversion: 1:1.1.1k-4.el9_0
+  status: outdated
+  summary: Utilities from the general purpose cryptography library with TLS implementation
+  licenses:
+    - OpenSSL and ASL 2.0
+  categories:
+    - Unspecified
+  vulnerable: true
+- repo: eurolinux_9
+  subrepo: appstream
+  srcname: compat-openssl11
+  binnames:
+    - compat-openssl11
+    - compat-openssl11-debuginfo
+    - compat-openssl11-debugsource
+  visiblename: compat-openssl11
+  version: 1.1.1k
+  origversion: 1:1.1.1k-4.el9_b
   status: outdated
   summary: Utilities from the general purpose cryptography library with TLS implementation
   licenses:
@@ -7911,6 +8113,15 @@
   categories:
     - Unspecified
   vulnerable: true
+- repo: gnuguix
+  srcname: openssl
+  binname: openssl
+  visiblename: openssl
+  version: 3.0.19
+  origversion: null
+  status: legacy
+  summary: SSL/TLS implementation
+  vulnerable: true
 - repo: exherbo
   subrepo: arbor
   srcname: dev-libs/openssl
@@ -7939,6 +8150,26 @@
   summary: MinGW port of the OpenSSL toolkit
   licenses:
     - OpenSSL
+  categories:
+    - Unspecified
+  vulnerable: true
+- repo: fedora_39
+  subrepo: updates
+  srcname: openssl
+  binnames:
+    - openssl
+    - openssl-libs
+    - openssl-devel
+    - openssl-perl
+    - openssl-debuginfo
+    - openssl-debugsource
+  visiblename: openssl
+  version: 3.1.4
+  origversion: 1:3.1.4-4.fc39
+  status: outdated
+  summary: Utilities from the general purpose cryptography library with TLS implementation
+  licenses:
+    - Apache-2.0
   categories:
     - Unspecified
   vulnerable: true
@@ -7980,23 +8211,21 @@
   categories:
     - Unspecified
   vulnerable: true
-- repo: fedora_39
-  subrepo: updates
-  srcname: openssl
+- repo: fedora_40
+  subrepo: release
+  srcname: mingw-openssl
   binnames:
-    - openssl
-    - openssl-libs
-    - openssl-devel
-    - openssl-perl
-    - openssl-debuginfo
-    - openssl-debugsource
-  visiblename: openssl
+    - mingw32-openssl
+    - mingw32-openssl-static
+    - mingw64-openssl
+    - mingw64-openssl-static
+  visiblename: mingw-openssl
   version: 3.1.4
-  origversion: 1:3.1.4-4.fc39
+  origversion: 3.1.4-4.fc40
   status: outdated
-  summary: Utilities from the general purpose cryptography library with TLS implementation
+  summary: MinGW port of the OpenSSL toolkit
   licenses:
-    - Apache-2.0
+    - OpenSSL
   categories:
     - Unspecified
   vulnerable: true
@@ -8060,7 +8289,7 @@
   categories:
     - Unspecified
   vulnerable: true
-- repo: fedora_40
+- repo: fedora_41
   subrepo: release
   srcname: mingw-openssl
   binnames:
@@ -8068,9 +8297,11 @@
     - mingw32-openssl-static
     - mingw64-openssl
     - mingw64-openssl-static
+    - ucrt64-openssl
+    - ucrt64-openssl-static
   visiblename: mingw-openssl
-  version: 3.1.4
-  origversion: 3.1.4-4.fc40
+  version: 3.2.2
+  origversion: 3.2.2-2.fc41
   status: outdated
   summary: MinGW port of the OpenSSL toolkit
   licenses:
@@ -8094,26 +8325,6 @@
   summary: Utilities from the general purpose cryptography library with TLS implementation
   licenses:
     - Apache-2.0
-  categories:
-    - Unspecified
-  vulnerable: true
-- repo: fedora_41
-  subrepo: release
-  srcname: mingw-openssl
-  binnames:
-    - mingw32-openssl
-    - mingw32-openssl-static
-    - mingw64-openssl
-    - mingw64-openssl-static
-    - ucrt64-openssl
-    - ucrt64-openssl-static
-  visiblename: mingw-openssl
-  version: 3.2.2
-  origversion: 3.2.2-2.fc41
-  status: outdated
-  summary: MinGW port of the OpenSSL toolkit
-  licenses:
-    - OpenSSL
   categories:
     - Unspecified
   vulnerable: true
@@ -8149,6 +8360,25 @@
   visiblename: openssl
   version: 3.2.6
   origversion: 1:3.2.6-2.fc41
+  status: outdated
+  summary: Utilities from the general purpose cryptography library with TLS implementation
+  licenses:
+    - Apache-2.0
+  categories:
+    - Unspecified
+  vulnerable: true
+- repo: fedora_42
+  subrepo: updates
+  srcname: openssl
+  binnames:
+    - openssl
+    - openssl-libs
+    - openssl-devel
+    - openssl-devel-engine
+    - openssl-perl
+  visiblename: openssl
+  version: 3.2.6
+  origversion: 1:3.2.6-4.fc42
   status: outdated
   summary: Utilities from the general purpose cryptography library with TLS implementation
   licenses:
@@ -8195,22 +8425,23 @@
   categories:
     - Unspecified
   vulnerable: true
-- repo: fedora_42
-  subrepo: updates
-  srcname: openssl
+- repo: fedora_43
+  subrepo: release
+  srcname: mingw-openssl
   binnames:
-    - openssl
-    - openssl-libs
-    - openssl-devel
-    - openssl-devel-engine
-    - openssl-perl
-  visiblename: openssl
-  version: 3.2.6
-  origversion: 1:3.2.6-4.fc42
+    - mingw32-openssl
+    - mingw32-openssl-static
+    - mingw64-openssl
+    - mingw64-openssl-static
+    - ucrt64-openssl
+    - ucrt64-openssl-static
+  visiblename: mingw-openssl
+  version: 3.2.4
+  origversion: 3.2.4-3.fc43
   status: outdated
-  summary: Utilities from the general purpose cryptography library with TLS implementation
+  summary: MinGW port of the OpenSSL toolkit
   licenses:
-    - Apache-2.0
+    - OpenSSL
   categories:
     - Unspecified
   vulnerable: true
@@ -8233,25 +8464,14 @@
   categories:
     - Unspecified
   vulnerable: true
-- repo: fedora_43
-  subrepo: release
-  srcname: mingw-openssl
-  binnames:
-    - mingw32-openssl
-    - mingw32-openssl-static
-    - mingw64-openssl
-    - mingw64-openssl-static
-    - ucrt64-openssl
-    - ucrt64-openssl-static
-  visiblename: mingw-openssl
-  version: 3.2.4
-  origversion: 3.2.4-3.fc43
+- repo: gnuguix
+  srcname: openssl
+  binname: openssl
+  visiblename: openssl
+  version: 1.1.1w
+  origversion: null
   status: outdated
-  summary: MinGW port of the OpenSSL toolkit
-  licenses:
-    - OpenSSL
-  categories:
-    - Unspecified
+  summary: SSL/TLS implementation
   vulnerable: true
 - repo: fedora_44
   subrepo: release
@@ -8341,6 +8561,15 @@
   categories:
     - security
   vulnerable: true
+- repo: hpux_11_31
+  subrepo: hppa_32
+  srcname: openssl
+  binname: openssl
+  visiblename: openssl
+  version: 1.0.2l
+  origversion: null
+  status: legacy
+  vulnerable: true
 - repo: gentoo
   srcname: dev-libs/openssl-compat
   visiblename: dev-libs/openssl-compat
@@ -8397,6 +8626,16 @@
   categories:
     - dev-libs
   vulnerable: true
+- repo: gobolinux
+  srcname: OpenSSL
+  visiblename: OpenSSL
+  version: 3.3.2
+  origversion: null
+  status: outdated
+  summary: The Open Source toolkit for Secure Sockets Layer and Transport Layer Security
+  licenses:
+    - OSI Approved
+  vulnerable: true
 - repo: gentoo
   srcname: dev-libs/openssl-compat
   visiblename: dev-libs/openssl-compat
@@ -8411,30 +8650,11 @@
   categories:
     - dev-libs
   vulnerable: true
-- repo: gobolinux
-  srcname: OpenSSL
-  visiblename: OpenSSL
-  version: 3.3.2
-  origversion: null
-  status: outdated
-  summary: The Open Source toolkit for Secure Sockets Layer and Transport Layer Security
-  licenses:
-    - OSI Approved
-  vulnerable: true
 - repo: gnuguix
   srcname: openssl
   binname: openssl
   visiblename: openssl
   version: 3.5.7
-  origversion: null
-  status: legacy
-  summary: SSL/TLS implementation
-  vulnerable: true
-- repo: gnuguix
-  srcname: openssl
-  binname: openssl
-  visiblename: openssl
-  version: 3.0.19
   origversion: null
   status: legacy
   summary: SSL/TLS implementation
@@ -8464,118 +8684,6 @@
   version: 1.0.2p
   origversion: null
   status: legacy
-  vulnerable: true
-- repo: hpux_11_31
-  subrepo: hppa_32
-  srcname: openssl
-  binname: openssl
-  visiblename: openssl
-  version: 1.0.2u
-  origversion: null
-  status: outdated
-  vulnerable: true
-- repo: hpux_11_31
-  subrepo: ia64_32
-  srcname: openssl
-  binname: openssl
-  visiblename: openssl
-  version: 1.0.2l
-  origversion: null
-  status: legacy
-  vulnerable: true
-- repo: hpux_11_31
-  subrepo: ia64_32
-  srcname: openssl
-  binname: openssl
-  visiblename: openssl
-  version: 1.0.2u
-  origversion: null
-  status: outdated
-  vulnerable: true
-- repo: hpux_11_31
-  subrepo: ia64_32
-  srcname: openssl
-  binname: openssl
-  visiblename: openssl
-  version: 3.0.21
-  origversion: null
-  status: legacy
-  vulnerable: true
-- repo: hpux_11_31
-  subrepo: ia64_64
-  srcname: openssl
-  binname: openssl
-  visiblename: openssl
-  version: 1.0.2l
-  origversion: null
-  status: legacy
-  vulnerable: true
-- repo: hpux_11_31
-  subrepo: ia64_64
-  srcname: openssl
-  binname: openssl
-  visiblename: openssl
-  version: 1.0.2p
-  origversion: null
-  status: legacy
-  vulnerable: true
-- repo: hpux_11_31
-  subrepo: ia64_64
-  srcname: openssl
-  binname: openssl
-  visiblename: openssl
-  version: 1.0.2u
-  origversion: null
-  status: outdated
-  vulnerable: true
-- repo: hpux_11_31
-  subrepo: ia64_64
-  srcname: openssl
-  binname: openssl
-  visiblename: openssl
-  version: 3.0.21
-  origversion: null
-  status: legacy
-  vulnerable: true
-- repo: ibmi
-  srcname: openssl
-  visiblename: openssl
-  version: 1.0.2t
-  origversion: 1.0.2t-1
-  status: outdated
-  summary: Open Source SSL/TLS toolkit
-  licenses:
-    - OpenSSL
-  categories:
-    - Unspecified
-  vulnerable: true
-- repo: ibmi
-  srcname: openssl
-  visiblename: openssl
-  version: 1.1.1w
-  origversion: 1.1.1w-1
-  status: outdated
-  summary: Open Source SSL/TLS toolkit
-  licenses:
-    - OpenSSL
-  categories:
-    - Unspecified
-  vulnerable: true
-- repo: ibmi
-  srcname: openssl
-  binnames:
-    - openssl
-    - libopenssl3
-    - openssl-devel
-  visiblename: openssl
-  version: 3.0.21
-  origversion: 3.0.21-1
-  status: legacy
-  summary: Open Source SSL/TLS toolkit
-  licenses:
-    - Apache-2.0
-  categories:
-    - Unspecified
   vulnerable: true
 - repo: kaos
   subrepo: core
@@ -8660,19 +8768,6 @@
     - openssl
   categories:
     - dev-libs
-  vulnerable: true
-- repo: nix_stable_25_05
-  srcname: openssl_legacy
-  visiblename: openssl
-  version: 3.4.3
-  origversion: null
-  status: outdated
-  summary: Cryptographic library that implements the SSL and TLS protocols
-  maintainers:
-    - theil.markus@gmail.com
-    - ulrik.strid@outlook.com
-  licenses:
-    - Apache-2.0
   vulnerable: true
 - repo: liguros_stable
   srcname: dev-libs/openssl
@@ -8868,6 +8963,45 @@
     - devel
   vulnerable: true
 - repo: mageia_9
+  subrepo: core/release
+  srcname: mingw-openssl
+  binnames:
+    - mingw32-openssl
+    - mingw32-openssl-static
+    - mingw64-openssl
+    - mingw64-openssl-static
+  visiblename: mingw-openssl
+  version: 1.1.1c
+  origversion: 1.1.1c-2.mga9
+  status: outdated
+  summary: MinGW port of the OpenSSL toolkit
+  licenses:
+    - OpenSSL
+  categories:
+    - Development/Other
+  vulnerable: true
+- repo: mageia_9
+  subrepo: core/release
+  srcname: openssl
+  binnames:
+    - openssl
+    - libopenssl3
+    - libopenssl-devel
+    - libopenssl-static-devel
+    - openssl-perl
+    - openssl-debuginfo
+    - openssl-debugsource
+  visiblename: openssl
+  version: 3.0.9
+  origversion: 3.0.9-1.mga9
+  status: legacy
+  summary: Secure Sockets Layer communications libs & utils
+  licenses:
+    - ASL 2.0
+  categories:
+    - System/Libraries
+  vulnerable: true
+- repo: mageia_9
   subrepo: core/updates
   srcname: openssl
   binnames:
@@ -9056,18 +9190,6 @@
   categories:
     - System/Libraries
   vulnerable: true
-- repo: parabola
-  subrepo: libre
-  srcname: openssl-1.0
-  binname: openssl-1.0
-  visiblename: openssl-1.0
-  version: 1.0.2.u
-  origversion: 1.0.2.u-3
-  status: outdated
-  summary: The Open Source toolkit for Secure Sockets Layer and Transport Layer Security
-  licenses:
-    - custom:BSD
-  vulnerable: true
 - repo: mageia_9
   subrepo: core/updates
   srcname: openssl
@@ -9194,45 +9316,6 @@
   categories:
     - System/Libraries
   vulnerable: true
-- repo: mageia_9
-  subrepo: core/release
-  srcname: mingw-openssl
-  binnames:
-    - mingw32-openssl
-    - mingw32-openssl-static
-    - mingw64-openssl
-    - mingw64-openssl-static
-  visiblename: mingw-openssl
-  version: 1.1.1c
-  origversion: 1.1.1c-2.mga9
-  status: outdated
-  summary: MinGW port of the OpenSSL toolkit
-  licenses:
-    - OpenSSL
-  categories:
-    - Development/Other
-  vulnerable: true
-- repo: mageia_9
-  subrepo: core/release
-  srcname: openssl
-  binnames:
-    - openssl
-    - libopenssl3
-    - libopenssl-devel
-    - libopenssl-static-devel
-    - openssl-perl
-    - openssl-debuginfo
-    - openssl-debugsource
-  visiblename: openssl
-  version: 3.0.9
-  origversion: 3.0.9-1.mga9
-  status: legacy
-  summary: Secure Sockets Layer communications libs & utils
-  licenses:
-    - ASL 2.0
-  categories:
-    - System/Libraries
-  vulnerable: true
 - repo: mageia_10
   subrepo: core/updates
   srcname: openssl
@@ -9326,6 +9409,26 @@
   categories:
     - Development/Other
   vulnerable: true
+- repo: raspbian_stable
+  subrepo: main
+  srcname: openssl1.0
+  binnames:
+    - libssl1.0.2
+    - libssl1.0-dev
+    - libcrypto1.0.2-udeb
+    - libssl1.0.2-udeb
+  visiblename: openssl1.0
+  version: 1.0.2q
+  origversion: 1.0.2q-2
+  status: outdated
+  maintainers:
+    - pkg-openssl-devel@lists.alioth.debian.org
+    - christoph.martin@uni-mainz.de
+    - kurt@roeckx.be
+    - sebastian@breakpoint.cc
+  categories:
+    - misc
+  vulnerable: true
 - repo: manjaro_stable
   subrepo: core
   srcname: openssl
@@ -9382,17 +9485,17 @@
   licenses:
     - Apache-2.0
   vulnerable: true
-- repo: nix_stable_24_05
-  srcname: openssl_legacy
-  visiblename: openssl
-  version: 3.0.14
+- repo: stalix
+  srcname: lib/openssl/3
+  binname: lib/openssl/3
+  visiblename: lib/openssl/3
+  version: 3.6.0
   origversion: null
-  status: legacy
-  summary: A cryptographic library that implements the SSL and TLS protocols
+  status: outdated
   maintainers:
-    - theil.markus@gmail.com
-  licenses:
-    - Apache-2.0
+    - anton@samokhvalov.xyz
+  categories:
+    - lib
   vulnerable: true
 - repo: nix_stable_24_05
   srcname: openssl_1_1
@@ -9484,6 +9587,19 @@
   vulnerable: true
 - repo: nix_stable_25_05
   srcname: openssl
+  visiblename: openssl
+  version: 3.4.3
+  origversion: null
+  status: outdated
+  summary: Cryptographic library that implements the SSL and TLS protocols
+  maintainers:
+    - theil.markus@gmail.com
+    - ulrik.strid@outlook.com
+  licenses:
+    - Apache-2.0
+  vulnerable: true
+- repo: nix_stable_25_05
+  srcname: openssl_legacy
   visiblename: openssl
   version: 3.4.3
   origversion: null
@@ -9599,18 +9715,6 @@
   licenses:
     - Apache-2.0
   vulnerable: true
-- repo: openindiana
-  subrepo: hipster
-  srcname: openssl
-  binname: library/security/openssl
-  visiblename: openssl
-  version: 1.0.2u
-  origversion: null
-  status: outdated
-  summary: OpenSSL - a Toolkit for Secure Sockets Layer (SSL v2/v3) and Transport Layer (TLS v1) protocols and general purpose cryptographic library
-  categories:
-    - System/Security
-  vulnerable: true
 - repo: nix_stable_26_05
   srcname: openssl_1_1
   visiblename: openssl
@@ -9705,18 +9809,6 @@
     - OpenSSL and SSLeay
   categories:
     - Unspecified
-  vulnerable: true
-- repo: openindiana
-  subrepo: hipster
-  srcname: openssl-1.1
-  binname: library/security/openssl-11
-  visiblename: openssl-1.1
-  version: 1.1.1w
-  origversion: null
-  status: outdated
-  summary: OpenSSL - a Toolkit for Transport Layer (TLS v1+) protocols and general purpose cryptographic library
-  categories:
-    - System/Security
   vulnerable: true
 - repo: openeuler_22_03_lts_sp3
   srcname: openresty-openssl111
@@ -9905,6 +9997,18 @@
   categories:
     - Unspecified
   vulnerable: true
+- repo: openpkg_current
+  srcname: openssl
+  visiblename: openssl
+  version: 1.1.1w
+  origversion: null
+  status: outdated
+  summary: Cryptography and SSL/TLS Toolkit (V1.1)
+  licenses:
+    - BSD-style
+  categories:
+    - SSL
+  vulnerable: true
 - repo: openeuler_25_03
   srcname: openssl
   binnames:
@@ -9924,6 +10028,30 @@
     - OpenSSL and SSLeay
   categories:
     - Unspecified
+  vulnerable: true
+- repo: openindiana
+  subrepo: hipster
+  srcname: openssl
+  binname: library/security/openssl
+  visiblename: openssl
+  version: 1.0.2u
+  origversion: null
+  status: outdated
+  summary: OpenSSL - a Toolkit for Secure Sockets Layer (SSL v2/v3) and Transport Layer (TLS v1) protocols and general purpose cryptographic library
+  categories:
+    - System/Security
+  vulnerable: true
+- repo: openindiana
+  subrepo: hipster
+  srcname: openssl-1.1
+  binname: library/security/openssl-11
+  visiblename: openssl-1.1
+  version: 1.1.1w
+  origversion: null
+  status: outdated
+  summary: OpenSSL - a Toolkit for Transport Layer (TLS v1+) protocols and general purpose cryptographic library
+  categories:
+    - System/Security
   vulnerable: true
 - repo: openindiana
   subrepo: hipster
@@ -10008,18 +10136,6 @@
   summary: OpenSSL software library is a robust, commercial-grade, full-featured toolkit for general-purpose cryptography and secure communication (32-bit)
   categories:
     - System/Security
-  vulnerable: true
-- repo: stalix
-  srcname: lib/openssl/3
-  binname: lib/openssl/3
-  visiblename: lib/openssl/3
-  version: 3.6.0
-  origversion: null
-  status: outdated
-  maintainers:
-    - anton@samokhvalov.xyz
-  categories:
-    - lib
   vulnerable: true
 - repo: openkylin_1_0
   subrepo: yangtze/main
@@ -10163,6 +10279,18 @@
   categories:
     - utils
   vulnerable: true
+- repo: openpkg_current
+  srcname: openssl-threads
+  visiblename: openssl-threads
+  version: 1.1.1w
+  origversion: null
+  status: outdated
+  summary: Cryptography and SSL/TLS Toolkit (V1.1, Threads Variant)
+  licenses:
+    - BSD-style
+  categories:
+    - SSL
+  vulnerable: true
 - repo: openkylin_3_0
   subrepo: huanghe/main
   srcname: openssl1
@@ -10245,6 +10373,19 @@
   categories:
     - Network/Security
   vulnerable: true
+- repo: opensuse_leap_15_5
+  subrepo: updates/sle
+  srcname: openssl-1_1
+  visiblename: openssl-1_1
+  version: 1.1.1l
+  origversion: 1.1.1l-150500.17.22.1
+  status: outdated
+  summary: Secure Sockets and Transport Layer Security
+  licenses:
+    - OpenSSL
+  categories:
+    - Productivity/Networking/Security
+  vulnerable: true
 - repo: openmandriva_6_0
   subrepo: main/release
   srcname: openssl
@@ -10313,19 +10454,6 @@
   categories:
     - System/Libraries
   vulnerable: true
-- repo: opensuse_leap_15_5
-  subrepo: updates/sle
-  srcname: openssl-1_1
-  visiblename: openssl-1_1
-  version: 1.1.1l
-  origversion: 1.1.1l-150500.17.19.1
-  status: outdated
-  summary: Secure Sockets and Transport Layer Security
-  licenses:
-    - OpenSSL
-  categories:
-    - Productivity/Networking/Security
-  vulnerable: true
 - repo: openmandriva_rolling
   subrepo: main/release
   srcname: openssl
@@ -10352,19 +10480,6 @@
     - Apache 2.0
   categories:
     - System/Libraries
-  vulnerable: true
-- repo: opensuse_leap_15_5
-  subrepo: updates/sle
-  srcname: openssl-1_0_0
-  visiblename: openssl-1_0_0
-  version: 1.0.2p
-  origversion: 1.0.2p-150000.3.85.1
-  status: outdated
-  summary: Secure Sockets and Transport Layer Security
-  licenses:
-    - OpenSSL
-  categories:
-    - Productivity/Networking/Security
   vulnerable: true
 - repo: openmandriva_rolling
   subrepo: main/release
@@ -10452,54 +10567,6 @@
   categories:
     - System/Libraries
   vulnerable: true
-- repo: openpkg_current
-  srcname: openssl
-  visiblename: openssl
-  version: 1.1.1w
-  origversion: null
-  status: outdated
-  summary: Cryptography and SSL/TLS Toolkit (V1.1)
-  licenses:
-    - BSD-style
-  categories:
-    - SSL
-  vulnerable: true
-- repo: openpkg_current
-  srcname: openssl-threads
-  visiblename: openssl-threads
-  version: 1.1.1w
-  origversion: null
-  status: outdated
-  summary: Cryptography and SSL/TLS Toolkit (V1.1, Threads Variant)
-  licenses:
-    - BSD-style
-  categories:
-    - SSL
-  vulnerable: true
-- repo: openpkg_current
-  srcname: openssl3
-  visiblename: openssl3
-  version: 3.6.0
-  origversion: null
-  status: outdated
-  summary: Cryptography and SSL/TLS Toolkit (V3.0)
-  licenses:
-    - BSD-style
-  categories:
-    - SSL
-  vulnerable: true
-- repo: openpkg_current
-  srcname: openssl10
-  visiblename: openssl10
-  version: 1.0.2u
-  origversion: null
-  status: outdated
-  summary: Cryptography and SSL/TLS Toolkit
-  licenses:
-    - BSD-style
-  categories:
-    - SSL
-  vulnerable: true
 - repo: opensuse_leap_15_5
   subrepo: updates/sle
   srcname: openssl-1_0_0
@@ -10539,15 +10606,18 @@
   categories:
     - Productivity/Networking/Security
   vulnerable: true
-- repo: slackware_15_0
-  subrepo: slackware
-  binname: openssl
-  visiblename: openssl
-  version: 1.1.1m
-  origversion: null
-  status: legacy
-  maintainers:
-    - volkerdi@slackware.com
+- repo: opensuse_leap_15_5
+  subrepo: updates/sle
+  srcname: openssl-1_0_0
+  visiblename: openssl-1_0_0
+  version: 1.0.2p
+  origversion: 1.0.2p-150000.3.85.1
+  status: outdated
+  summary: Secure Sockets and Transport Layer Security
+  licenses:
+    - OpenSSL
+  categories:
+    - Productivity/Networking/Security
   vulnerable: true
 - repo: opensuse_leap_15_5
   subrepo: updates/sle
@@ -10561,6 +10631,19 @@
     - OpenSSL
   categories:
     - Productivity/Networking/Security
+  vulnerable: true
+- repo: opensuse_leap_15_5
+  subrepo: updates/sle
+  srcname: openssl-3
+  visiblename: openssl-3
+  version: 3.0.8
+  origversion: 3.0.8-150500.5.11.1
+  status: outdated
+  summary: Secure Sockets and Transport Layer Security
+  licenses:
+    - Apache-2.0
+  categories:
+    - Unspecified
   vulnerable: true
 - repo: opensuse_leap_15_5
   subrepo: updates/sle
@@ -10619,7 +10702,7 @@
   srcname: openssl-1_1
   visiblename: openssl-1_1
   version: 1.1.1l
-  origversion: 1.1.1l-150500.17.22.1
+  origversion: 1.1.1l-150500.17.19.1
   status: outdated
   summary: Secure Sockets and Transport Layer Security
   licenses:
@@ -10705,16 +10788,6 @@
   categories:
     - Productivity/Networking/Security
   vulnerable: true
-- repo: slackware_15_0
-  subrepo: slackware
-  binname: openssl-solibs
-  visiblename: openssl-solibs
-  version: 1.1.1m
-  origversion: null
-  status: legacy
-  maintainers:
-    - volkerdi@slackware.com
-  vulnerable: true
 - repo: opensuse_leap_15_5
   subrepo: updates/sle
   srcname: openssl-1_1
@@ -10727,19 +10800,6 @@
     - OpenSSL
   categories:
     - Productivity/Networking/Security
-  vulnerable: true
-- repo: opensuse_leap_15_5
-  subrepo: updates/sle
-  srcname: openssl-3
-  visiblename: openssl-3
-  version: 3.0.8
-  origversion: 3.0.8-150500.5.11.1
-  status: outdated
-  summary: Secure Sockets and Transport Layer Security
-  licenses:
-    - Apache-2.0
-  categories:
-    - Unspecified
   vulnerable: true
 - repo: opensuse_leap_15_5
   subrepo: updates/sle
@@ -10897,16 +10957,6 @@
   categories:
     - Unspecified
   vulnerable: true
-- repo: slackware_15_0
-  subrepo: patches
-  binname: openssl
-  visiblename: openssl
-  version: 1.1.1zh
-  origversion: null
-  status: outdated
-  maintainers:
-    - volkerdi@slackware.com
-  vulnerable: true
 - repo: opensuse_leap_15_5
   subrepo: updates/sle
   srcname: openssl-3
@@ -10971,6 +11021,58 @@
     - Apache-2.0
   categories:
     - Unspecified
+  vulnerable: true
+- repo: opensuse_leap_15_6
+  subrepo: main/oss
+  srcname: openssl-1_0_0
+  visiblename: openssl-1_0_0
+  version: 1.0.2p
+  origversion: 1.0.2p-150000.3.91.1
+  status: outdated
+  summary: Secure Sockets and Transport Layer Security
+  licenses:
+    - OpenSSL
+  categories:
+    - Productivity/Networking/Security
+  vulnerable: true
+- repo: opensuse_leap_15_6
+  subrepo: main/oss
+  srcname: openssl-1_1
+  visiblename: openssl-1_1
+  version: 1.1.1w
+  origversion: 1.1.1w-150600.3.10
+  status: outdated
+  summary: Secure Sockets and Transport Layer Security
+  licenses:
+    - OpenSSL
+  categories:
+    - Productivity/Networking/Security
+  vulnerable: true
+- repo: opensuse_leap_15_6
+  subrepo: main/oss
+  srcname: openssl-3
+  visiblename: openssl-3
+  version: 3.1.4
+  origversion: 3.1.4-150600.3.6
+  status: outdated
+  summary: Secure Sockets and Transport Layer Security
+  licenses:
+    - Apache-2.0
+  categories:
+    - Unspecified
+  vulnerable: true
+- repo: opensuse_leap_15_6
+  subrepo: main/oss
+  srcname: openssl
+  visiblename: openssl
+  version: 3.1.4
+  origversion: 3.1.4-150600.2.1
+  status: outdated
+  summary: Secure Sockets and Transport Layer Security
+  licenses:
+    - Apache-2.0
+  categories:
+    - Productivity/Networking/Security
   vulnerable: true
 - repo: opensuse_leap_15_6
   subrepo: updates/sle
@@ -11075,16 +11177,6 @@
     - OpenSSL
   categories:
     - Productivity/Networking/Security
-  vulnerable: true
-- repo: slackware_15_0
-  subrepo: patches
-  binname: openssl-solibs
-  visiblename: openssl-solibs
-  version: 1.1.1zh
-  origversion: null
-  status: outdated
-  maintainers:
-    - volkerdi@slackware.com
   vulnerable: true
 - repo: opensuse_leap_15_6
   subrepo: updates/sle
@@ -11281,58 +11373,6 @@
   categories:
     - Unspecified
   vulnerable: true
-- repo: opensuse_leap_15_6
-  subrepo: main/oss
-  srcname: openssl-1_0_0
-  visiblename: openssl-1_0_0
-  version: 1.0.2p
-  origversion: 1.0.2p-150000.3.91.1
-  status: outdated
-  summary: Secure Sockets and Transport Layer Security
-  licenses:
-    - OpenSSL
-  categories:
-    - Productivity/Networking/Security
-  vulnerable: true
-- repo: opensuse_leap_15_6
-  subrepo: main/oss
-  srcname: openssl-1_1
-  visiblename: openssl-1_1
-  version: 1.1.1w
-  origversion: 1.1.1w-150600.3.10
-  status: outdated
-  summary: Secure Sockets and Transport Layer Security
-  licenses:
-    - OpenSSL
-  categories:
-    - Productivity/Networking/Security
-  vulnerable: true
-- repo: opensuse_leap_15_6
-  subrepo: main/oss
-  srcname: openssl-3
-  visiblename: openssl-3
-  version: 3.1.4
-  origversion: 3.1.4-150600.3.6
-  status: outdated
-  summary: Secure Sockets and Transport Layer Security
-  licenses:
-    - Apache-2.0
-  categories:
-    - Unspecified
-  vulnerable: true
-- repo: opensuse_leap_15_6
-  subrepo: main/oss
-  srcname: openssl
-  visiblename: openssl
-  version: 3.1.4
-  origversion: 3.1.4-150600.2.1
-  status: outdated
-  summary: Secure Sockets and Transport Layer Security
-  licenses:
-    - Apache-2.0
-  categories:
-    - Productivity/Networking/Security
-  vulnerable: true
 - repo: opensuse_tumbleweed
   subrepo: src-oss
   srcname: openssl-3
@@ -11462,6 +11502,30 @@
   categories:
     - utils
   vulnerable: true
+- repo: parrot
+  subrepo: parrot/main
+  srcname: openssl
+  binnames:
+    - openssl
+    - openssl-provider-legacy
+    - openssl-provider-fips
+    - libssl3t64
+    - libcrypto3-udeb
+    - libssl3-udeb
+    - libssl-dev
+    - libssl-doc
+  visiblename: openssl
+  version: 3.5.7
+  origversion: 3.5.7-1~deb13u3
+  status: outdated
+  maintainers:
+    - pkg-openssl-devel@alioth-lists.debian.net
+    - christoph.martin@uni-mainz.de
+    - kurt@roeckx.be
+    - sebastian@breakpoint.cc
+  categories:
+    - libs
+  vulnerable: true
 - repo: openwrt_24_10_x86_64
   subrepo: base
   srcname: feeds/base/package/libs/openssl
@@ -11553,16 +11617,6 @@
   categories:
     - utils
   vulnerable: true
-- repo: os4depot
-  binname: development/library/misc/libopenssl.lha
-  visiblename: libopenssl.lha
-  version: 3.5.7
-  origversion: null
-  status: outdated
-  summary: The open source toolkit for SSL/TLS
-  categories:
-    - development/library/misc
-  vulnerable: true
 - repo: pacstall
   srcname: libssl1.1-deb
   binname: libssl1.1-deb
@@ -11573,6 +11627,18 @@
   summary: Libssl1.1 is a library that provides cryptographic functions for the OpenSSL software suite
   maintainers:
     - remy.huet@hds.utc.fr
+  vulnerable: true
+- repo: parabola
+  subrepo: libre
+  srcname: openssl-1.0
+  binname: openssl-1.0
+  visiblename: openssl-1.0
+  version: 1.0.2.u
+  origversion: 1.0.2.u-3
+  status: outdated
+  summary: The Open Source toolkit for Secure Sockets Layer and Transport Layer Security
+  licenses:
+    - custom:BSD
   vulnerable: true
 - repo: pardus_21
   subrepo: main
@@ -11619,30 +11685,6 @@
     - libs
   vulnerable: true
 - repo: parrot
-  subrepo: parrot/main
-  srcname: openssl
-  binnames:
-    - openssl
-    - openssl-provider-legacy
-    - openssl-provider-fips
-    - libssl3t64
-    - libcrypto3-udeb
-    - libssl3-udeb
-    - libssl-dev
-    - libssl-doc
-  visiblename: openssl
-  version: 3.5.7
-  origversion: 3.5.7-1~deb13u3
-  status: outdated
-  maintainers:
-    - pkg-openssl-devel@alioth-lists.debian.net
-    - christoph.martin@uni-mainz.de
-    - kurt@roeckx.be
-    - sebastian@breakpoint.cc
-  categories:
-    - libs
-  vulnerable: true
-- repo: parrot
   subrepo: parrot-updates/main
   srcname: openssl
   binnames:
@@ -11671,56 +11713,6 @@
   visiblename: openssl
   version: 1.0.2m
   origversion: 1.0.2m-1pclos2017
-  status: outdated
-  summary: Secure Sockets Layer communications libs & utils
-  categories:
-    - System/Libraries
-  vulnerable: true
-- repo: pclinuxos
-  srcname: openssl
-  visiblename: openssl
-  version: 1.1.0j
-  origversion: 1.1.0j-2pclos2019
-  status: legacy
-  summary: Secure Sockets Layer communications libs & utils
-  categories:
-    - System/Libraries
-  vulnerable: true
-- repo: pclinuxos
-  srcname: openssl
-  visiblename: openssl
-  version: 1.1.0k
-  origversion: 1.1.0k-3pclos2019
-  status: legacy
-  summary: Secure Sockets Layer communications libs & utils
-  categories:
-    - System/Libraries
-  vulnerable: true
-- repo: pclinuxos
-  srcname: openssl
-  visiblename: openssl
-  version: 1.1.1w
-  origversion: 1.1.1w-1pclos2023
-  status: outdated
-  summary: Secure Sockets Layer communications libs & utils
-  categories:
-    - System/Libraries
-  vulnerable: true
-- repo: pclinuxos
-  srcname: openssl
-  visiblename: openssl
-  version: 3.1.8
-  origversion: 3.1.8-1pclos2025
-  status: outdated
-  summary: Secure Sockets Layer communications libs & utils
-  categories:
-    - System/Libraries
-  vulnerable: true
-- repo: pclinuxos
-  srcname: openssl0.9.8
-  visiblename: openssl0.9.8
-  version: 0.9.8r
-  origversion: 0.9.8r-1pclos2020
   status: outdated
   summary: Secure Sockets Layer communications libs & utils
   categories:
@@ -11908,26 +11900,6 @@
   categories:
     - libs
   vulnerable: true
-- repo: raspbian_stable
-  subrepo: main
-  srcname: openssl1.0
-  binnames:
-    - libssl1.0.2
-    - libssl1.0-dev
-    - libcrypto1.0.2-udeb
-    - libssl1.0.2-udeb
-  visiblename: openssl1.0
-  version: 1.0.2q
-  origversion: 1.0.2q-2
-  status: outdated
-  maintainers:
-    - pkg-openssl-devel@lists.alioth.debian.org
-    - christoph.martin@uni-mainz.de
-    - kurt@roeckx.be
-    - sebastian@breakpoint.cc
-  categories:
-    - misc
-  vulnerable: true
 - repo: raspbian_testing
   subrepo: main
   srcname: openssl1.0
@@ -12081,19 +12053,6 @@
   categories:
     - Unspecified
   vulnerable: true
-- repo: spack
-  srcname: openssl
-  visiblename: openssl
-  version: 3.6.1
-  origversion: null
-  status: outdated
-  maintainers:
-    - alexanderrichert-noaa@spack
-  licenses:
-    - Apache-2.0
-  categories:
-    - core-packages
-  vulnerable: true
 - repo: rocky_8
   subrepo: BaseOS
   srcname: openssl
@@ -12108,6 +12067,14 @@
     - OpenSSL and ASL 2.0
   categories:
     - Unspecified
+  vulnerable: true
+- repo: sagemath_develop
+  srcname: openssl
+  binname: openssl
+  visiblename: openssl
+  version: 3.5.5
+  origversion: null
+  status: outdated
   vulnerable: true
 - repo: rocky_8
   subrepo: BaseOS
@@ -12241,16 +12208,6 @@
   categories:
     - Unspecified
   vulnerable: true
-- repo: scoop
-  subrepo: main
-  binname: openssl-lts-light
-  visiblename: openssl-lts-light
-  version: 3.0.22
-  origversion: null
-  status: outdated
-  licenses:
-    - Apache-2.0
-  vulnerable: true
 - repo: rocky_9
   subrepo: AppStream
   srcname: compat-openssl11
@@ -12293,6 +12250,19 @@
   categories:
     - Unspecified
   vulnerable: true
+- repo: spack
+  srcname: openssl
+  visiblename: openssl
+  version: 3.6.1
+  origversion: null
+  status: outdated
+  maintainers:
+    - alexanderrichert-noaa@spack
+  licenses:
+    - Apache-2.0
+  categories:
+    - core-packages
+  vulnerable: true
 - repo: rocky_9
   subrepo: BaseOS
   srcname: openssl
@@ -12315,6 +12285,16 @@
     - Apache-2.0
   categories:
     - Unspecified
+  vulnerable: true
+- repo: slackwarearm_15_0
+  subrepo: patches
+  binname: openssl
+  visiblename: openssl
+  version: 1.1.1zh
+  origversion: null
+  status: outdated
+  maintainers:
+    - volkerdi@slackware.com
   vulnerable: true
 - repo: rocky_9
   subrepo: BaseOS
@@ -12408,18 +12388,6 @@
   categories:
     - Unspecified
   vulnerable: true
-- repo: stalix
-  srcname: bin/openssl
-  binname: bin/openssl
-  visiblename: bin/openssl
-  version: 3.6.0
-  origversion: null
-  status: outdated
-  maintainers:
-    - anton@samokhvalov.xyz
-  categories:
-    - bin
-  vulnerable: true
 - repo: rocky_9
   subrepo: BaseOS
   srcname: openssl
@@ -12487,36 +12455,6 @@
   categories:
     - System/Libraries
   vulnerable: true
-- repo: slackware64_15_0
-  subrepo: slackware64
-  binname: openssl
-  visiblename: openssl
-  version: 1.1.1m
-  origversion: null
-  status: legacy
-  maintainers:
-    - volkerdi@slackware.com
-  vulnerable: true
-- repo: slackware64_15_0
-  subrepo: slackware64
-  binname: openssl-solibs
-  visiblename: openssl-solibs
-  version: 1.1.1m
-  origversion: null
-  status: legacy
-  maintainers:
-    - volkerdi@slackware.com
-  vulnerable: true
-- repo: slackware64_15_0
-  subrepo: patches
-  binname: openssl
-  visiblename: openssl
-  version: 1.1.1zh
-  origversion: null
-  status: outdated
-  maintainers:
-    - volkerdi@slackware.com
-  vulnerable: true
 - repo: rosa_13
   subrepo: main/release
   srcname: openssl1.1
@@ -12567,13 +12505,15 @@
   origversion: null
   status: outdated
   vulnerable: true
-- repo: sagemath_develop
-  srcname: openssl
-  binname: openssl
-  visiblename: openssl
-  version: 3.5.5
+- repo: slackwarearm_15_0
+  subrepo: patches
+  binname: openssl-solibs
+  visiblename: openssl-solibs
+  version: 1.1.1zh
   origversion: null
   status: outdated
+  maintainers:
+    - volkerdi@slackware.com
   vulnerable: true
 - repo: scoop
   subrepo: main
@@ -12582,6 +12522,16 @@
   version: 3.0.22
   origversion: null
   status: legacy
+  licenses:
+    - Apache-2.0
+  vulnerable: true
+- repo: scoop
+  subrepo: main
+  binname: openssl-lts-light
+  visiblename: openssl-lts-light
+  version: 3.0.22
+  origversion: null
+  status: outdated
   licenses:
     - Apache-2.0
   vulnerable: true
@@ -12604,6 +12554,56 @@
   status: outdated
   licenses:
     - OpenSSL|SSLeay
+  vulnerable: true
+- repo: slackware_15_0
+  subrepo: slackware
+  binname: openssl
+  visiblename: openssl
+  version: 1.1.1m
+  origversion: null
+  status: legacy
+  maintainers:
+    - volkerdi@slackware.com
+  vulnerable: true
+- repo: slackware_15_0
+  subrepo: slackware
+  binname: openssl-solibs
+  visiblename: openssl-solibs
+  version: 1.1.1m
+  origversion: null
+  status: legacy
+  maintainers:
+    - volkerdi@slackware.com
+  vulnerable: true
+- repo: slackware_15_0
+  subrepo: patches
+  binname: openssl
+  visiblename: openssl
+  version: 1.1.1zh
+  origversion: null
+  status: outdated
+  maintainers:
+    - volkerdi@slackware.com
+  vulnerable: true
+- repo: slackware64_15_0
+  subrepo: patches
+  binname: openssl-solibs
+  visiblename: openssl-solibs
+  version: 1.1.1zh
+  origversion: null
+  status: outdated
+  maintainers:
+    - volkerdi@slackware.com
+  vulnerable: true
+- repo: slackwarearm_15_0
+  subrepo: slackware
+  binname: openssl
+  visiblename: openssl
+  version: 1.1.1m
+  origversion: null
+  status: legacy
+  maintainers:
+    - volkerdi@slackware.com
   vulnerable: true
 - repo: tur
   srcname: openssl-1.1
@@ -12651,28 +12651,6 @@
     - OpenSSL
   categories:
     - System Environment/Libraries
-  vulnerable: true
-- repo: ubuntu_14_04
-  subrepo: trusty/main
-  srcname: openssl
-  binnames:
-    - openssl
-    - libssl1.0.0
-    - libcrypto1.0.0-udeb
-    - libssl1.0.0-udeb
-    - libssl-dev
-    - libssl-doc
-    - libssl1.0.0-dbg
-  visiblename: openssl
-  version: 1.0.1f
-  origversion: 1.0.1f-1ubuntu2
-  status: outdated
-  maintainers:
-    - ubuntu-devel-discuss@lists.ubuntu.com
-    - christoph.martin@uni-mainz.de
-    - kurt@roeckx.be
-  categories:
-    - utils
   vulnerable: true
 - repo: ubuntu_14_04
   subrepo: trusty/universe
@@ -12732,8 +12710,8 @@
   categories:
     - universe/utils
   vulnerable: true
-- repo: ubuntu_16_04
-  subrepo: xenial/main
+- repo: ubuntu_14_04
+  subrepo: trusty/main
   srcname: openssl
   binnames:
     - openssl
@@ -12744,8 +12722,8 @@
     - libssl-doc
     - libssl1.0.0-dbg
   visiblename: openssl
-  version: 1.0.2g
-  origversion: 1.0.2g-1ubuntu4
+  version: 1.0.1f
+  origversion: 1.0.1f-1ubuntu2
   status: outdated
   maintainers:
     - ubuntu-devel-discuss@lists.ubuntu.com
@@ -12768,6 +12746,28 @@
   visiblename: openssl
   version: 1.0.2g
   origversion: 1.0.2g-1ubuntu4.20
+  status: outdated
+  maintainers:
+    - ubuntu-devel-discuss@lists.ubuntu.com
+    - christoph.martin@uni-mainz.de
+    - kurt@roeckx.be
+  categories:
+    - utils
+  vulnerable: true
+- repo: ubuntu_16_04
+  subrepo: xenial/main
+  srcname: openssl
+  binnames:
+    - openssl
+    - libssl1.0.0
+    - libcrypto1.0.0-udeb
+    - libssl1.0.0-udeb
+    - libssl-dev
+    - libssl-doc
+    - libssl1.0.0-dbg
+  visiblename: openssl
+  version: 1.0.2g
+  origversion: 1.0.2g-1ubuntu4
   status: outdated
   maintainers:
     - ubuntu-devel-discuss@lists.ubuntu.com
@@ -12951,28 +12951,6 @@
     - utils
   vulnerable: true
 - repo: ubuntu_24_04
-  subrepo: noble/main
-  srcname: openssl
-  binnames:
-    - openssl
-    - libssl3t64
-    - libcrypto3-udeb
-    - libssl3-udeb
-    - libssl-dev
-    - libssl-doc
-  visiblename: openssl
-  version: 3.0.13
-  origversion: 3.0.13-0ubuntu3
-  status: outdated
-  maintainers:
-    - ubuntu-devel-discuss@lists.ubuntu.com
-    - christoph.martin@uni-mainz.de
-    - kurt@roeckx.be
-    - sebastian@breakpoint.cc
-  categories:
-    - utils
-  vulnerable: true
-- repo: ubuntu_24_04
   subrepo: noble-updates/main
   srcname: openssl
   binnames:
@@ -12994,20 +12972,19 @@
   categories:
     - utils
   vulnerable: true
-- repo: ubuntu_25_04
-  subrepo: plucky/main
+- repo: ubuntu_24_04
+  subrepo: noble/main
   srcname: openssl
   binnames:
     - openssl
-    - openssl-provider-legacy
     - libssl3t64
     - libcrypto3-udeb
     - libssl3-udeb
     - libssl-dev
     - libssl-doc
   visiblename: openssl
-  version: 3.4.1
-  origversion: 3.4.1-1ubuntu3
+  version: 3.0.13
+  origversion: 3.0.13-0ubuntu3
   status: outdated
   maintainers:
     - ubuntu-devel-discuss@lists.ubuntu.com
@@ -13040,8 +13017,8 @@
   categories:
     - utils
   vulnerable: true
-- repo: ubuntu_25_10
-  subrepo: questing-updates/main
+- repo: ubuntu_25_04
+  subrepo: plucky/main
   srcname: openssl
   binnames:
     - openssl
@@ -13052,8 +13029,8 @@
     - libssl-dev
     - libssl-doc
   visiblename: openssl
-  version: 3.5.3
-  origversion: 3.5.3-1ubuntu3.4
+  version: 3.4.1
+  origversion: 3.4.1-1ubuntu3
   status: outdated
   maintainers:
     - ubuntu-devel-discuss@lists.ubuntu.com
@@ -13086,8 +13063,8 @@
   categories:
     - utils
   vulnerable: true
-- repo: ubuntu_26_04
-  subrepo: resolute/main
+- repo: ubuntu_25_10
+  subrepo: questing-updates/main
   srcname: openssl
   binnames:
     - openssl
@@ -13098,8 +13075,8 @@
     - libssl-dev
     - libssl-doc
   visiblename: openssl
-  version: 3.5.5
-  origversion: 3.5.5-1ubuntu3
+  version: 3.5.3
+  origversion: 3.5.3-1ubuntu3.4
   status: outdated
   maintainers:
     - ubuntu-devel-discuss@lists.ubuntu.com
@@ -13123,6 +13100,29 @@
   visiblename: openssl
   version: 3.5.5
   origversion: 3.5.5-1ubuntu3.7
+  status: outdated
+  maintainers:
+    - ubuntu-devel-discuss@lists.ubuntu.com
+    - christoph.martin@uni-mainz.de
+    - kurt@roeckx.be
+    - sebastian@breakpoint.cc
+  categories:
+    - utils
+  vulnerable: true
+- repo: ubuntu_26_04
+  subrepo: resolute/main
+  srcname: openssl
+  binnames:
+    - openssl
+    - openssl-provider-legacy
+    - libssl3t64
+    - libcrypto3-udeb
+    - libssl3-udeb
+    - libssl-dev
+    - libssl-doc
+  visiblename: openssl
+  version: 3.5.5
+  origversion: 3.5.5-1ubuntu3
   status: outdated
   maintainers:
     - ubuntu-devel-discuss@lists.ubuntu.com
