@@ -48,22 +48,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 31,137 · **Forks**: 11,570 · **Open issues**: 11,851 · **Contributors**: 1,260
+- **Stars**: 31,148 · **Forks**: 11,570 · **Open issues**: 11,851 · **Contributors**: 1,260
 
 ## Totals (cumulative)
 
-- **Releases**: 323 · **Merged PRs**: 152 · **Open PRs**: 594 · **Closed issues**: 10825 · **Open issues**: 1026 · **Commits**: 41529
+- **Releases**: 323 · **Merged PRs**: 152 · **Open PRs**: 602 · **Closed issues**: 10825 · **Open issues**: 1026 · **Commits**: 41529
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-01 | 2 | 2 | 165 | 23 | 61 | 91 |
-| last60d | 2026-09-01 | 8 | 4 | 257 | 66 | 99 | 327 |
-| 90d | 2026-08-02 | 13 | 4 | 325 | 130 | 159 | 579 |
-| last180d | 2026-05-04 | 18 | 4 | 415 | 264 | 256 | 1312 |
-| 360d | 2025-11-05 | 31 | 7 | 519 | 531 | 398 | 2577 |
-| last720d | 2024-11-10 | 54 | 14 | 562 | 1228 | 575 | 5507 |
+| 30d | 2026-10-02 | 2 | 2 | 166 | 21 | 61 | 63 |
+| last60d | 2026-09-02 | 8 | 4 | 263 | 66 | 96 | 230 |
+| 90d | 2026-08-03 | 13 | 4 | 330 | 127 | 158 | 512 |
+| last180d | 2026-05-05 | 18 | 4 | 420 | 263 | 255 | 1249 |
+| 360d | 2025-11-06 | 31 | 7 | 527 | 529 | 398 | 2545 |
+| last720d | 2024-11-11 | 54 | 14 | 570 | 1227 | 575 | 5507 |
 
 ## Release assets
 
@@ -76,17 +76,17 @@ Lowest-scoring checks:
 
 ## Distribution status
 
-Reported by **989** distros on [repology.org](https://repology.org/project/openssl). **17** are ✅ on the latest upstream release, **652** are ⚠️ on an older version.
+Reported by **989** distros on [repology.org](https://repology.org/project/openssl). **17** are ✅ on the latest upstream release, **651** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
 | Debian unstable | `3.6.5` | ⚠️ outdated |
 | Debian 14 | `3.6.5` | ⚠️ outdated |
-| Debian 13 | `3.5.7` | ⚠️ outdated |
+| Debian 13 | `3.5.6` | 🪦 legacy |
 | Ubuntu 26.04 LTS | `3.5.5` | ⚠️ outdated |
 | Ubuntu 24.04 LTS | `3.0.13` | ⚠️ outdated |
 | Arch | `3.6.5` | ⚠️ outdated |
-| Homebrew | `4.1.0` | ✅ latest |
+| Homebrew | `3.5.9` | 🪦 legacy |
 | Fedora rawhide | `4.0.3` | ⚠️ outdated |
 | Nix unstable | `3.5.9` | 🪦 legacy |
 | Void | `3.6.5` | ⚠️ outdated |
@@ -102,4 +102,4 @@ Install metadata for openssl lives in the [x-cmd/install](https://github.com/x-c
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261031.yml` · 2026-10-31T06:00:41Z._
+_Snapshot: `data/card/261101.yml` · 2026-11-01T06:30:16Z._
