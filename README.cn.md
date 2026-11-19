@@ -14,14 +14,14 @@ x install openssl
 
 ## 代码洞察
 
-合计: **1,031,860** 行代码（覆盖前 5 种语言、共 **2843** 个文件）。
+合计: **1,034,797** 行代码（覆盖前 5 种语言、共 **2845** 个文件）。
 
 | 语言 | 代码 | 注释 | 空行 | 文件数 |
 |------|-----:|-----:|-----:|------:|
-| C | 673,296 | 108,419 | 102,112 | 1701 |
-| Perl | 238,641 | 27,200 | 31,996 | 350 |
-| CHeader | 57,140 | 22,512 | 8,926 | 490 |
-| Autoconf | 35,811 | 5,039 | 8,924 | 260 |
+| C | 675,551 | 108,829 | 102,402 | 1701 |
+| Perl | 239,211 | 27,323 | 32,059 | 351 |
+| CHeader | 57,192 | 22,575 | 8,934 | 491 |
+| Autoconf | 35,871 | 5,039 | 8,939 | 260 |
 | Bitbake | 9,998 | 815 | 533 | 42 |
 
 ## OpenSSF Scorecard 评分
@@ -43,27 +43,27 @@ x install openssl
 ## 发布
 
 - **最新版本**: `openssl-4.1.0` (2026-10-23)
-- **最近提交**: 2026-11-16
+- **最近提交**: 2026-11-19
 - **Release 含资产**: 4 个
 
 ## 流行度
 
-- **Star**: 31,469 · **Fork**: 11,620 · **开放 issue**: 11,937 · **贡献者**: 1,275
+- **Star**: 31,479 · **Fork**: 11,628 · **开放 issue**: 11,945 · **贡献者**: 1,276
 
 ## 累计统计
 
-- **发布数**: 323 · **已合并 PR**: 153 · **开放 PR**: 649 · **已关闭 issue**: 10872 · **开放 issue**: 1065 · **提交数**: 41700
+- **发布数**: 323 · **已合并 PR**: 153 · **开放 PR**: 671 · **已关闭 issue**: 10888 · **开放 issue**: 1057 · **提交数**: 41721
 
 ## 最近活动
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-18 | 1 | 2 | 226 | 28 | 106 | 121 |
-| last60d | 2026-09-18 | 7 | 4 | 295 | 77 | 134 | 263 |
-| 90d | 2026-08-19 | 13 | 5 | 375 | 118 | 168 | 593 |
-| last180d | 2026-05-21 | 18 | 5 | 466 | 269 | 279 | 1316 |
-| 360d | 2025-11-22 | 31 | 8 | 571 | 550 | 435 | 2615 |
-| last720d | 2024-11-27 | 54 | 15 | 615 | 1235 | 612 | 5634 |
+| 30d | 2026-10-20 | 1 | 2 | 240 | 33 | 105 | 132 |
+| last60d | 2026-09-20 | 7 | 4 | 316 | 81 | 134 | 283 |
+| 90d | 2026-08-21 | 13 | 5 | 395 | 121 | 170 | 613 |
+| last180d | 2026-05-23 | 18 | 5 | 486 | 277 | 279 | 1336 |
+| 360d | 2025-11-24 | 31 | 8 | 593 | 559 | 434 | 2635 |
+| last720d | 2024-11-29 | 54 | 15 | 637 | 1243 | 611 | 5642 |
 
 ## Release 资产
 
@@ -74,6 +74,25 @@ x install openssl
 | [openssl-4.1.0.tar.gz.sha1](https://github.com/openssl/openssl/releases/download/openssl-4.1.0/openssl-4.1.0.tar.gz.sha1) | 63 B | `other` |
 | [openssl-4.1.0.tar.gz.sha256](https://github.com/openssl/openssl/releases/download/openssl-4.1.0/openssl-4.1.0.tar.gz.sha256) | 87 B | `other` |
 
+## 发行版状态
+
+在 [repology.org](https://repology.org/project/openssl) 上共有 **951** 个发行版报告此项目。**46** 个 ✅ 已是最新上游版本，**604** 个 ⚠️ 使用旧版本。
+
+| 发行版 | 版本 | 状态 |
+|--------|------|------|
+| Debian unstable | `3.6.5` | ⚠️ outdated |
+| Debian 14 | `3.6.5` | ⚠️ outdated |
+| Debian 13 | `3.5.6` | 🪦 legacy |
+| Ubuntu 26.04 LTS | `3.5.5` | ⚠️ outdated |
+| Ubuntu 24.04 LTS | `3.0.13` | ⚠️ outdated |
+| Arch | `4.1.0` | ✅ latest |
+| Homebrew | `3.5.9` | 🪦 legacy |
+| Fedora rawhide | `4.0.3` | ⚠️ outdated |
+| Nix unstable | `3.5.9` | 🪦 legacy |
+| Void | `3.6.5` | ⚠️ outdated |
+| Alpine edge | `3.5.9` | ⚠️ outdated |
+| openSUSE Tumbleweed | `3.5.3` | ⚠️ outdated |
+
 ## 改进这些数据
 
 openssl 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 索引维护——这是一份由 x-cmd 在安装时读取的精选 YAML 包列表。如果 `openssl` 缺失、过期，或安装行为有问题，欢迎在该 repo 提 issue 或 PR：
@@ -83,4 +102,4 @@ openssl 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/261117.yml` · 2026-11-17T10:53:42Z._
+_数据快照: `data/card/261119.yml` · 2026-11-19T09:17:12Z._
